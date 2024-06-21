@@ -1,0 +1,1775 @@
+[2024-06-20 11:30:56,953] [INFO] [aiogram.dispatcher] [dispatcher.py:527] Start polling
+[2024-06-20 11:30:57,038] [INFO] [aiogram.dispatcher] [dispatcher.py:341] Run polling for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-20 11:31:06,739] [INFO] [aiogram.dispatcher] [dispatcher.py:554] Polling stopped
+[2024-06-20 11:31:06,740] [INFO] [aiogram.dispatcher] [dispatcher.py:359] Polling stopped for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-20 11:32:17,099] [INFO] [aiogram.dispatcher] [dispatcher.py:527] Start polling
+[2024-06-20 11:32:17,183] [INFO] [aiogram.dispatcher] [dispatcher.py:341] Run polling for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-20 11:32:44,429] [INFO] [aiogram.dispatcher] [dispatcher.py:359] Polling stopped for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-20 11:32:44,430] [INFO] [aiogram.dispatcher] [dispatcher.py:554] Polling stopped
+[2024-06-20 11:32:50,613] [INFO] [__main__] [main.py:31] Application has been started
+[2024-06-20 11:32:50,996] [INFO] [aiogram.dispatcher] [dispatcher.py:527] Start polling
+[2024-06-20 11:32:51,077] [INFO] [aiogram.dispatcher] [dispatcher.py:341] Run polling for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-20 11:32:56,294] [INFO] [aiogram.dispatcher] [dispatcher.py:359] Polling stopped for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-20 11:32:56,294] [INFO] [aiogram.dispatcher] [dispatcher.py:554] Polling stopped
+[2024-06-20 11:34:05,744] [INFO] [__main__] [main.py:35] Application has been started
+[2024-06-20 11:34:06,122] [INFO] [aiogram.dispatcher] [dispatcher.py:527] Start polling
+[2024-06-20 11:34:06,209] [INFO] [aiogram.dispatcher] [dispatcher.py:341] Run polling for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-20 11:34:39,338] [INFO] [aiogram.dispatcher] [dispatcher.py:359] Polling stopped for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-20 11:34:39,338] [INFO] [aiogram.dispatcher] [dispatcher.py:554] Polling stopped
+[2024-06-20 11:34:45,216] [INFO] [__main__] [main.py:35] Application has been started
+[2024-06-20 11:34:45,690] [INFO] [aiogram.dispatcher] [dispatcher.py:527] Start polling
+[2024-06-20 11:34:45,775] [INFO] [aiogram.dispatcher] [dispatcher.py:341] Run polling for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-20 11:34:50,753] [INFO] [aiogram.dispatcher] [dispatcher.py:554] Polling stopped
+[2024-06-20 11:34:50,753] [INFO] [aiogram.dispatcher] [dispatcher.py:359] Polling stopped for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-20 11:36:17,251] [INFO] [__main__] [main.py:35] Application has been started
+[2024-06-20 11:36:17,688] [INFO] [aiogram.dispatcher] [dispatcher.py:527] Start polling
+[2024-06-20 11:36:17,806] [INFO] [aiogram.dispatcher] [dispatcher.py:341] Run polling for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-20 11:36:28,221] [INFO] [aiogram.dispatcher] [dispatcher.py:554] Polling stopped
+[2024-06-20 11:36:28,221] [INFO] [aiogram.dispatcher] [dispatcher.py:359] Polling stopped for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-20 11:37:18,625] [INFO] [__main__] [main.py:35] Application has been started
+[2024-06-20 11:37:19,050] [INFO] [aiogram.dispatcher] [dispatcher.py:527] Start polling
+[2024-06-20 11:37:19,130] [INFO] [aiogram.dispatcher] [dispatcher.py:341] Run polling for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-20 11:37:22,328] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624168 is not handled. Duration 0 ms by bot id=7010190829
+[2024-06-20 11:37:32,438] [INFO] [aiogram.dispatcher] [dispatcher.py:554] Polling stopped
+[2024-06-20 11:37:32,439] [INFO] [aiogram.dispatcher] [dispatcher.py:359] Polling stopped for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-20 11:46:58,609] [INFO] [__main__] [main.py:35] Application has been started
+[2024-06-20 11:46:59,198] [INFO] [aiogram.dispatcher] [dispatcher.py:527] Start polling
+[2024-06-20 11:46:59,283] [INFO] [aiogram.dispatcher] [dispatcher.py:341] Run polling for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-20 11:47:01,647] [INFO] [aiogram.dispatcher] [dispatcher.py:554] Polling stopped
+[2024-06-20 11:47:01,647] [INFO] [aiogram.dispatcher] [dispatcher.py:359] Polling stopped for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-20 14:02:44,893] [INFO] [source.persistance.database] [database.py:43] Database context has been initialized
+[2024-06-20 14:02:44,905] [INFO] [__main__] [main.py:38] Application has been started
+[2024-06-20 14:02:45,469] [INFO] [source.handlers.dispather_handlers] [dispather_handlers.py:14] Dispatcher has been started
+[2024-06-20 14:02:45,469] [INFO] [aiogram.dispatcher] [dispatcher.py:527] Start polling
+[2024-06-20 14:02:45,564] [INFO] [aiogram.dispatcher] [dispatcher.py:341] Run polling for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-20 14:02:50,076] [INFO] [aiogram.dispatcher] [dispatcher.py:554] Polling stopped
+[2024-06-20 14:02:50,076] [INFO] [source.handlers.dispather_handlers] [dispather_handlers.py:22] Dispatcher has been shut down
+[2024-06-20 14:02:50,077] [INFO] [aiogram.dispatcher] [dispatcher.py:359] Polling stopped for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-20 14:25:51,912] [INFO] [source.persistance.database] [database.py:43] Database context has been initialized
+[2024-06-20 14:25:51,916] [INFO] [__main__] [main.py:41] Application has been started
+[2024-06-20 14:25:52,352] [INFO] [source.handlers.dispather_handlers] [dispather_handlers.py:14] Dispatcher has been started
+[2024-06-20 14:25:52,352] [INFO] [aiogram.dispatcher] [dispatcher.py:527] Start polling
+[2024-06-20 14:25:52,460] [INFO] [aiogram.dispatcher] [dispatcher.py:341] Run polling for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-20 14:25:57,646] [INFO] [aiogram.dispatcher] [dispatcher.py:554] Polling stopped
+[2024-06-20 14:25:57,646] [INFO] [source.handlers.dispather_handlers] [dispather_handlers.py:22] Dispatcher has been shut down
+[2024-06-20 14:25:57,647] [INFO] [aiogram.dispatcher] [dispatcher.py:359] Polling stopped for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-20 14:26:15,019] [INFO] [source.persistance.database] [database.py:43] Database context has been initialized
+[2024-06-20 14:26:15,022] [INFO] [__main__] [main.py:41] Application has been started
+[2024-06-20 14:26:15,438] [INFO] [source.handlers.dispather_handlers] [dispather_handlers.py:14] Dispatcher has been started
+[2024-06-20 14:26:15,439] [INFO] [aiogram.dispatcher] [dispatcher.py:527] Start polling
+[2024-06-20 14:26:15,518] [INFO] [aiogram.dispatcher] [dispatcher.py:341] Run polling for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-20 14:26:21,711] [INFO] [aiogram.dispatcher] [dispatcher.py:554] Polling stopped
+[2024-06-20 14:26:21,711] [INFO] [source.handlers.dispather_handlers] [dispather_handlers.py:22] Dispatcher has been shut down
+[2024-06-20 14:26:21,712] [INFO] [aiogram.dispatcher] [dispatcher.py:359] Polling stopped for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-20 14:26:21,970] [INFO] [source.persistance.database] [database.py:109] Database context has been closed
+[2024-06-20 14:44:58,056] [INFO] [source.persistance.database] [database.py:43] Database context has been initialized
+[2024-06-20 14:44:58,063] [INFO] [__main__] [main.py:41] Application has been started
+[2024-06-20 14:44:58,518] [INFO] [source.handlers.dispather_handlers] [dispather_handlers.py:16] Dispatcher has been started
+[2024-06-20 14:44:58,518] [INFO] [aiogram.dispatcher] [dispatcher.py:527] Start polling
+[2024-06-20 14:44:58,605] [INFO] [aiogram.dispatcher] [dispatcher.py:341] Run polling for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-20 14:45:05,194] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624169 is not handled. Duration 0 ms by bot id=7010190829
+[2024-06-20 14:45:16,562] [INFO] [aiogram.dispatcher] [dispatcher.py:554] Polling stopped
+[2024-06-20 14:45:16,563] [INFO] [source.handlers.dispather_handlers] [dispather_handlers.py:24] Dispatcher has been shut down
+[2024-06-20 14:45:16,563] [INFO] [aiogram.dispatcher] [dispatcher.py:359] Polling stopped for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-20 14:45:16,817] [INFO] [source.persistance.database] [database.py:109] Database context has been closed
+[2024-06-20 14:45:22,901] [INFO] [source.persistance.database] [database.py:43] Database context has been initialized
+[2024-06-20 14:45:22,905] [INFO] [__main__] [main.py:41] Application has been started
+[2024-06-20 14:45:23,366] [INFO] [source.handlers.dispather_handlers] [dispather_handlers.py:16] Dispatcher has been started
+[2024-06-20 14:45:23,366] [INFO] [aiogram.dispatcher] [dispatcher.py:527] Start polling
+[2024-06-20 14:45:23,448] [INFO] [aiogram.dispatcher] [dispatcher.py:341] Run polling for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-20 14:45:25,402] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624170 is not handled. Duration 0 ms by bot id=7010190829
+[2024-06-20 14:45:26,622] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624171 is not handled. Duration 0 ms by bot id=7010190829
+[2024-06-20 14:45:27,467] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624172 is not handled. Duration 0 ms by bot id=7010190829
+[2024-06-20 14:45:28,126] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624173 is not handled. Duration 0 ms by bot id=7010190829
+[2024-06-20 14:45:32,208] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624174 is not handled. Duration 0 ms by bot id=7010190829
+[2024-06-20 14:53:52,507] [INFO] [aiogram.dispatcher] [dispatcher.py:554] Polling stopped
+[2024-06-20 14:53:52,507] [INFO] [source.handlers.dispather_handlers] [dispather_handlers.py:24] Dispatcher has been shut down
+[2024-06-20 14:53:52,508] [INFO] [aiogram.dispatcher] [dispatcher.py:359] Polling stopped for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-20 14:53:52,763] [INFO] [source.persistance.database] [database.py:109] Database context has been closed
+[2024-06-20 14:54:00,502] [INFO] [source.persistance.database] [database.py:43] Database context has been initialized
+[2024-06-20 14:54:00,528] [INFO] [__main__] [main.py:41] Application has been started
+[2024-06-20 14:54:01,007] [INFO] [source.handlers.dispather_handlers] [dispather_handlers.py:16] Dispatcher has been started
+[2024-06-20 14:54:01,008] [INFO] [aiogram.dispatcher] [dispatcher.py:527] Start polling
+[2024-06-20 14:54:01,103] [INFO] [aiogram.dispatcher] [dispatcher.py:341] Run polling for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-20 14:54:02,052] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624175 is not handled. Duration 0 ms by bot id=7010190829
+[2024-06-20 14:54:03,407] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624176 is not handled. Duration 0 ms by bot id=7010190829
+[2024-06-20 14:54:23,160] [INFO] [aiogram.dispatcher] [dispatcher.py:359] Polling stopped for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-20 14:54:23,160] [INFO] [aiogram.dispatcher] [dispatcher.py:554] Polling stopped
+[2024-06-20 14:54:23,161] [INFO] [source.handlers.dispather_handlers] [dispather_handlers.py:24] Dispatcher has been shut down
+[2024-06-20 14:54:23,413] [INFO] [source.persistance.database] [database.py:109] Database context has been closed
+[2024-06-20 14:54:30,084] [INFO] [source.persistance.database] [database.py:43] Database context has been initialized
+[2024-06-20 14:54:30,104] [INFO] [__main__] [main.py:41] Application has been started
+[2024-06-20 14:54:30,534] [INFO] [source.handlers.dispather_handlers] [dispather_handlers.py:16] Dispatcher has been started
+[2024-06-20 14:54:30,535] [INFO] [aiogram.dispatcher] [dispatcher.py:527] Start polling
+[2024-06-20 14:54:30,628] [INFO] [aiogram.dispatcher] [dispatcher.py:341] Run polling for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-20 14:54:32,115] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624177 is not handled. Duration 0 ms by bot id=7010190829
+[2024-06-20 14:54:32,983] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624178 is not handled. Duration 0 ms by bot id=7010190829
+[2024-06-20 14:54:35,941] [INFO] [aiogram.dispatcher] [dispatcher.py:359] Polling stopped for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-20 14:54:35,941] [INFO] [aiogram.dispatcher] [dispatcher.py:554] Polling stopped
+[2024-06-20 14:54:35,942] [INFO] [source.handlers.dispather_handlers] [dispather_handlers.py:24] Dispatcher has been shut down
+[2024-06-20 14:54:36,194] [INFO] [source.persistance.database] [database.py:109] Database context has been closed
+[2024-06-20 14:55:22,237] [INFO] [source.persistance.database] [database.py:43] Database context has been initialized
+[2024-06-20 14:55:22,247] [INFO] [__main__] [main.py:43] Application has been started
+[2024-06-20 14:55:22,737] [INFO] [source.handlers.dispather_handlers] [dispather_handlers.py:16] Dispatcher has been started
+[2024-06-20 14:55:22,737] [INFO] [aiogram.dispatcher] [dispatcher.py:527] Start polling
+[2024-06-20 14:55:22,825] [INFO] [aiogram.dispatcher] [dispatcher.py:341] Run polling for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-20 14:55:24,300] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624179 is not handled. Duration 15 ms by bot id=7010190829
+[2024-06-20 14:55:24,300] [ERROR] [aiogram.event] [dispatcher.py:315] Cause exception while process update id=212624179 by bot id=7010190829
+TypeError: _on_start() missing 2 required positional arguments: 'session' and 'event'
+Traceback (most recent call last):
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 49, in __call__
+    return await handler(event, data)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiogram\dispatcher\router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiogram\dispatcher\router.py", line 137, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiogram\dispatcher\router.py", line 170, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiogram\dispatcher\router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiogram\dispatcher\router.py", line 137, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiogram\dispatcher\router.py", line 170, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiogram\dispatcher\router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiogram\dispatcher\router.py", line 137, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiogram\dispatcher\router.py", line 162, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+TypeError: _on_start() missing 2 required positional arguments: 'session' and 'event'
+[2024-06-20 14:59:57,898] [INFO] [aiogram.dispatcher] [dispatcher.py:359] Polling stopped for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-20 14:59:57,899] [INFO] [aiogram.dispatcher] [dispatcher.py:554] Polling stopped
+[2024-06-20 14:59:57,899] [INFO] [source.handlers.dispather_handlers] [dispather_handlers.py:24] Dispatcher has been shut down
+[2024-06-20 14:59:58,160] [INFO] [source.persistance.database] [database.py:109] Database context has been closed
+[2024-06-20 15:00:04,993] [INFO] [source.persistance.database] [database.py:43] Database context has been initialized
+[2024-06-20 15:00:05,007] [INFO] [__main__] [main.py:43] Application has been started
+[2024-06-20 15:00:05,449] [INFO] [source.handlers.dispather_handlers] [dispather_handlers.py:16] Dispatcher has been started
+[2024-06-20 15:00:05,450] [INFO] [aiogram.dispatcher] [dispatcher.py:527] Start polling
+[2024-06-20 15:00:05,541] [INFO] [aiogram.dispatcher] [dispatcher.py:341] Run polling for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-20 15:00:08,361] [INFO] [source.handlers.command_handler] [command_handler.py:43] Chat 5663974991 command 56 '/start' has been accepted
+[2024-06-20 15:00:09,607] [ERROR] [source.persistance.database] [database.py:94] An error occurred during database session
+[2024-06-20 15:00:09,712] [ERROR] [source.handlers.command_handler] [command_handler.py:51] Chat 5663974991 command 56 '/start' hasn't been processed correctly
+Traceback (most recent call last):
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\engine\default.py", line 924, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\dialects\mysql\aiomysql.py", line 95, in execute
+    return self.await_(self._execute_async(operation, parameters))
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 132, in await_only
+    return current.parent.switch(awaitable)  # type: ignore[no-any-return,attr-defined] # noqa: E501
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 196, in greenlet_spawn
+    value = await result
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\dialects\mysql\aiomysql.py", line 104, in _execute_async
+    result = await self._cursor.execute(operation, parameters)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\cursors.py", line 239, in execute
+    await self._query(query)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\cursors.py", line 457, in _query
+    await conn.query(q)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\connection.py", line 469, in query
+    await self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\connection.py", line 683, in _read_query_result
+    await result.read()
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\connection.py", line 1164, in read
+    first_packet = await self.connection._read_packet()
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\connection.py", line 652, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\pymysql\protocol.py", line 219, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\pymysql\err.py", line 150, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1054, "Unknown column 'views_1.sub_window_number' in 'field list'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\source\handlers\command_handler.py", line 45, in wrapper
+    async with context.session() as session: await function(message, session, event)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\source\handlers\command_handler.py", line 71, in _on_start
+    chat: Chat | None = (await session.execute(get_chat_query(id=event.chat_id, include_user=True, include_view=True, lock=True))).scalars().first()
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\ext\asyncio\session.py", line 461, in execute
+    result = await greenlet_spawn(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 201, in greenlet_spawn
+    result = context.throw(*sys.exc_info())
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\orm\session.py", line 2351, in execute
+    return self._execute_internal(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\orm\session.py", line 2236, in _execute_internal
+    result: Result[Any] = compile_state_cls.orm_execute_statement(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\orm\context.py", line 293, in orm_execute_statement
+    result = conn.execute(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1418, in execute
+    return meth(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\sql\elements.py", line 515, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1640, in _execute_clauseelement
+    ret = self._execute_context(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1986, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\engine\base.py", line 2353, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\engine\default.py", line 924, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\dialects\mysql\aiomysql.py", line 95, in execute
+    return self.await_(self._execute_async(operation, parameters))
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 132, in await_only
+    return current.parent.switch(awaitable)  # type: ignore[no-any-return,attr-defined] # noqa: E501
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 196, in greenlet_spawn
+    value = await result
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\dialects\mysql\aiomysql.py", line 104, in _execute_async
+    result = await self._cursor.execute(operation, parameters)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\cursors.py", line 239, in execute
+    await self._query(query)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\cursors.py", line 457, in _query
+    await conn.query(q)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\connection.py", line 469, in query
+    await self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\connection.py", line 683, in _read_query_result
+    await result.read()
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\connection.py", line 1164, in read
+    first_packet = await self.connection._read_packet()
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\connection.py", line 652, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\pymysql\protocol.py", line 219, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\pymysql\err.py", line 150, in raise_mysql_exception
+    raise errorclass(errno, errval)
+sqlalchemy.exc.OperationalError: (pymysql.err.OperationalError) (1054, "Unknown column 'views_1.sub_window_number' in 'field list'")
+[SQL: SELECT chats.telegram_id, chats.user_id, users_1.telegram_id AS telegram_id_1, users_1.is_active_in_telegram, users_1.first_name, users_1.last_name, users_1.username, users_1.phone, views_1.telegram_id AS telegram_id_2, views_1.content, views_1.window_number, views_1.sub_window_number, views_1.kind_id, views_1.chat_id 
+FROM chats LEFT OUTER JOIN users AS users_1 ON users_1.telegram_id = chats.user_id LEFT OUTER JOIN views AS views_1 ON chats.telegram_id = views_1.chat_id 
+WHERE chats.telegram_id = CAST(%s AS SIGNED INTEGER) ORDER BY chats.telegram_id FOR UPDATE NOWAIT]
+[parameters: (5663974991,)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[2024-06-20 15:00:09,726] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624180 is handled. Duration 1375 ms by bot id=7010190829
+[2024-06-20 15:00:19,342] [INFO] [aiogram.dispatcher] [dispatcher.py:359] Polling stopped for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-20 15:00:19,343] [INFO] [aiogram.dispatcher] [dispatcher.py:554] Polling stopped
+[2024-06-20 15:00:19,343] [INFO] [source.handlers.dispather_handlers] [dispather_handlers.py:24] Dispatcher has been shut down
+[2024-06-20 15:00:19,605] [INFO] [source.persistance.database] [database.py:109] Database context has been closed
+[2024-06-20 15:01:30,969] [INFO] [source.persistance.database] [database.py:43] Database context has been initialized
+[2024-06-20 15:01:30,982] [INFO] [__main__] [main.py:43] Application has been started
+[2024-06-20 15:01:31,420] [INFO] [source.handlers.dispather_handlers] [dispather_handlers.py:16] Dispatcher has been started
+[2024-06-20 15:01:31,420] [INFO] [aiogram.dispatcher] [dispatcher.py:527] Start polling
+[2024-06-20 15:01:31,510] [INFO] [aiogram.dispatcher] [dispatcher.py:341] Run polling for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-20 15:01:36,928] [INFO] [source.handlers.command_handler] [command_handler.py:43] Chat 5663974991 command 57 '/start' has been accepted
+[2024-06-20 15:01:36,929] [INFO] [source.handlers.command_handler] [command_handler.py:54] Chat 5663974991 command 57 '/start' has been processed
+[2024-06-20 15:01:36,930] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624181 is handled. Duration 0 ms by bot id=7010190829
+[2024-06-20 15:01:38,159] [INFO] [source.handlers.command_handler] [command_handler.py:43] Chat 5663974991 command 58 '/start' has been accepted
+[2024-06-20 15:01:38,160] [INFO] [source.handlers.command_handler] [command_handler.py:54] Chat 5663974991 command 58 '/start' has been processed
+[2024-06-20 15:01:38,160] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624182 is handled. Duration 15 ms by bot id=7010190829
+[2024-06-20 15:01:43,624] [INFO] [source.handlers.command_handler] [command_handler.py:43] Chat 5663974991 command 59 '/start' has been accepted
+[2024-06-20 15:01:43,625] [INFO] [source.handlers.command_handler] [command_handler.py:54] Chat 5663974991 command 59 '/start' has been processed
+[2024-06-20 15:01:43,626] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624183 is handled. Duration 0 ms by bot id=7010190829
+[2024-06-20 15:01:51,009] [INFO] [aiogram.dispatcher] [dispatcher.py:359] Polling stopped for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-20 15:01:51,010] [INFO] [aiogram.dispatcher] [dispatcher.py:554] Polling stopped
+[2024-06-20 15:01:51,010] [INFO] [source.handlers.dispather_handlers] [dispather_handlers.py:24] Dispatcher has been shut down
+[2024-06-20 15:01:51,270] [INFO] [source.persistance.database] [database.py:109] Database context has been closed
+[2024-06-20 15:02:00,289] [INFO] [source.persistance.database] [database.py:43] Database context has been initialized
+[2024-06-20 15:02:00,301] [INFO] [__main__] [main.py:43] Application has been started
+[2024-06-20 15:02:00,728] [INFO] [source.handlers.dispather_handlers] [dispather_handlers.py:16] Dispatcher has been started
+[2024-06-20 15:02:00,728] [INFO] [aiogram.dispatcher] [dispatcher.py:527] Start polling
+[2024-06-20 15:02:00,830] [INFO] [aiogram.dispatcher] [dispatcher.py:341] Run polling for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-20 15:02:20,126] [INFO] [aiogram.dispatcher] [dispatcher.py:359] Polling stopped for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-20 15:02:20,127] [INFO] [aiogram.dispatcher] [dispatcher.py:554] Polling stopped
+[2024-06-20 15:02:20,127] [INFO] [source.handlers.dispather_handlers] [dispather_handlers.py:24] Dispatcher has been shut down
+[2024-06-20 15:02:20,393] [INFO] [source.persistance.database] [database.py:109] Database context has been closed
+[2024-06-20 15:05:42,523] [INFO] [source.persistance.database] [database.py:43] Database context has been initialized
+[2024-06-20 15:05:42,536] [INFO] [__main__] [main.py:43] Application has been started
+[2024-06-20 15:05:42,921] [INFO] [source.handlers.dispather_handlers] [dispather_handlers.py:16] Dispatcher has been started
+[2024-06-20 15:05:42,921] [INFO] [aiogram.dispatcher] [dispatcher.py:527] Start polling
+[2024-06-20 15:05:43,005] [INFO] [aiogram.dispatcher] [dispatcher.py:341] Run polling for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-20 15:05:45,593] [INFO] [source.handlers.command_handler] [command_handler.py:45] Chat 5663974991 command 60 '/start' has been accepted
+[2024-06-20 15:05:45,593] [ERROR] [source.persistance.database] [database.py:94] An error occurred during database session
+[2024-06-20 15:05:45,594] [ERROR] [source.handlers.command_handler] [command_handler.py:53] Chat 5663974991 command 60 '/start' hasn't been processed correctly
+Traceback (most recent call last):
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\source\handlers\command_handler.py", line 47, in wrapper
+    async with context.session() as session: await function(message, session, event)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\source\handlers\command_handler.py", line 73, in _on_start
+    chat: User | None = (await session.execute(Type[User]).where(User.user_tg_id == user_tg_id).scalars().first())
+AttributeError: 'coroutine' object has no attribute 'where'
+[2024-06-20 15:05:45,599] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624184 is handled. Duration 15 ms by bot id=7010190829
+[2024-06-20 15:07:03,131] [INFO] [aiogram.dispatcher] [dispatcher.py:359] Polling stopped for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-20 15:07:03,131] [INFO] [aiogram.dispatcher] [dispatcher.py:554] Polling stopped
+[2024-06-20 15:07:03,132] [INFO] [source.handlers.dispather_handlers] [dispather_handlers.py:24] Dispatcher has been shut down
+[2024-06-20 15:07:03,382] [INFO] [source.persistance.database] [database.py:109] Database context has been closed
+[2024-06-20 16:24:04,412] [INFO] [source.persistance.database] [database.py:43] Database context has been initialized
+[2024-06-20 16:24:04,434] [INFO] [__main__] [main.py:43] Application has been started
+[2024-06-20 16:24:04,932] [INFO] [source.handlers.dispather_handlers] [dispather_handlers.py:16] Dispatcher has been started
+[2024-06-20 16:24:04,932] [INFO] [aiogram.dispatcher] [dispatcher.py:527] Start polling
+[2024-06-20 16:24:05,024] [INFO] [aiogram.dispatcher] [dispatcher.py:341] Run polling for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-20 16:24:09,166] [INFO] [source.handlers.command_handler] [command_handler.py:45] Chat 5663974991 command 61 '/start' has been accepted
+[2024-06-20 16:24:09,167] [INFO] [source.handlers.command_handler] [command_handler.py:56] Chat 5663974991 command 61 '/start' has been processed
+[2024-06-20 16:24:09,167] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624185 is handled. Duration 0 ms by bot id=7010190829
+[2024-06-20 16:26:56,326] [INFO] [aiogram.dispatcher] [dispatcher.py:359] Polling stopped for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-20 16:26:56,327] [INFO] [aiogram.dispatcher] [dispatcher.py:554] Polling stopped
+[2024-06-20 16:26:56,327] [INFO] [source.handlers.dispather_handlers] [dispather_handlers.py:24] Dispatcher has been shut down
+[2024-06-20 16:26:56,588] [INFO] [source.persistance.database] [database.py:109] Database context has been closed
+[2024-06-20 16:27:03,070] [INFO] [source.persistance.database] [database.py:43] Database context has been initialized
+[2024-06-20 16:27:03,082] [INFO] [__main__] [main.py:43] Application has been started
+[2024-06-20 16:27:03,612] [INFO] [source.handlers.dispather_handlers] [dispather_handlers.py:16] Dispatcher has been started
+[2024-06-20 16:27:03,612] [INFO] [aiogram.dispatcher] [dispatcher.py:527] Start polling
+[2024-06-20 16:27:03,697] [INFO] [aiogram.dispatcher] [dispatcher.py:341] Run polling for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-20 16:27:06,915] [INFO] [source.handlers.command_handler] [command_handler.py:46] Chat 5663974991 command 62 '/start' has been accepted
+[2024-06-20 16:27:06,915] [ERROR] [source.persistance.database] [database.py:94] An error occurred during database session
+[2024-06-20 16:27:06,916] [ERROR] [source.handlers.command_handler] [command_handler.py:54] Chat 5663974991 command 62 '/start' hasn't been processed correctly
+Traceback (most recent call last):
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\source\handlers\command_handler.py", line 48, in wrapper
+    async with context.session() as session: await function(message, session, event)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\source\handlers\command_handler.py", line 74, in _on_start
+    chat: User | None = await session.execute(select(User)).scalars().all()
+AttributeError: 'coroutine' object has no attribute 'scalars'
+[2024-06-20 16:27:06,919] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624186 is handled. Duration 0 ms by bot id=7010190829
+[2024-06-20 16:29:28,107] [INFO] [aiogram.dispatcher] [dispatcher.py:359] Polling stopped for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-20 16:29:28,107] [INFO] [aiogram.dispatcher] [dispatcher.py:554] Polling stopped
+[2024-06-20 16:29:28,107] [INFO] [source.handlers.dispather_handlers] [dispather_handlers.py:24] Dispatcher has been shut down
+[2024-06-20 16:29:28,367] [INFO] [source.persistance.database] [database.py:109] Database context has been closed
+[2024-06-20 16:29:35,386] [INFO] [source.persistance.database] [database.py:43] Database context has been initialized
+[2024-06-20 16:29:35,398] [INFO] [__main__] [main.py:43] Application has been started
+[2024-06-20 16:29:36,057] [INFO] [source.handlers.dispather_handlers] [dispather_handlers.py:16] Dispatcher has been started
+[2024-06-20 16:29:36,057] [INFO] [aiogram.dispatcher] [dispatcher.py:527] Start polling
+[2024-06-20 16:29:36,136] [INFO] [aiogram.dispatcher] [dispatcher.py:341] Run polling for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-20 16:29:37,096] [INFO] [source.handlers.command_handler] [command_handler.py:46] Chat 5663974991 command 63 '/start' has been accepted
+[2024-06-20 16:29:37,097] [ERROR] [source.persistance.database] [database.py:94] An error occurred during database session
+[2024-06-20 16:29:37,098] [ERROR] [source.handlers.command_handler] [command_handler.py:54] Chat 5663974991 command 63 '/start' hasn't been processed correctly
+Traceback (most recent call last):
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\source\handlers\command_handler.py", line 48, in wrapper
+    async with context.session() as session: await function(message, session, event)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\source\handlers\command_handler.py", line 73, in _on_start
+    result = await session.execute(select(User).order_by(User.population.desc()))
+AttributeError: type object 'User' has no attribute 'population'
+[2024-06-20 16:29:37,099] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624187 is handled. Duration 15 ms by bot id=7010190829
+[2024-06-20 16:29:59,456] [INFO] [aiogram.dispatcher] [dispatcher.py:359] Polling stopped for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-20 16:29:59,456] [INFO] [aiogram.dispatcher] [dispatcher.py:554] Polling stopped
+[2024-06-20 16:29:59,456] [INFO] [source.handlers.dispather_handlers] [dispather_handlers.py:24] Dispatcher has been shut down
+[2024-06-20 16:29:59,716] [INFO] [source.persistance.database] [database.py:109] Database context has been closed
+[2024-06-20 16:30:06,278] [INFO] [source.persistance.database] [database.py:43] Database context has been initialized
+[2024-06-20 16:30:06,292] [INFO] [__main__] [main.py:43] Application has been started
+[2024-06-20 16:30:06,693] [INFO] [source.handlers.dispather_handlers] [dispather_handlers.py:16] Dispatcher has been started
+[2024-06-20 16:30:06,693] [INFO] [aiogram.dispatcher] [dispatcher.py:527] Start polling
+[2024-06-20 16:30:06,775] [INFO] [aiogram.dispatcher] [dispatcher.py:341] Run polling for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-20 16:30:07,754] [INFO] [source.handlers.command_handler] [command_handler.py:46] Chat 5663974991 command 64 '/start' has been accepted
+[2024-06-20 16:30:08,507] [INFO] [source.handlers.command_handler] [command_handler.py:57] Chat 5663974991 command 64 '/start' has been processed
+[2024-06-20 16:30:08,507] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624188 is handled. Duration 750 ms by bot id=7010190829
+[2024-06-20 16:30:13,803] [INFO] [aiogram.dispatcher] [dispatcher.py:359] Polling stopped for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-20 16:30:13,804] [INFO] [aiogram.dispatcher] [dispatcher.py:554] Polling stopped
+[2024-06-20 16:30:13,804] [INFO] [source.handlers.dispather_handlers] [dispather_handlers.py:24] Dispatcher has been shut down
+[2024-06-20 16:30:14,144] [INFO] [source.persistance.database] [database.py:109] Database context has been closed
+[2024-06-20 16:32:14,622] [INFO] [source.persistance.database] [database.py:43] Database context has been initialized
+[2024-06-20 16:32:14,636] [INFO] [__main__] [main.py:43] Application has been started
+[2024-06-20 16:32:15,077] [INFO] [source.handlers.dispather_handlers] [dispather_handlers.py:16] Dispatcher has been started
+[2024-06-20 16:32:15,078] [INFO] [aiogram.dispatcher] [dispatcher.py:527] Start polling
+[2024-06-20 16:32:15,158] [INFO] [aiogram.dispatcher] [dispatcher.py:341] Run polling for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-20 16:32:16,689] [INFO] [source.handlers.command_handler] [command_handler.py:45] Chat 5663974991 command 65 '/start' has been accepted
+[2024-06-20 16:32:17,455] [INFO] [source.handlers.command_handler] [command_handler.py:56] Chat 5663974991 command 65 '/start' has been processed
+[2024-06-20 16:32:17,455] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624189 is handled. Duration 765 ms by bot id=7010190829
+[2024-06-20 16:32:20,873] [INFO] [aiogram.dispatcher] [dispatcher.py:359] Polling stopped for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-20 16:32:20,873] [INFO] [aiogram.dispatcher] [dispatcher.py:554] Polling stopped
+[2024-06-20 16:32:20,873] [INFO] [source.handlers.dispather_handlers] [dispather_handlers.py:24] Dispatcher has been shut down
+[2024-06-20 16:32:21,128] [INFO] [source.persistance.database] [database.py:109] Database context has been closed
+[2024-06-20 16:34:35,180] [INFO] [source.persistance.database] [database.py:43] Database context has been initialized
+[2024-06-20 16:34:35,192] [INFO] [__main__] [main.py:43] Application has been started
+[2024-06-20 16:34:35,645] [INFO] [source.handlers.dispather_handlers] [dispather_handlers.py:16] Dispatcher has been started
+[2024-06-20 16:34:35,645] [INFO] [aiogram.dispatcher] [dispatcher.py:527] Start polling
+[2024-06-20 16:34:35,740] [INFO] [aiogram.dispatcher] [dispatcher.py:341] Run polling for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-20 16:34:36,432] [INFO] [source.handlers.command_handler] [command_handler.py:42] Chat 5663974991 command 66 '/start' has been accepted
+[2024-06-20 16:34:37,416] [ERROR] [source.persistance.database] [database.py:94] An error occurred during database session
+[2024-06-20 16:34:37,518] [ERROR] [source.handlers.command_handler] [command_handler.py:50] Chat 5663974991 command 66 '/start' hasn't been processed correctly
+Traceback (most recent call last):
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\engine\default.py", line 924, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\dialects\mysql\aiomysql.py", line 95, in execute
+    return self.await_(self._execute_async(operation, parameters))
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 132, in await_only
+    return current.parent.switch(awaitable)  # type: ignore[no-any-return,attr-defined] # noqa: E501
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 196, in greenlet_spawn
+    value = await result
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\dialects\mysql\aiomysql.py", line 104, in _execute_async
+    result = await self._cursor.execute(operation, parameters)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\cursors.py", line 239, in execute
+    await self._query(query)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\cursors.py", line 457, in _query
+    await conn.query(q)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\connection.py", line 469, in query
+    await self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\connection.py", line 683, in _read_query_result
+    await result.read()
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\connection.py", line 1164, in read
+    first_packet = await self.connection._read_packet()
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\connection.py", line 652, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\pymysql\protocol.py", line 219, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\pymysql\err.py", line 150, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1054, "Unknown column 'views_1.sub_window_number' in 'field list'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\source\handlers\command_handler.py", line 44, in wrapper
+    async with context.session() as session: await function(message, session, event)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\source\handlers\command_handler.py", line 69, in _on_start
+    chat: Chat | None = (await session.execute(get_chat_query(id=event.chat_id, include_user=True, include_view=True, lock=True))).scalars().first()
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\ext\asyncio\session.py", line 461, in execute
+    result = await greenlet_spawn(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 201, in greenlet_spawn
+    result = context.throw(*sys.exc_info())
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\orm\session.py", line 2351, in execute
+    return self._execute_internal(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\orm\session.py", line 2236, in _execute_internal
+    result: Result[Any] = compile_state_cls.orm_execute_statement(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\orm\context.py", line 293, in orm_execute_statement
+    result = conn.execute(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1418, in execute
+    return meth(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\sql\elements.py", line 515, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1640, in _execute_clauseelement
+    ret = self._execute_context(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1986, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\engine\base.py", line 2353, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\engine\default.py", line 924, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\dialects\mysql\aiomysql.py", line 95, in execute
+    return self.await_(self._execute_async(operation, parameters))
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 132, in await_only
+    return current.parent.switch(awaitable)  # type: ignore[no-any-return,attr-defined] # noqa: E501
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 196, in greenlet_spawn
+    value = await result
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\dialects\mysql\aiomysql.py", line 104, in _execute_async
+    result = await self._cursor.execute(operation, parameters)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\cursors.py", line 239, in execute
+    await self._query(query)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\cursors.py", line 457, in _query
+    await conn.query(q)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\connection.py", line 469, in query
+    await self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\connection.py", line 683, in _read_query_result
+    await result.read()
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\connection.py", line 1164, in read
+    first_packet = await self.connection._read_packet()
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\connection.py", line 652, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\pymysql\protocol.py", line 219, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\pymysql\err.py", line 150, in raise_mysql_exception
+    raise errorclass(errno, errval)
+sqlalchemy.exc.OperationalError: (pymysql.err.OperationalError) (1054, "Unknown column 'views_1.sub_window_number' in 'field list'")
+[SQL: SELECT chats.telegram_id, chats.user_id, users_1.telegram_id AS telegram_id_1, users_1.is_active_in_telegram, users_1.first_name, users_1.last_name, users_1.username, users_1.phone, views_1.telegram_id AS telegram_id_2, views_1.content, views_1.window_number, views_1.sub_window_number, views_1.kind_id, views_1.chat_id 
+FROM chats LEFT OUTER JOIN users AS users_1 ON users_1.telegram_id = chats.user_id LEFT OUTER JOIN views AS views_1 ON chats.telegram_id = views_1.chat_id 
+WHERE chats.telegram_id = CAST(%s AS SIGNED INTEGER) ORDER BY chats.telegram_id FOR UPDATE NOWAIT]
+[parameters: (5663974991,)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[2024-06-20 16:34:37,538] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624190 is handled. Duration 1109 ms by bot id=7010190829
+[2024-06-20 16:35:17,741] [INFO] [aiogram.dispatcher] [dispatcher.py:359] Polling stopped for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-20 16:35:17,741] [INFO] [aiogram.dispatcher] [dispatcher.py:554] Polling stopped
+[2024-06-20 16:35:17,742] [INFO] [source.handlers.dispather_handlers] [dispather_handlers.py:24] Dispatcher has been shut down
+[2024-06-20 16:35:18,003] [INFO] [source.persistance.database] [database.py:109] Database context has been closed
+[2024-06-20 16:38:38,535] [INFO] [source.persistance.database] [database.py:43] Database context has been initialized
+[2024-06-20 16:38:38,546] [INFO] [__main__] [main.py:43] Application has been started
+[2024-06-20 16:38:39,014] [INFO] [source.handlers.dispather_handlers] [dispather_handlers.py:16] Dispatcher has been started
+[2024-06-20 16:38:39,014] [INFO] [aiogram.dispatcher] [dispatcher.py:527] Start polling
+[2024-06-20 16:38:39,103] [INFO] [aiogram.dispatcher] [dispatcher.py:341] Run polling for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-20 16:38:39,349] [INFO] [source.handlers.command_handler] [command_handler.py:42] Chat 5663974991 command 67 '/start' has been accepted
+[2024-06-20 16:38:40,088] [ERROR] [source.persistance.database] [database.py:94] An error occurred during database session
+[2024-06-20 16:38:40,191] [ERROR] [source.handlers.command_handler] [command_handler.py:50] Chat 5663974991 command 67 '/start' hasn't been processed correctly
+Traceback (most recent call last):
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\engine\default.py", line 924, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\dialects\mysql\aiomysql.py", line 95, in execute
+    return self.await_(self._execute_async(operation, parameters))
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 132, in await_only
+    return current.parent.switch(awaitable)  # type: ignore[no-any-return,attr-defined] # noqa: E501
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 196, in greenlet_spawn
+    value = await result
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\dialects\mysql\aiomysql.py", line 104, in _execute_async
+    result = await self._cursor.execute(operation, parameters)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\cursors.py", line 239, in execute
+    await self._query(query)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\cursors.py", line 457, in _query
+    await conn.query(q)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\connection.py", line 469, in query
+    await self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\connection.py", line 683, in _read_query_result
+    await result.read()
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\connection.py", line 1164, in read
+    first_packet = await self.connection._read_packet()
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\connection.py", line 652, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\pymysql\protocol.py", line 219, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\pymysql\err.py", line 150, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1054, "Unknown column 'views_1.sub_window_number' in 'field list'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\source\handlers\command_handler.py", line 44, in wrapper
+    async with context.session() as session: await function(message, session, event)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\source\handlers\command_handler.py", line 69, in _on_start
+    chat: Chat | None = (await session.execute(get_chat_query(id=event.chat_id, include_user=True, include_view=True, lock=True))).scalars().first()
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\ext\asyncio\session.py", line 461, in execute
+    result = await greenlet_spawn(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 201, in greenlet_spawn
+    result = context.throw(*sys.exc_info())
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\orm\session.py", line 2351, in execute
+    return self._execute_internal(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\orm\session.py", line 2236, in _execute_internal
+    result: Result[Any] = compile_state_cls.orm_execute_statement(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\orm\context.py", line 293, in orm_execute_statement
+    result = conn.execute(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1418, in execute
+    return meth(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\sql\elements.py", line 515, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1640, in _execute_clauseelement
+    ret = self._execute_context(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1986, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\engine\base.py", line 2353, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\engine\default.py", line 924, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\dialects\mysql\aiomysql.py", line 95, in execute
+    return self.await_(self._execute_async(operation, parameters))
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 132, in await_only
+    return current.parent.switch(awaitable)  # type: ignore[no-any-return,attr-defined] # noqa: E501
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 196, in greenlet_spawn
+    value = await result
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\dialects\mysql\aiomysql.py", line 104, in _execute_async
+    result = await self._cursor.execute(operation, parameters)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\cursors.py", line 239, in execute
+    await self._query(query)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\cursors.py", line 457, in _query
+    await conn.query(q)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\connection.py", line 469, in query
+    await self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\connection.py", line 683, in _read_query_result
+    await result.read()
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\connection.py", line 1164, in read
+    first_packet = await self.connection._read_packet()
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\connection.py", line 652, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\pymysql\protocol.py", line 219, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\pymysql\err.py", line 150, in raise_mysql_exception
+    raise errorclass(errno, errval)
+sqlalchemy.exc.OperationalError: (pymysql.err.OperationalError) (1054, "Unknown column 'views_1.sub_window_number' in 'field list'")
+[SQL: SELECT chats.telegram_id, chats.user_id, users_1.telegram_id AS telegram_id_1, users_1.is_active_in_telegram, users_1.first_name, users_1.last_name, users_1.username, users_1.phone, views_1.telegram_id AS telegram_id_2, views_1.content, views_1.window_number, views_1.sub_window_number, views_1.kind_id, views_1.chat_id 
+FROM chats LEFT OUTER JOIN users AS users_1 ON users_1.telegram_id = chats.user_id LEFT OUTER JOIN views AS views_1 ON chats.telegram_id = views_1.chat_id 
+WHERE chats.telegram_id = CAST(%s AS SIGNED INTEGER) ORDER BY chats.telegram_id FOR UPDATE NOWAIT]
+[parameters: (5663974991,)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[2024-06-20 16:38:40,205] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624191 is handled. Duration 842 ms by bot id=7010190829
+[2024-06-20 16:38:47,347] [INFO] [aiogram.dispatcher] [dispatcher.py:359] Polling stopped for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-20 16:38:47,347] [INFO] [aiogram.dispatcher] [dispatcher.py:554] Polling stopped
+[2024-06-20 16:38:47,347] [INFO] [source.handlers.dispather_handlers] [dispather_handlers.py:24] Dispatcher has been shut down
+[2024-06-20 16:38:47,602] [INFO] [source.persistance.database] [database.py:109] Database context has been closed
+[2024-06-20 16:39:26,550] [INFO] [source.persistance.database] [database.py:43] Database context has been initialized
+[2024-06-20 16:39:26,560] [INFO] [__main__] [main.py:43] Application has been started
+[2024-06-20 16:39:26,935] [INFO] [source.handlers.dispather_handlers] [dispather_handlers.py:16] Dispatcher has been started
+[2024-06-20 16:39:26,935] [INFO] [aiogram.dispatcher] [dispatcher.py:527] Start polling
+[2024-06-20 16:39:27,016] [INFO] [aiogram.dispatcher] [dispatcher.py:341] Run polling for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-20 16:39:32,388] [INFO] [source.handlers.command_handler] [command_handler.py:42] Chat 5663974991 command 68 '/start' has been accepted
+[2024-06-20 16:39:33,241] [INFO] [source.handlers.command_handler] [command_handler.py:53] Chat 5663974991 command 68 '/start' has been processed
+[2024-06-20 16:39:33,241] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624192 is handled. Duration 858 ms by bot id=7010190829
+[2024-06-20 16:41:08,969] [INFO] [aiogram.dispatcher] [dispatcher.py:359] Polling stopped for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-20 16:41:08,969] [INFO] [aiogram.dispatcher] [dispatcher.py:554] Polling stopped
+[2024-06-20 16:41:08,969] [INFO] [source.handlers.dispather_handlers] [dispather_handlers.py:24] Dispatcher has been shut down
+[2024-06-20 16:41:09,226] [INFO] [source.persistance.database] [database.py:109] Database context has been closed
+[2024-06-20 16:41:18,406] [INFO] [source.persistance.database] [database.py:43] Database context has been initialized
+[2024-06-20 16:41:18,419] [INFO] [__main__] [main.py:43] Application has been started
+[2024-06-20 16:41:18,920] [INFO] [source.handlers.dispather_handlers] [dispather_handlers.py:16] Dispatcher has been started
+[2024-06-20 16:41:18,920] [INFO] [aiogram.dispatcher] [dispatcher.py:527] Start polling
+[2024-06-20 16:41:19,002] [INFO] [aiogram.dispatcher] [dispatcher.py:341] Run polling for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-20 16:41:21,343] [INFO] [source.handlers.command_handler] [command_handler.py:42] Chat 5663974991 command 69 '/start' has been accepted
+[2024-06-20 16:41:22,071] [WARNING] [source.handlers.command_handler] [command_handler.py:70] chat type is <class 'NoneType'>
+[2024-06-20 16:41:22,125] [WARNING] [source.handlers.command_handler] [command_handler.py:75] user type is <class 'NoneType'>
+[2024-06-20 16:41:22,232] [INFO] [source.handlers.command_handler] [command_handler.py:53] Chat 5663974991 command 69 '/start' has been processed
+[2024-06-20 16:41:22,233] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624193 is handled. Duration 890 ms by bot id=7010190829
+[2024-06-20 16:41:58,021] [INFO] [aiogram.dispatcher] [dispatcher.py:359] Polling stopped for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-20 16:41:58,022] [INFO] [aiogram.dispatcher] [dispatcher.py:554] Polling stopped
+[2024-06-20 16:41:58,022] [INFO] [source.handlers.dispather_handlers] [dispather_handlers.py:24] Dispatcher has been shut down
+[2024-06-20 16:41:58,285] [INFO] [source.persistance.database] [database.py:109] Database context has been closed
+[2024-06-20 16:42:07,715] [INFO] [source.persistance.database] [database.py:43] Database context has been initialized
+[2024-06-20 16:42:07,728] [INFO] [__main__] [main.py:43] Application has been started
+[2024-06-20 16:42:08,222] [INFO] [source.handlers.dispather_handlers] [dispather_handlers.py:16] Dispatcher has been started
+[2024-06-20 16:42:08,222] [INFO] [aiogram.dispatcher] [dispatcher.py:527] Start polling
+[2024-06-20 16:42:08,304] [INFO] [aiogram.dispatcher] [dispatcher.py:341] Run polling for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-20 16:42:08,410] [INFO] [source.handlers.command_handler] [command_handler.py:42] Chat 5663974991 command 70 '/start' has been accepted
+[2024-06-20 16:42:09,133] [WARNING] [source.handlers.command_handler] [command_handler.py:70] chat type is <class 'NoneType'>
+[2024-06-20 16:42:09,187] [WARNING] [source.handlers.command_handler] [command_handler.py:77] user type is <class 'NoneType'>
+[2024-06-20 16:42:09,187] [WARNING] [source.handlers.command_handler] [command_handler.py:81] Chat 5663974991 command 70 '/start' user 5663974991 doesn't exist and will be created
+[2024-06-20 16:42:09,289] [INFO] [source.handlers.command_handler] [command_handler.py:53] Chat 5663974991 command 70 '/start' has been processed
+[2024-06-20 16:42:09,289] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624194 is handled. Duration 875 ms by bot id=7010190829
+[2024-06-20 16:51:40,391] [INFO] [aiogram.dispatcher] [dispatcher.py:359] Polling stopped for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-20 16:51:40,392] [INFO] [aiogram.dispatcher] [dispatcher.py:554] Polling stopped
+[2024-06-20 16:51:40,392] [INFO] [source.handlers.dispather_handlers] [dispather_handlers.py:24] Dispatcher has been shut down
+[2024-06-20 16:51:40,650] [INFO] [source.persistance.database] [database.py:109] Database context has been closed
+[2024-06-20 16:58:44,750] [INFO] [source.persistance.database] [database.py:43] Database context has been initialized
+[2024-06-20 16:58:44,763] [INFO] [__main__] [main.py:43] Application has been started
+[2024-06-20 16:58:45,625] [INFO] [source.handlers.dispather_handlers] [dispather_handlers.py:16] Dispatcher has been started
+[2024-06-20 16:58:45,625] [INFO] [aiogram.dispatcher] [dispatcher.py:527] Start polling
+[2024-06-20 16:58:45,722] [INFO] [aiogram.dispatcher] [dispatcher.py:341] Run polling for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-20 16:58:48,131] [INFO] [source.handlers.command_handler] [command_handler.py:42] Chat 5663974991 command 71 '/start' has been accepted
+[2024-06-20 16:58:48,834] [WARNING] [source.handlers.command_handler] [command_handler.py:70] chat type is <class 'NoneType'>
+[2024-06-20 16:58:48,888] [WARNING] [source.handlers.command_handler] [command_handler.py:77] user type is <class 'NoneType'>
+[2024-06-20 16:58:48,888] [WARNING] [source.handlers.command_handler] [command_handler.py:81] Chat 5663974991 command 71 '/start' user 5663974991 doesn't exist and will be created
+[2024-06-20 16:58:48,888] [WARNING] [source.handlers.command_handler] [command_handler.py:90] Chat 5663974991 command 71 '/start' chat 5663974991 doesn't exist and will be created
+[2024-06-20 16:58:48,888] [WARNING] [source.handlers.command_handler] [command_handler.py:97] Chat 5663974991 command 71 '/start' chat 5663974991 view doesn't exist and will be created
+[2024-06-20 16:58:48,988] [INFO] [source.handlers.command_handler] [command_handler.py:53] Chat 5663974991 command 71 '/start' has been processed
+[2024-06-20 16:58:48,990] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624195 is handled. Duration 858 ms by bot id=7010190829
+[2024-06-20 16:58:54,086] [INFO] [source.handlers.command_handler] [command_handler.py:42] Chat 5663974991 command 72 '/start' has been accepted
+[2024-06-20 16:58:54,139] [WARNING] [source.handlers.command_handler] [command_handler.py:70] chat type is <class 'NoneType'>
+[2024-06-20 16:58:54,190] [WARNING] [source.handlers.command_handler] [command_handler.py:77] user type is <class 'NoneType'>
+[2024-06-20 16:58:54,190] [WARNING] [source.handlers.command_handler] [command_handler.py:81] Chat 5663974991 command 72 '/start' user 5663974991 doesn't exist and will be created
+[2024-06-20 16:58:54,191] [WARNING] [source.handlers.command_handler] [command_handler.py:90] Chat 5663974991 command 72 '/start' chat 5663974991 doesn't exist and will be created
+[2024-06-20 16:58:54,191] [WARNING] [source.handlers.command_handler] [command_handler.py:97] Chat 5663974991 command 72 '/start' chat 5663974991 view doesn't exist and will be created
+[2024-06-20 16:58:54,292] [INFO] [source.handlers.command_handler] [command_handler.py:53] Chat 5663974991 command 72 '/start' has been processed
+[2024-06-20 16:58:54,292] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624196 is handled. Duration 202 ms by bot id=7010190829
+[2024-06-20 16:58:58,325] [INFO] [aiogram.dispatcher] [dispatcher.py:359] Polling stopped for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-20 16:58:58,326] [INFO] [aiogram.dispatcher] [dispatcher.py:554] Polling stopped
+[2024-06-20 16:58:58,326] [INFO] [source.handlers.dispather_handlers] [dispather_handlers.py:24] Dispatcher has been shut down
+[2024-06-20 16:58:58,588] [INFO] [source.persistance.database] [database.py:109] Database context has been closed
+[2024-06-20 16:59:43,446] [INFO] [source.persistance.database] [database.py:43] Database context has been initialized
+[2024-06-20 16:59:43,462] [INFO] [__main__] [main.py:43] Application has been started
+[2024-06-20 16:59:43,882] [INFO] [source.handlers.dispather_handlers] [dispather_handlers.py:16] Dispatcher has been started
+[2024-06-20 16:59:43,883] [INFO] [aiogram.dispatcher] [dispatcher.py:527] Start polling
+[2024-06-20 16:59:43,965] [INFO] [aiogram.dispatcher] [dispatcher.py:341] Run polling for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-20 16:59:46,781] [INFO] [source.handlers.command_handler] [command_handler.py:42] Chat 5663974991 command 73 '/start' has been accepted
+[2024-06-20 16:59:47,497] [WARNING] [source.handlers.command_handler] [command_handler.py:70] chat type is <class 'NoneType'>
+[2024-06-20 16:59:47,552] [WARNING] [source.handlers.command_handler] [command_handler.py:77] user type is <class 'NoneType'>
+[2024-06-20 16:59:47,552] [WARNING] [source.handlers.command_handler] [command_handler.py:81] Chat 5663974991 command 73 '/start' user 5663974991 doesn't exist and will be created
+[2024-06-20 16:59:47,552] [WARNING] [source.handlers.command_handler] [command_handler.py:90] Chat 5663974991 command 73 '/start' chat 5663974991 doesn't exist and will be created
+[2024-06-20 16:59:47,552] [WARNING] [source.handlers.command_handler] [command_handler.py:97] Chat 5663974991 command 73 '/start' chat 5663974991 view doesn't exist and will be created
+[2024-06-20 16:59:47,658] [ERROR] [source.persistance.database] [database.py:94] An error occurred during database session
+[2024-06-20 16:59:47,710] [ERROR] [source.handlers.command_handler] [command_handler.py:50] Chat 5663974991 command 73 '/start' hasn't been processed correctly
+Traceback (most recent call last):
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\engine\default.py", line 924, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\dialects\mysql\aiomysql.py", line 95, in execute
+    return self.await_(self._execute_async(operation, parameters))
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 132, in await_only
+    return current.parent.switch(awaitable)  # type: ignore[no-any-return,attr-defined] # noqa: E501
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 196, in greenlet_spawn
+    value = await result
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\dialects\mysql\aiomysql.py", line 104, in _execute_async
+    result = await self._cursor.execute(operation, parameters)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\cursors.py", line 239, in execute
+    await self._query(query)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\cursors.py", line 457, in _query
+    await conn.query(q)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\connection.py", line 469, in query
+    await self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\connection.py", line 683, in _read_query_result
+    await result.read()
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\connection.py", line 1164, in read
+    first_packet = await self.connection._read_packet()
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\connection.py", line 652, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\pymysql\protocol.py", line 219, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\pymysql\err.py", line 150, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1452, 'Cannot add or update a child row: a foreign key constraint fails (`u165660_db`.`users`, CONSTRAINT `users_ibfk_1` FOREIGN KEY (`telegram_id`) REFERENCES `chats` (`user_id`) ON DELETE CASCADE)')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\source\handlers\command_handler.py", line 44, in wrapper
+    async with context.session() as session: await function(message, session, event)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\source\handlers\command_handler.py", line 101, in _on_start
+    await session.commit()
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\ext\asyncio\session.py", line 1009, in commit
+    await greenlet_spawn(self.sync_session.commit)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 203, in greenlet_spawn
+    result = context.switch(value)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\orm\session.py", line 2017, in commit
+    trans.commit(_to_root=True)
+  File "<string>", line 2, in commit
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\orm\state_changes.py", line 139, in _go
+    ret_value = fn(self, *arg, **kw)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\orm\session.py", line 1302, in commit
+    self._prepare_impl()
+  File "<string>", line 2, in _prepare_impl
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\orm\state_changes.py", line 139, in _go
+    ret_value = fn(self, *arg, **kw)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\orm\session.py", line 1277, in _prepare_impl
+    self.session.flush()
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\orm\session.py", line 4341, in flush
+    self._flush(objects)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\orm\session.py", line 4476, in _flush
+    with util.safe_reraise():
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\util\langhelpers.py", line 146, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\orm\session.py", line 4437, in _flush
+    flush_context.execute()
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\orm\unitofwork.py", line 466, in execute
+    rec.execute(self)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\orm\unitofwork.py", line 642, in execute
+    util.preloaded.orm_persistence.save_obj(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\orm\persistence.py", line 93, in save_obj
+    _emit_insert_statements(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\orm\persistence.py", line 1048, in _emit_insert_statements
+    result = connection.execute(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1418, in execute
+    return meth(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\sql\elements.py", line 515, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1640, in _execute_clauseelement
+    ret = self._execute_context(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1986, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\engine\base.py", line 2353, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\engine\default.py", line 924, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\dialects\mysql\aiomysql.py", line 95, in execute
+    return self.await_(self._execute_async(operation, parameters))
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 132, in await_only
+    return current.parent.switch(awaitable)  # type: ignore[no-any-return,attr-defined] # noqa: E501
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 196, in greenlet_spawn
+    value = await result
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\dialects\mysql\aiomysql.py", line 104, in _execute_async
+    result = await self._cursor.execute(operation, parameters)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\cursors.py", line 239, in execute
+    await self._query(query)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\cursors.py", line 457, in _query
+    await conn.query(q)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\connection.py", line 469, in query
+    await self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\connection.py", line 683, in _read_query_result
+    await result.read()
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\connection.py", line 1164, in read
+    first_packet = await self.connection._read_packet()
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\connection.py", line 652, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\pymysql\protocol.py", line 219, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\pymysql\err.py", line 150, in raise_mysql_exception
+    raise errorclass(errno, errval)
+sqlalchemy.exc.IntegrityError: (pymysql.err.IntegrityError) (1452, 'Cannot add or update a child row: a foreign key constraint fails (`u165660_db`.`users`, CONSTRAINT `users_ibfk_1` FOREIGN KEY (`telegram_id`) REFERENCES `chats` (`user_id`) ON DELETE CASCADE)')
+[SQL: INSERT INTO users (telegram_id, is_active_in_telegram, first_name, last_name, username, phone) VALUES (%s, %s, %s, %s, %s, %s)]
+[parameters: (5663974991, 1, 'Artem', None, 'artem806', None)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+[2024-06-20 16:59:47,725] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624197 is handled. Duration 952 ms by bot id=7010190829
+[2024-06-20 17:01:46,233] [INFO] [aiogram.dispatcher] [dispatcher.py:359] Polling stopped for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-20 17:01:46,234] [INFO] [aiogram.dispatcher] [dispatcher.py:554] Polling stopped
+[2024-06-20 17:01:46,234] [INFO] [source.handlers.dispather_handlers] [dispather_handlers.py:24] Dispatcher has been shut down
+[2024-06-20 17:01:46,499] [INFO] [source.persistance.database] [database.py:109] Database context has been closed
+[2024-06-20 17:03:16,649] [INFO] [source.persistance.database] [database.py:43] Database context has been initialized
+[2024-06-20 17:03:16,661] [INFO] [__main__] [main.py:43] Application has been started
+[2024-06-20 17:03:17,050] [INFO] [source.handlers.dispather_handlers] [dispather_handlers.py:16] Dispatcher has been started
+[2024-06-20 17:03:17,050] [INFO] [aiogram.dispatcher] [dispatcher.py:527] Start polling
+[2024-06-20 17:03:17,134] [INFO] [aiogram.dispatcher] [dispatcher.py:341] Run polling for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-20 17:03:18,546] [INFO] [source.handlers.command_handler] [command_handler.py:42] Chat 5663974991 command 74 '/start' has been accepted
+[2024-06-20 17:03:19,920] [WARNING] [source.handlers.command_handler] [command_handler.py:70] chat type is <class 'NoneType'>
+[2024-06-20 17:03:19,973] [WARNING] [source.handlers.command_handler] [command_handler.py:77] user type is <class 'NoneType'>
+[2024-06-20 17:03:20,174] [INFO] [source.handlers.command_handler] [command_handler.py:53] Chat 5663974991 command 74 '/start' has been processed
+[2024-06-20 17:03:20,174] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624198 is handled. Duration 1625 ms by bot id=7010190829
+[2024-06-20 17:03:22,272] [INFO] [source.handlers.command_handler] [command_handler.py:42] Chat 5663974991 command 75 '/start' has been accepted
+[2024-06-20 17:03:22,325] [WARNING] [source.handlers.command_handler] [command_handler.py:70] chat type is <class 'NoneType'>
+[2024-06-20 17:03:22,378] [WARNING] [source.handlers.command_handler] [command_handler.py:77] user type is <class 'NoneType'>
+[2024-06-20 17:03:22,478] [INFO] [source.handlers.command_handler] [command_handler.py:53] Chat 5663974991 command 75 '/start' has been processed
+[2024-06-20 17:03:22,479] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624199 is handled. Duration 202 ms by bot id=7010190829
+[2024-06-20 17:03:24,104] [INFO] [source.handlers.command_handler] [command_handler.py:42] Chat 5663974991 command 76 '/start' has been accepted
+[2024-06-20 17:03:24,162] [WARNING] [source.handlers.command_handler] [command_handler.py:70] chat type is <class 'NoneType'>
+[2024-06-20 17:03:24,230] [WARNING] [source.handlers.command_handler] [command_handler.py:77] user type is <class 'NoneType'>
+[2024-06-20 17:03:24,338] [INFO] [source.handlers.command_handler] [command_handler.py:53] Chat 5663974991 command 76 '/start' has been processed
+[2024-06-20 17:03:24,338] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624200 is handled. Duration 234 ms by bot id=7010190829
+[2024-06-20 17:03:43,298] [INFO] [aiogram.dispatcher] [dispatcher.py:359] Polling stopped for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-20 17:03:43,298] [INFO] [aiogram.dispatcher] [dispatcher.py:554] Polling stopped
+[2024-06-20 17:03:43,298] [INFO] [source.handlers.dispather_handlers] [dispather_handlers.py:24] Dispatcher has been shut down
+[2024-06-20 17:03:43,557] [INFO] [source.persistance.database] [database.py:109] Database context has been closed
+[2024-06-20 17:05:03,839] [INFO] [source.persistance.database] [database.py:43] Database context has been initialized
+[2024-06-20 17:05:03,855] [INFO] [__main__] [main.py:43] Application has been started
+[2024-06-20 17:05:04,292] [INFO] [source.handlers.dispather_handlers] [dispather_handlers.py:16] Dispatcher has been started
+[2024-06-20 17:05:04,292] [INFO] [aiogram.dispatcher] [dispatcher.py:527] Start polling
+[2024-06-20 17:05:04,374] [INFO] [aiogram.dispatcher] [dispatcher.py:341] Run polling for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-20 17:06:26,758] [INFO] [source.handlers.command_handler] [command_handler.py:42] Chat 5663974991 command 77 '/start' has been accepted
+[2024-06-20 17:06:27,477] [WARNING] [source.handlers.command_handler] [command_handler.py:70] chat type is <class 'NoneType'>
+[2024-06-20 17:06:27,531] [WARNING] [source.handlers.command_handler] [command_handler.py:77] user type is <class 'NoneType'>
+[2024-06-20 17:06:27,531] [WARNING] [source.handlers.command_handler] [command_handler.py:81] Chat 5663974991 command 77 '/start' user 5663974991 doesn't exist and will be created
+[2024-06-20 17:06:27,532] [WARNING] [source.handlers.command_handler] [command_handler.py:90] Chat 5663974991 command 77 '/start' chat 5663974991 doesn't exist and will be created
+[2024-06-20 17:06:27,638] [ERROR] [source.persistance.database] [database.py:94] An error occurred during database session
+[2024-06-20 17:06:27,694] [ERROR] [source.handlers.command_handler] [command_handler.py:50] Chat 5663974991 command 77 '/start' hasn't been processed correctly
+Traceback (most recent call last):
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\engine\default.py", line 924, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\dialects\mysql\aiomysql.py", line 95, in execute
+    return self.await_(self._execute_async(operation, parameters))
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 132, in await_only
+    return current.parent.switch(awaitable)  # type: ignore[no-any-return,attr-defined] # noqa: E501
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 196, in greenlet_spawn
+    value = await result
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\dialects\mysql\aiomysql.py", line 104, in _execute_async
+    result = await self._cursor.execute(operation, parameters)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\cursors.py", line 239, in execute
+    await self._query(query)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\cursors.py", line 457, in _query
+    await conn.query(q)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\connection.py", line 469, in query
+    await self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\connection.py", line 683, in _read_query_result
+    await result.read()
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\connection.py", line 1164, in read
+    first_packet = await self.connection._read_packet()
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\connection.py", line 652, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\pymysql\protocol.py", line 219, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\pymysql\err.py", line 150, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1452, 'Cannot add or update a child row: a foreign key constraint fails (`u165660_db`.`users`, CONSTRAINT `users_ibfk_1` FOREIGN KEY (`telegram_id`) REFERENCES `chats` (`user_id`) ON DELETE CASCADE)')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\source\handlers\command_handler.py", line 44, in wrapper
+    async with context.session() as session: await function(message, session, event)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\source\handlers\command_handler.py", line 101, in _on_start
+    await session.commit()
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\ext\asyncio\session.py", line 1009, in commit
+    await greenlet_spawn(self.sync_session.commit)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 203, in greenlet_spawn
+    result = context.switch(value)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\orm\session.py", line 2017, in commit
+    trans.commit(_to_root=True)
+  File "<string>", line 2, in commit
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\orm\state_changes.py", line 139, in _go
+    ret_value = fn(self, *arg, **kw)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\orm\session.py", line 1302, in commit
+    self._prepare_impl()
+  File "<string>", line 2, in _prepare_impl
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\orm\state_changes.py", line 139, in _go
+    ret_value = fn(self, *arg, **kw)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\orm\session.py", line 1277, in _prepare_impl
+    self.session.flush()
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\orm\session.py", line 4341, in flush
+    self._flush(objects)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\orm\session.py", line 4476, in _flush
+    with util.safe_reraise():
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\util\langhelpers.py", line 146, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\orm\session.py", line 4437, in _flush
+    flush_context.execute()
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\orm\unitofwork.py", line 466, in execute
+    rec.execute(self)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\orm\unitofwork.py", line 642, in execute
+    util.preloaded.orm_persistence.save_obj(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\orm\persistence.py", line 93, in save_obj
+    _emit_insert_statements(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\orm\persistence.py", line 1048, in _emit_insert_statements
+    result = connection.execute(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1418, in execute
+    return meth(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\sql\elements.py", line 515, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1640, in _execute_clauseelement
+    ret = self._execute_context(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1986, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\engine\base.py", line 2353, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\engine\default.py", line 924, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\dialects\mysql\aiomysql.py", line 95, in execute
+    return self.await_(self._execute_async(operation, parameters))
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 132, in await_only
+    return current.parent.switch(awaitable)  # type: ignore[no-any-return,attr-defined] # noqa: E501
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 196, in greenlet_spawn
+    value = await result
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\dialects\mysql\aiomysql.py", line 104, in _execute_async
+    result = await self._cursor.execute(operation, parameters)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\cursors.py", line 239, in execute
+    await self._query(query)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\cursors.py", line 457, in _query
+    await conn.query(q)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\connection.py", line 469, in query
+    await self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\connection.py", line 683, in _read_query_result
+    await result.read()
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\connection.py", line 1164, in read
+    first_packet = await self.connection._read_packet()
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\connection.py", line 652, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\pymysql\protocol.py", line 219, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\pymysql\err.py", line 150, in raise_mysql_exception
+    raise errorclass(errno, errval)
+sqlalchemy.exc.IntegrityError: (pymysql.err.IntegrityError) (1452, 'Cannot add or update a child row: a foreign key constraint fails (`u165660_db`.`users`, CONSTRAINT `users_ibfk_1` FOREIGN KEY (`telegram_id`) REFERENCES `chats` (`user_id`) ON DELETE CASCADE)')
+[SQL: INSERT INTO users (telegram_id, is_active_in_telegram, first_name, last_name, username, phone) VALUES (%s, %s, %s, %s, %s, %s)]
+[parameters: (5663974991, 1, 'Artem', None, 'artem806', None)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+[2024-06-20 17:06:27,713] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624201 is handled. Duration 952 ms by bot id=7010190829
+[2024-06-20 17:07:20,496] [INFO] [aiogram.dispatcher] [dispatcher.py:359] Polling stopped for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-20 17:07:20,496] [INFO] [aiogram.dispatcher] [dispatcher.py:554] Polling stopped
+[2024-06-20 17:07:20,497] [INFO] [source.handlers.dispather_handlers] [dispather_handlers.py:24] Dispatcher has been shut down
+[2024-06-20 17:07:20,753] [INFO] [source.persistance.database] [database.py:109] Database context has been closed
+[2024-06-20 17:07:26,708] [INFO] [source.persistance.database] [database.py:43] Database context has been initialized
+[2024-06-20 17:07:26,720] [INFO] [__main__] [main.py:43] Application has been started
+[2024-06-20 17:07:27,236] [INFO] [source.handlers.dispather_handlers] [dispather_handlers.py:16] Dispatcher has been started
+[2024-06-20 17:07:27,236] [INFO] [aiogram.dispatcher] [dispatcher.py:527] Start polling
+[2024-06-20 17:07:27,325] [INFO] [aiogram.dispatcher] [dispatcher.py:341] Run polling for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-20 17:07:29,810] [INFO] [source.handlers.command_handler] [command_handler.py:42] Chat 5663974991 command 78 '/start' has been accepted
+[2024-06-20 17:07:30,605] [WARNING] [source.handlers.command_handler] [command_handler.py:70] chat type is <class 'NoneType'>
+[2024-06-20 17:07:30,660] [WARNING] [source.handlers.command_handler] [command_handler.py:77] user type is <class 'NoneType'>
+[2024-06-20 17:07:30,660] [WARNING] [source.handlers.command_handler] [command_handler.py:81] Chat 5663974991 command 78 '/start' user 5663974991 doesn't exist and will be created
+[2024-06-20 17:07:30,661] [WARNING] [source.handlers.command_handler] [command_handler.py:91] Chat 5663974991 command 78 '/start' chat 5663974991 doesn't exist and will be created
+[2024-06-20 17:07:30,769] [ERROR] [source.persistance.database] [database.py:94] An error occurred during database session
+[2024-06-20 17:07:30,821] [ERROR] [source.handlers.command_handler] [command_handler.py:50] Chat 5663974991 command 78 '/start' hasn't been processed correctly
+Traceback (most recent call last):
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\engine\default.py", line 924, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\dialects\mysql\aiomysql.py", line 95, in execute
+    return self.await_(self._execute_async(operation, parameters))
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 132, in await_only
+    return current.parent.switch(awaitable)  # type: ignore[no-any-return,attr-defined] # noqa: E501
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 196, in greenlet_spawn
+    value = await result
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\dialects\mysql\aiomysql.py", line 104, in _execute_async
+    result = await self._cursor.execute(operation, parameters)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\cursors.py", line 239, in execute
+    await self._query(query)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\cursors.py", line 457, in _query
+    await conn.query(q)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\connection.py", line 469, in query
+    await self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\connection.py", line 683, in _read_query_result
+    await result.read()
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\connection.py", line 1164, in read
+    first_packet = await self.connection._read_packet()
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\connection.py", line 652, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\pymysql\protocol.py", line 219, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\pymysql\err.py", line 150, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1452, 'Cannot add or update a child row: a foreign key constraint fails (`u165660_db`.`users`, CONSTRAINT `users_ibfk_1` FOREIGN KEY (`telegram_id`) REFERENCES `chats` (`user_id`) ON DELETE CASCADE)')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\source\handlers\command_handler.py", line 44, in wrapper
+    async with context.session() as session: await function(message, session, event)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\source\handlers\command_handler.py", line 102, in _on_start
+    await session.commit()
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\ext\asyncio\session.py", line 1009, in commit
+    await greenlet_spawn(self.sync_session.commit)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 203, in greenlet_spawn
+    result = context.switch(value)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\orm\session.py", line 2017, in commit
+    trans.commit(_to_root=True)
+  File "<string>", line 2, in commit
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\orm\state_changes.py", line 139, in _go
+    ret_value = fn(self, *arg, **kw)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\orm\session.py", line 1302, in commit
+    self._prepare_impl()
+  File "<string>", line 2, in _prepare_impl
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\orm\state_changes.py", line 139, in _go
+    ret_value = fn(self, *arg, **kw)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\orm\session.py", line 1277, in _prepare_impl
+    self.session.flush()
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\orm\session.py", line 4341, in flush
+    self._flush(objects)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\orm\session.py", line 4476, in _flush
+    with util.safe_reraise():
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\util\langhelpers.py", line 146, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\orm\session.py", line 4437, in _flush
+    flush_context.execute()
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\orm\unitofwork.py", line 466, in execute
+    rec.execute(self)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\orm\unitofwork.py", line 642, in execute
+    util.preloaded.orm_persistence.save_obj(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\orm\persistence.py", line 93, in save_obj
+    _emit_insert_statements(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\orm\persistence.py", line 1048, in _emit_insert_statements
+    result = connection.execute(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1418, in execute
+    return meth(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\sql\elements.py", line 515, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1640, in _execute_clauseelement
+    ret = self._execute_context(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1986, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\engine\base.py", line 2353, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\engine\default.py", line 924, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\dialects\mysql\aiomysql.py", line 95, in execute
+    return self.await_(self._execute_async(operation, parameters))
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 132, in await_only
+    return current.parent.switch(awaitable)  # type: ignore[no-any-return,attr-defined] # noqa: E501
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 196, in greenlet_spawn
+    value = await result
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\dialects\mysql\aiomysql.py", line 104, in _execute_async
+    result = await self._cursor.execute(operation, parameters)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\cursors.py", line 239, in execute
+    await self._query(query)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\cursors.py", line 457, in _query
+    await conn.query(q)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\connection.py", line 469, in query
+    await self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\connection.py", line 683, in _read_query_result
+    await result.read()
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\connection.py", line 1164, in read
+    first_packet = await self.connection._read_packet()
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\connection.py", line 652, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\pymysql\protocol.py", line 219, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\pymysql\err.py", line 150, in raise_mysql_exception
+    raise errorclass(errno, errval)
+sqlalchemy.exc.IntegrityError: (pymysql.err.IntegrityError) (1452, 'Cannot add or update a child row: a foreign key constraint fails (`u165660_db`.`users`, CONSTRAINT `users_ibfk_1` FOREIGN KEY (`telegram_id`) REFERENCES `chats` (`user_id`) ON DELETE CASCADE)')
+[SQL: INSERT INTO users (telegram_id, is_active_in_telegram, first_name, last_name, username, phone) VALUES (%s, %s, %s, %s, %s, %s)]
+[parameters: (5663974991, 1, 'Artem', None, 'artem806', None)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+[2024-06-20 17:07:30,838] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624202 is handled. Duration 1031 ms by bot id=7010190829
+[2024-06-20 17:09:10,930] [INFO] [aiogram.dispatcher] [dispatcher.py:359] Polling stopped for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-20 17:09:10,931] [INFO] [aiogram.dispatcher] [dispatcher.py:554] Polling stopped
+[2024-06-20 17:09:10,931] [INFO] [source.handlers.dispather_handlers] [dispather_handlers.py:24] Dispatcher has been shut down
+[2024-06-20 17:09:11,197] [INFO] [source.persistance.database] [database.py:109] Database context has been closed
+[2024-06-20 17:17:07,029] [INFO] [source.persistance.database] [database.py:43] Database context has been initialized
+[2024-06-20 17:17:07,040] [INFO] [__main__] [main.py:43] Application has been started
+[2024-06-20 17:17:07,691] [INFO] [source.handlers.dispather_handlers] [dispather_handlers.py:16] Dispatcher has been started
+[2024-06-20 17:17:07,692] [INFO] [aiogram.dispatcher] [dispatcher.py:527] Start polling
+[2024-06-20 17:17:07,783] [INFO] [aiogram.dispatcher] [dispatcher.py:341] Run polling for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-20 17:17:10,038] [INFO] [source.handlers.command_handler] [command_handler.py:42] Chat 5663974991 command 79 '/start' has been accepted
+[2024-06-20 17:17:10,757] [WARNING] [source.handlers.command_handler] [command_handler.py:70] chat type is <class 'NoneType'>
+[2024-06-20 17:17:10,810] [WARNING] [source.handlers.command_handler] [command_handler.py:77] user type is <class 'NoneType'>
+[2024-06-20 17:17:10,810] [WARNING] [source.handlers.command_handler] [command_handler.py:81] Chat 5663974991 command 79 '/start' user 5663974991 doesn't exist and will be created
+[2024-06-20 17:17:10,810] [WARNING] [source.handlers.command_handler] [command_handler.py:91] Chat 5663974991 command 79 '/start' chat 5663974991 doesn't exist and will be created
+[2024-06-20 17:17:10,916] [ERROR] [source.persistance.database] [database.py:94] An error occurred during database session
+[2024-06-20 17:17:11,252] [ERROR] [source.handlers.command_handler] [command_handler.py:50] Chat 5663974991 command 79 '/start' hasn't been processed correctly
+Traceback (most recent call last):
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\engine\default.py", line 924, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\dialects\mysql\aiomysql.py", line 95, in execute
+    return self.await_(self._execute_async(operation, parameters))
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 132, in await_only
+    return current.parent.switch(awaitable)  # type: ignore[no-any-return,attr-defined] # noqa: E501
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 196, in greenlet_spawn
+    value = await result
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\dialects\mysql\aiomysql.py", line 104, in _execute_async
+    result = await self._cursor.execute(operation, parameters)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\cursors.py", line 239, in execute
+    await self._query(query)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\cursors.py", line 457, in _query
+    await conn.query(q)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\connection.py", line 469, in query
+    await self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\connection.py", line 683, in _read_query_result
+    await result.read()
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\connection.py", line 1164, in read
+    first_packet = await self.connection._read_packet()
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\connection.py", line 652, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\pymysql\protocol.py", line 219, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\pymysql\err.py", line 150, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1452, 'Cannot add or update a child row: a foreign key constraint fails (`u165660_db`.`users`, CONSTRAINT `users_ibfk_1` FOREIGN KEY (`telegram_id`) REFERENCES `chats` (`user_id`) ON DELETE CASCADE)')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\source\handlers\command_handler.py", line 44, in wrapper
+    async with context.session() as session: await function(message, session, event)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\source\handlers\command_handler.py", line 102, in _on_start
+    await session.commit()
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\ext\asyncio\session.py", line 1009, in commit
+    await greenlet_spawn(self.sync_session.commit)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 203, in greenlet_spawn
+    result = context.switch(value)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\orm\session.py", line 2017, in commit
+    trans.commit(_to_root=True)
+  File "<string>", line 2, in commit
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\orm\state_changes.py", line 139, in _go
+    ret_value = fn(self, *arg, **kw)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\orm\session.py", line 1302, in commit
+    self._prepare_impl()
+  File "<string>", line 2, in _prepare_impl
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\orm\state_changes.py", line 139, in _go
+    ret_value = fn(self, *arg, **kw)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\orm\session.py", line 1277, in _prepare_impl
+    self.session.flush()
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\orm\session.py", line 4341, in flush
+    self._flush(objects)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\orm\session.py", line 4476, in _flush
+    with util.safe_reraise():
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\util\langhelpers.py", line 146, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\orm\session.py", line 4437, in _flush
+    flush_context.execute()
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\orm\unitofwork.py", line 466, in execute
+    rec.execute(self)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\orm\unitofwork.py", line 642, in execute
+    util.preloaded.orm_persistence.save_obj(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\orm\persistence.py", line 93, in save_obj
+    _emit_insert_statements(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\orm\persistence.py", line 1048, in _emit_insert_statements
+    result = connection.execute(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1418, in execute
+    return meth(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\sql\elements.py", line 515, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1640, in _execute_clauseelement
+    ret = self._execute_context(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1986, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\engine\base.py", line 2353, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\engine\default.py", line 924, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\dialects\mysql\aiomysql.py", line 95, in execute
+    return self.await_(self._execute_async(operation, parameters))
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 132, in await_only
+    return current.parent.switch(awaitable)  # type: ignore[no-any-return,attr-defined] # noqa: E501
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 196, in greenlet_spawn
+    value = await result
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\dialects\mysql\aiomysql.py", line 104, in _execute_async
+    result = await self._cursor.execute(operation, parameters)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\cursors.py", line 239, in execute
+    await self._query(query)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\cursors.py", line 457, in _query
+    await conn.query(q)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\connection.py", line 469, in query
+    await self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\connection.py", line 683, in _read_query_result
+    await result.read()
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\connection.py", line 1164, in read
+    first_packet = await self.connection._read_packet()
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\connection.py", line 652, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\pymysql\protocol.py", line 219, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\pymysql\err.py", line 150, in raise_mysql_exception
+    raise errorclass(errno, errval)
+sqlalchemy.exc.IntegrityError: (pymysql.err.IntegrityError) (1452, 'Cannot add or update a child row: a foreign key constraint fails (`u165660_db`.`users`, CONSTRAINT `users_ibfk_1` FOREIGN KEY (`telegram_id`) REFERENCES `chats` (`user_id`) ON DELETE CASCADE)')
+[SQL: INSERT INTO users (telegram_id, is_active_in_telegram, first_name, last_name, username, phone) VALUES (%s, %s, %s, %s, %s, %s)]
+[parameters: (5663974991, 1, 'Artem', None, 'artem806', None)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+[2024-06-20 17:17:11,265] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624203 is handled. Duration 1219 ms by bot id=7010190829
+[2024-06-20 17:22:01,729] [INFO] [aiogram.dispatcher] [dispatcher.py:359] Polling stopped for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-20 17:22:01,729] [INFO] [aiogram.dispatcher] [dispatcher.py:554] Polling stopped
+[2024-06-20 17:22:01,730] [INFO] [source.handlers.dispather_handlers] [dispather_handlers.py:24] Dispatcher has been shut down
+[2024-06-20 17:22:01,994] [INFO] [source.persistance.database] [database.py:109] Database context has been closed
+[2024-06-20 17:22:08,683] [INFO] [source.persistance.database] [database.py:43] Database context has been initialized
+[2024-06-20 17:22:08,697] [INFO] [__main__] [main.py:43] Application has been started
+[2024-06-20 17:22:09,347] [INFO] [source.handlers.dispather_handlers] [dispather_handlers.py:16] Dispatcher has been started
+[2024-06-20 17:22:09,347] [INFO] [aiogram.dispatcher] [dispatcher.py:527] Start polling
+[2024-06-20 17:22:09,433] [INFO] [aiogram.dispatcher] [dispatcher.py:341] Run polling for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-20 17:22:11,623] [INFO] [source.handlers.command_handler] [command_handler.py:42] Chat 5663974991 command 80 '/start' has been accepted
+[2024-06-20 17:22:12,251] [WARNING] [source.handlers.command_handler] [command_handler.py:70] user type is <class 'NoneType'>
+[2024-06-20 17:22:12,251] [WARNING] [source.handlers.command_handler] [command_handler.py:74] Chat 5663974991 command 80 '/start' user 5663974991 doesn't exist and will be created
+[2024-06-20 17:22:12,355] [ERROR] [source.persistance.database] [database.py:94] An error occurred during database session
+[2024-06-20 17:22:12,406] [ERROR] [source.handlers.command_handler] [command_handler.py:50] Chat 5663974991 command 80 '/start' hasn't been processed correctly
+Traceback (most recent call last):
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\engine\default.py", line 924, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\dialects\mysql\aiomysql.py", line 95, in execute
+    return self.await_(self._execute_async(operation, parameters))
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 132, in await_only
+    return current.parent.switch(awaitable)  # type: ignore[no-any-return,attr-defined] # noqa: E501
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 196, in greenlet_spawn
+    value = await result
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\dialects\mysql\aiomysql.py", line 104, in _execute_async
+    result = await self._cursor.execute(operation, parameters)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\cursors.py", line 239, in execute
+    await self._query(query)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\cursors.py", line 457, in _query
+    await conn.query(q)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\connection.py", line 469, in query
+    await self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\connection.py", line 683, in _read_query_result
+    await result.read()
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\connection.py", line 1164, in read
+    first_packet = await self.connection._read_packet()
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\connection.py", line 652, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\pymysql\protocol.py", line 219, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\pymysql\err.py", line 150, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1452, 'Cannot add or update a child row: a foreign key constraint fails (`u165660_db`.`users`, CONSTRAINT `users_ibfk_1` FOREIGN KEY (`telegram_id`) REFERENCES `chats` (`user_id`) ON DELETE CASCADE)')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\source\handlers\command_handler.py", line 44, in wrapper
+    async with context.session() as session: await function(message, session, event)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\source\handlers\command_handler.py", line 86, in _on_start
+    await session.commit()
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\ext\asyncio\session.py", line 1009, in commit
+    await greenlet_spawn(self.sync_session.commit)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 203, in greenlet_spawn
+    result = context.switch(value)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\orm\session.py", line 2017, in commit
+    trans.commit(_to_root=True)
+  File "<string>", line 2, in commit
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\orm\state_changes.py", line 139, in _go
+    ret_value = fn(self, *arg, **kw)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\orm\session.py", line 1302, in commit
+    self._prepare_impl()
+  File "<string>", line 2, in _prepare_impl
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\orm\state_changes.py", line 139, in _go
+    ret_value = fn(self, *arg, **kw)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\orm\session.py", line 1277, in _prepare_impl
+    self.session.flush()
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\orm\session.py", line 4341, in flush
+    self._flush(objects)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\orm\session.py", line 4476, in _flush
+    with util.safe_reraise():
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\util\langhelpers.py", line 146, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\orm\session.py", line 4437, in _flush
+    flush_context.execute()
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\orm\unitofwork.py", line 466, in execute
+    rec.execute(self)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\orm\unitofwork.py", line 642, in execute
+    util.preloaded.orm_persistence.save_obj(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\orm\persistence.py", line 93, in save_obj
+    _emit_insert_statements(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\orm\persistence.py", line 1048, in _emit_insert_statements
+    result = connection.execute(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1418, in execute
+    return meth(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\sql\elements.py", line 515, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1640, in _execute_clauseelement
+    ret = self._execute_context(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1986, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\engine\base.py", line 2353, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\engine\default.py", line 924, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\dialects\mysql\aiomysql.py", line 95, in execute
+    return self.await_(self._execute_async(operation, parameters))
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 132, in await_only
+    return current.parent.switch(awaitable)  # type: ignore[no-any-return,attr-defined] # noqa: E501
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 196, in greenlet_spawn
+    value = await result
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\dialects\mysql\aiomysql.py", line 104, in _execute_async
+    result = await self._cursor.execute(operation, parameters)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\cursors.py", line 239, in execute
+    await self._query(query)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\cursors.py", line 457, in _query
+    await conn.query(q)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\connection.py", line 469, in query
+    await self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\connection.py", line 683, in _read_query_result
+    await result.read()
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\connection.py", line 1164, in read
+    first_packet = await self.connection._read_packet()
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\connection.py", line 652, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\pymysql\protocol.py", line 219, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\pymysql\err.py", line 150, in raise_mysql_exception
+    raise errorclass(errno, errval)
+sqlalchemy.exc.IntegrityError: (pymysql.err.IntegrityError) (1452, 'Cannot add or update a child row: a foreign key constraint fails (`u165660_db`.`users`, CONSTRAINT `users_ibfk_1` FOREIGN KEY (`telegram_id`) REFERENCES `chats` (`user_id`) ON DELETE CASCADE)')
+[SQL: INSERT INTO users (telegram_id, is_active_in_telegram, first_name, last_name, username, phone) VALUES (%s, %s, %s, %s, %s, %s)]
+[parameters: (5663974991, 1, 'Artem', None, 'artem806', None)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+[2024-06-20 17:22:12,422] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624204 is handled. Duration 797 ms by bot id=7010190829
+[2024-06-20 17:26:38,523] [INFO] [aiogram.dispatcher] [dispatcher.py:359] Polling stopped for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-20 17:26:38,524] [INFO] [aiogram.dispatcher] [dispatcher.py:554] Polling stopped
+[2024-06-20 17:26:38,524] [INFO] [source.handlers.dispather_handlers] [dispather_handlers.py:24] Dispatcher has been shut down
+[2024-06-20 17:26:38,789] [INFO] [source.persistance.database] [database.py:109] Database context has been closed
+[2024-06-20 17:26:46,436] [INFO] [source.persistance.database] [database.py:43] Database context has been initialized
+[2024-06-20 17:26:46,447] [INFO] [__main__] [main.py:43] Application has been started
+[2024-06-20 17:26:46,933] [INFO] [source.handlers.dispather_handlers] [dispather_handlers.py:16] Dispatcher has been started
+[2024-06-20 17:26:46,933] [INFO] [aiogram.dispatcher] [dispatcher.py:527] Start polling
+[2024-06-20 17:26:47,011] [INFO] [aiogram.dispatcher] [dispatcher.py:341] Run polling for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-20 17:26:48,093] [INFO] [source.handlers.command_handler] [command_handler.py:42] Chat 5663974991 command 81 '/start' has been accepted
+[2024-06-20 17:26:48,741] [WARNING] [source.handlers.command_handler] [command_handler.py:70] user type is <class 'NoneType'>
+[2024-06-20 17:26:48,741] [WARNING] [source.handlers.command_handler] [command_handler.py:74] Chat 5663974991 command 81 '/start' user 5663974991 doesn't exist and will be created
+[2024-06-20 17:26:48,847] [ERROR] [source.persistance.database] [database.py:94] An error occurred during database session
+[2024-06-20 17:26:48,899] [ERROR] [source.handlers.command_handler] [command_handler.py:50] Chat 5663974991 command 81 '/start' hasn't been processed correctly
+Traceback (most recent call last):
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\engine\default.py", line 924, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\dialects\mysql\aiomysql.py", line 95, in execute
+    return self.await_(self._execute_async(operation, parameters))
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 132, in await_only
+    return current.parent.switch(awaitable)  # type: ignore[no-any-return,attr-defined] # noqa: E501
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 196, in greenlet_spawn
+    value = await result
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\dialects\mysql\aiomysql.py", line 104, in _execute_async
+    result = await self._cursor.execute(operation, parameters)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\cursors.py", line 239, in execute
+    await self._query(query)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\cursors.py", line 457, in _query
+    await conn.query(q)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\connection.py", line 469, in query
+    await self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\connection.py", line 683, in _read_query_result
+    await result.read()
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\connection.py", line 1164, in read
+    first_packet = await self.connection._read_packet()
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\connection.py", line 652, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\pymysql\protocol.py", line 219, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\pymysql\err.py", line 150, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1452, 'Cannot add or update a child row: a foreign key constraint fails (`u165660_db`.`users`, CONSTRAINT `users_ibfk_1` FOREIGN KEY (`telegram_id`) REFERENCES `chats` (`user_id`) ON DELETE CASCADE)')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\source\handlers\command_handler.py", line 44, in wrapper
+    async with context.session() as session: await function(message, session, event)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\source\handlers\command_handler.py", line 86, in _on_start
+    await session.commit()
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\ext\asyncio\session.py", line 1009, in commit
+    await greenlet_spawn(self.sync_session.commit)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 203, in greenlet_spawn
+    result = context.switch(value)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\orm\session.py", line 2017, in commit
+    trans.commit(_to_root=True)
+  File "<string>", line 2, in commit
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\orm\state_changes.py", line 139, in _go
+    ret_value = fn(self, *arg, **kw)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\orm\session.py", line 1302, in commit
+    self._prepare_impl()
+  File "<string>", line 2, in _prepare_impl
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\orm\state_changes.py", line 139, in _go
+    ret_value = fn(self, *arg, **kw)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\orm\session.py", line 1277, in _prepare_impl
+    self.session.flush()
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\orm\session.py", line 4341, in flush
+    self._flush(objects)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\orm\session.py", line 4476, in _flush
+    with util.safe_reraise():
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\util\langhelpers.py", line 146, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\orm\session.py", line 4437, in _flush
+    flush_context.execute()
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\orm\unitofwork.py", line 466, in execute
+    rec.execute(self)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\orm\unitofwork.py", line 642, in execute
+    util.preloaded.orm_persistence.save_obj(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\orm\persistence.py", line 93, in save_obj
+    _emit_insert_statements(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\orm\persistence.py", line 1048, in _emit_insert_statements
+    result = connection.execute(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1418, in execute
+    return meth(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\sql\elements.py", line 515, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1640, in _execute_clauseelement
+    ret = self._execute_context(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1986, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\engine\base.py", line 2353, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\engine\default.py", line 924, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\dialects\mysql\aiomysql.py", line 95, in execute
+    return self.await_(self._execute_async(operation, parameters))
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 132, in await_only
+    return current.parent.switch(awaitable)  # type: ignore[no-any-return,attr-defined] # noqa: E501
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 196, in greenlet_spawn
+    value = await result
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\dialects\mysql\aiomysql.py", line 104, in _execute_async
+    result = await self._cursor.execute(operation, parameters)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\cursors.py", line 239, in execute
+    await self._query(query)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\cursors.py", line 457, in _query
+    await conn.query(q)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\connection.py", line 469, in query
+    await self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\connection.py", line 683, in _read_query_result
+    await result.read()
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\connection.py", line 1164, in read
+    first_packet = await self.connection._read_packet()
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\connection.py", line 652, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\pymysql\protocol.py", line 219, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\pymysql\err.py", line 150, in raise_mysql_exception
+    raise errorclass(errno, errval)
+sqlalchemy.exc.IntegrityError: (pymysql.err.IntegrityError) (1452, 'Cannot add or update a child row: a foreign key constraint fails (`u165660_db`.`users`, CONSTRAINT `users_ibfk_1` FOREIGN KEY (`telegram_id`) REFERENCES `chats` (`user_id`) ON DELETE CASCADE)')
+[SQL: INSERT INTO users (telegram_id, is_active_in_telegram, first_name, last_name, username, phone) VALUES (%s, %s, %s, %s, %s, %s)]
+[parameters: (5663974991, 1, 'Artem', None, 'artem806', None)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+[2024-06-20 17:26:48,914] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624205 is handled. Duration 827 ms by bot id=7010190829
+[2024-06-20 17:30:34,978] [INFO] [aiogram.dispatcher] [dispatcher.py:359] Polling stopped for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-20 17:30:34,978] [INFO] [aiogram.dispatcher] [dispatcher.py:554] Polling stopped
+[2024-06-20 17:30:34,978] [INFO] [source.handlers.dispather_handlers] [dispather_handlers.py:24] Dispatcher has been shut down
+[2024-06-20 17:30:35,244] [INFO] [source.persistance.database] [database.py:109] Database context has been closed
+[2024-06-20 17:30:42,407] [INFO] [source.persistance.database] [database.py:43] Database context has been initialized
+[2024-06-20 17:30:42,417] [INFO] [__main__] [main.py:43] Application has been started
+[2024-06-20 17:30:42,974] [INFO] [source.handlers.dispather_handlers] [dispather_handlers.py:16] Dispatcher has been started
+[2024-06-20 17:30:42,974] [INFO] [aiogram.dispatcher] [dispatcher.py:527] Start polling
+[2024-06-20 17:30:43,058] [INFO] [aiogram.dispatcher] [dispatcher.py:341] Run polling for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-20 17:30:49,923] [INFO] [source.handlers.command_handler] [command_handler.py:42] Chat 5663974991 command 82 '/start' has been accepted
+[2024-06-20 17:30:50,555] [WARNING] [source.handlers.command_handler] [command_handler.py:70] user type is <class 'NoneType'>
+[2024-06-20 17:30:50,555] [WARNING] [source.handlers.command_handler] [command_handler.py:74] Chat 5663974991 command 82 '/start' user 5663974991 doesn't exist and will be created
+[2024-06-20 17:30:50,709] [INFO] [source.handlers.command_handler] [command_handler.py:53] Chat 5663974991 command 82 '/start' has been processed
+[2024-06-20 17:30:50,709] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624206 is handled. Duration 797 ms by bot id=7010190829
+[2024-06-20 17:30:56,508] [INFO] [source.handlers.command_handler] [command_handler.py:42] Chat 5663974991 command 83 '/start' has been accepted
+[2024-06-20 17:30:56,560] [WARNING] [source.handlers.command_handler] [command_handler.py:70] user type is <class 'source.persistance.models.User'>
+[2024-06-20 17:30:56,661] [INFO] [source.handlers.command_handler] [command_handler.py:53] Chat 5663974991 command 83 '/start' has been processed
+[2024-06-20 17:30:56,661] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624207 is handled. Duration 155 ms by bot id=7010190829
+[2024-06-20 17:33:01,257] [INFO] [aiogram.dispatcher] [dispatcher.py:359] Polling stopped for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-20 17:33:01,257] [INFO] [aiogram.dispatcher] [dispatcher.py:554] Polling stopped
+[2024-06-20 17:33:01,258] [INFO] [source.handlers.dispather_handlers] [dispather_handlers.py:24] Dispatcher has been shut down
+[2024-06-20 17:33:01,517] [INFO] [source.persistance.database] [database.py:109] Database context has been closed
+[2024-06-20 17:33:07,380] [INFO] [source.persistance.database] [database.py:43] Database context has been initialized
+[2024-06-20 17:33:07,392] [INFO] [__main__] [main.py:43] Application has been started
+[2024-06-20 17:33:07,771] [INFO] [source.handlers.dispather_handlers] [dispather_handlers.py:16] Dispatcher has been started
+[2024-06-20 17:33:07,772] [INFO] [aiogram.dispatcher] [dispatcher.py:527] Start polling
+[2024-06-20 17:33:07,855] [INFO] [aiogram.dispatcher] [dispatcher.py:341] Run polling for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-20 17:33:09,509] [INFO] [source.handlers.command_handler] [command_handler.py:42] Chat 5663974991 command 84 '/start' has been accepted
+[2024-06-20 17:33:10,269] [WARNING] [source.handlers.command_handler] [command_handler.py:105] Chat 5663974991 command 84 '/start' chat 5663974991 doesn't exist and will be created
+[2024-06-20 17:33:10,270] [WARNING] [source.handlers.command_handler] [command_handler.py:112] Chat 5663974991 command 84 '/start' chat 5663974991 view doesn't exist and will be created
+[2024-06-20 17:33:10,375] [ERROR] [source.persistance.database] [database.py:94] An error occurred during database session
+[2024-06-20 17:33:10,425] [ERROR] [source.handlers.command_handler] [command_handler.py:50] Chat 5663974991 command 84 '/start' hasn't been processed correctly
+Traceback (most recent call last):
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\engine\default.py", line 924, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\dialects\mysql\aiomysql.py", line 95, in execute
+    return self.await_(self._execute_async(operation, parameters))
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 132, in await_only
+    return current.parent.switch(awaitable)  # type: ignore[no-any-return,attr-defined] # noqa: E501
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 196, in greenlet_spawn
+    value = await result
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\dialects\mysql\aiomysql.py", line 104, in _execute_async
+    result = await self._cursor.execute(operation, parameters)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\cursors.py", line 239, in execute
+    await self._query(query)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\cursors.py", line 457, in _query
+    await conn.query(q)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\connection.py", line 469, in query
+    await self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\connection.py", line 683, in _read_query_result
+    await result.read()
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\connection.py", line 1164, in read
+    first_packet = await self.connection._read_packet()
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\connection.py", line 652, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\pymysql\protocol.py", line 219, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\pymysql\err.py", line 150, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1452, 'Cannot add or update a child row: a foreign key constraint fails (`u165660_db`.`chats`, CONSTRAINT `chats_ibfk_1` FOREIGN KEY (`telegram_id`) REFERENCES `views` (`chat_id`) ON DELETE CASCADE)')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\source\handlers\command_handler.py", line 44, in wrapper
+    async with context.session() as session: await function(message, session, event)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\source\handlers\command_handler.py", line 116, in _on_start
+    await session.commit()
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\ext\asyncio\session.py", line 1009, in commit
+    await greenlet_spawn(self.sync_session.commit)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 203, in greenlet_spawn
+    result = context.switch(value)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\orm\session.py", line 2017, in commit
+    trans.commit(_to_root=True)
+  File "<string>", line 2, in commit
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\orm\state_changes.py", line 139, in _go
+    ret_value = fn(self, *arg, **kw)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\orm\session.py", line 1302, in commit
+    self._prepare_impl()
+  File "<string>", line 2, in _prepare_impl
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\orm\state_changes.py", line 139, in _go
+    ret_value = fn(self, *arg, **kw)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\orm\session.py", line 1277, in _prepare_impl
+    self.session.flush()
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\orm\session.py", line 4341, in flush
+    self._flush(objects)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\orm\session.py", line 4476, in _flush
+    with util.safe_reraise():
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\util\langhelpers.py", line 146, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\orm\session.py", line 4437, in _flush
+    flush_context.execute()
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\orm\unitofwork.py", line 466, in execute
+    rec.execute(self)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\orm\unitofwork.py", line 642, in execute
+    util.preloaded.orm_persistence.save_obj(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\orm\persistence.py", line 93, in save_obj
+    _emit_insert_statements(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\orm\persistence.py", line 1048, in _emit_insert_statements
+    result = connection.execute(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1418, in execute
+    return meth(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\sql\elements.py", line 515, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1640, in _execute_clauseelement
+    ret = self._execute_context(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1986, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\engine\base.py", line 2353, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\engine\default.py", line 924, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\dialects\mysql\aiomysql.py", line 95, in execute
+    return self.await_(self._execute_async(operation, parameters))
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 132, in await_only
+    return current.parent.switch(awaitable)  # type: ignore[no-any-return,attr-defined] # noqa: E501
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 196, in greenlet_spawn
+    value = await result
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\dialects\mysql\aiomysql.py", line 104, in _execute_async
+    result = await self._cursor.execute(operation, parameters)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\cursors.py", line 239, in execute
+    await self._query(query)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\cursors.py", line 457, in _query
+    await conn.query(q)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\connection.py", line 469, in query
+    await self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\connection.py", line 683, in _read_query_result
+    await result.read()
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\connection.py", line 1164, in read
+    first_packet = await self.connection._read_packet()
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\connection.py", line 652, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\pymysql\protocol.py", line 219, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\pymysql\err.py", line 150, in raise_mysql_exception
+    raise errorclass(errno, errval)
+sqlalchemy.exc.IntegrityError: (pymysql.err.IntegrityError) (1452, 'Cannot add or update a child row: a foreign key constraint fails (`u165660_db`.`chats`, CONSTRAINT `chats_ibfk_1` FOREIGN KEY (`telegram_id`) REFERENCES `views` (`chat_id`) ON DELETE CASCADE)')
+[SQL: INSERT INTO chats (telegram_id, user_id) VALUES (%s, %s)]
+[parameters: (5663974991, 5663974991)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+[2024-06-20 17:33:10,440] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624208 is handled. Duration 921 ms by bot id=7010190829
+[2024-06-20 17:33:51,489] [INFO] [aiogram.dispatcher] [dispatcher.py:359] Polling stopped for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-20 17:33:51,489] [INFO] [aiogram.dispatcher] [dispatcher.py:554] Polling stopped
+[2024-06-20 17:33:51,489] [INFO] [source.handlers.dispather_handlers] [dispather_handlers.py:24] Dispatcher has been shut down
+[2024-06-20 17:33:51,753] [INFO] [source.persistance.database] [database.py:109] Database context has been closed
+[2024-06-20 17:33:59,533] [INFO] [source.persistance.database] [database.py:43] Database context has been initialized
+[2024-06-20 17:33:59,544] [INFO] [__main__] [main.py:43] Application has been started
+[2024-06-20 17:33:59,917] [INFO] [source.handlers.dispather_handlers] [dispather_handlers.py:16] Dispatcher has been started
+[2024-06-20 17:33:59,918] [INFO] [aiogram.dispatcher] [dispatcher.py:527] Start polling
+[2024-06-20 17:34:00,001] [INFO] [aiogram.dispatcher] [dispatcher.py:341] Run polling for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-20 17:34:07,054] [INFO] [source.handlers.command_handler] [command_handler.py:42] Chat 5663974991 command 85 '/start' has been accepted
+[2024-06-20 17:34:07,814] [WARNING] [source.handlers.command_handler] [command_handler.py:105] Chat 5663974991 command 85 '/start' chat 5663974991 doesn't exist and will be created
+[2024-06-20 17:34:07,814] [WARNING] [source.handlers.command_handler] [command_handler.py:112] Chat 5663974991 command 85 '/start' chat 5663974991 view doesn't exist and will be created
+[2024-06-20 17:34:07,971] [ERROR] [source.persistance.database] [database.py:94] An error occurred during database session
+[2024-06-20 17:34:08,023] [ERROR] [source.handlers.command_handler] [command_handler.py:50] Chat 5663974991 command 85 '/start' hasn't been processed correctly
+Traceback (most recent call last):
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\engine\default.py", line 924, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\dialects\mysql\aiomysql.py", line 95, in execute
+    return self.await_(self._execute_async(operation, parameters))
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 132, in await_only
+    return current.parent.switch(awaitable)  # type: ignore[no-any-return,attr-defined] # noqa: E501
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 196, in greenlet_spawn
+    value = await result
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\dialects\mysql\aiomysql.py", line 104, in _execute_async
+    result = await self._cursor.execute(operation, parameters)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\cursors.py", line 239, in execute
+    await self._query(query)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\cursors.py", line 457, in _query
+    await conn.query(q)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\connection.py", line 469, in query
+    await self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\connection.py", line 683, in _read_query_result
+    await result.read()
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\connection.py", line 1164, in read
+    first_packet = await self.connection._read_packet()
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\connection.py", line 652, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\pymysql\protocol.py", line 219, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\pymysql\err.py", line 150, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1048, "Column 'kind_id' cannot be null")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\source\handlers\command_handler.py", line 44, in wrapper
+    async with context.session() as session: await function(message, session, event)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\source\handlers\command_handler.py", line 116, in _on_start
+    await session.commit()
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\ext\asyncio\session.py", line 1009, in commit
+    await greenlet_spawn(self.sync_session.commit)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 203, in greenlet_spawn
+    result = context.switch(value)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\orm\session.py", line 2017, in commit
+    trans.commit(_to_root=True)
+  File "<string>", line 2, in commit
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\orm\state_changes.py", line 139, in _go
+    ret_value = fn(self, *arg, **kw)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\orm\session.py", line 1302, in commit
+    self._prepare_impl()
+  File "<string>", line 2, in _prepare_impl
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\orm\state_changes.py", line 139, in _go
+    ret_value = fn(self, *arg, **kw)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\orm\session.py", line 1277, in _prepare_impl
+    self.session.flush()
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\orm\session.py", line 4341, in flush
+    self._flush(objects)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\orm\session.py", line 4476, in _flush
+    with util.safe_reraise():
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\util\langhelpers.py", line 146, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\orm\session.py", line 4437, in _flush
+    flush_context.execute()
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\orm\unitofwork.py", line 466, in execute
+    rec.execute(self)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\orm\unitofwork.py", line 642, in execute
+    util.preloaded.orm_persistence.save_obj(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\orm\persistence.py", line 93, in save_obj
+    _emit_insert_statements(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\orm\persistence.py", line 1233, in _emit_insert_statements
+    result = connection.execute(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1418, in execute
+    return meth(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\sql\elements.py", line 515, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1640, in _execute_clauseelement
+    ret = self._execute_context(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1986, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\engine\base.py", line 2353, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\engine\default.py", line 924, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\dialects\mysql\aiomysql.py", line 95, in execute
+    return self.await_(self._execute_async(operation, parameters))
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 132, in await_only
+    return current.parent.switch(awaitable)  # type: ignore[no-any-return,attr-defined] # noqa: E501
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 196, in greenlet_spawn
+    value = await result
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\dialects\mysql\aiomysql.py", line 104, in _execute_async
+    result = await self._cursor.execute(operation, parameters)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\cursors.py", line 239, in execute
+    await self._query(query)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\cursors.py", line 457, in _query
+    await conn.query(q)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\connection.py", line 469, in query
+    await self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\connection.py", line 683, in _read_query_result
+    await result.read()
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\connection.py", line 1164, in read
+    first_packet = await self.connection._read_packet()
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiomysql\connection.py", line 652, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\pymysql\protocol.py", line 219, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\pymysql\err.py", line 150, in raise_mysql_exception
+    raise errorclass(errno, errval)
+sqlalchemy.exc.IntegrityError: (pymysql.err.IntegrityError) (1048, "Column 'kind_id' cannot be null")
+[SQL: INSERT INTO views (content, window_number, sub_window_number, kind_id, chat_id) VALUES (%s, %s, %s, %s, %s)]
+[parameters: (None, 1, 1, None, 5663974991)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+[2024-06-20 17:34:08,041] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624209 is handled. Duration 984 ms by bot id=7010190829
+[2024-06-20 17:38:14,841] [INFO] [aiogram.dispatcher] [dispatcher.py:359] Polling stopped for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-20 17:38:14,842] [INFO] [aiogram.dispatcher] [dispatcher.py:554] Polling stopped
+[2024-06-20 17:38:14,842] [INFO] [source.handlers.dispather_handlers] [dispather_handlers.py:24] Dispatcher has been shut down
+[2024-06-20 17:38:15,095] [INFO] [source.persistance.database] [database.py:109] Database context has been closed
+[2024-06-20 17:38:22,135] [INFO] [source.persistance.database] [database.py:43] Database context has been initialized
+[2024-06-20 17:38:22,151] [INFO] [__main__] [main.py:43] Application has been started
+[2024-06-20 17:38:22,846] [INFO] [source.handlers.dispather_handlers] [dispather_handlers.py:16] Dispatcher has been started
+[2024-06-20 17:38:22,847] [INFO] [aiogram.dispatcher] [dispatcher.py:527] Start polling
+[2024-06-20 17:38:22,937] [INFO] [aiogram.dispatcher] [dispatcher.py:341] Run polling for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-20 17:38:25,122] [INFO] [source.handlers.command_handler] [command_handler.py:42] Chat 5663974991 command 86 '/start' has been accepted
+[2024-06-20 17:38:25,931] [WARNING] [source.handlers.command_handler] [command_handler.py:105] Chat 5663974991 command 86 '/start' chat 5663974991 doesn't exist and will be created
+[2024-06-20 17:38:25,931] [WARNING] [source.handlers.command_handler] [command_handler.py:112] Chat 5663974991 command 86 '/start' chat 5663974991 view doesn't exist and will be created
+[2024-06-20 17:38:26,140] [INFO] [source.handlers.command_handler] [command_handler.py:53] Chat 5663974991 command 86 '/start' has been processed
+[2024-06-20 17:38:26,141] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624210 is handled. Duration 1016 ms by bot id=7010190829
+[2024-06-20 17:38:43,284] [INFO] [source.handlers.command_handler] [command_handler.py:42] Chat 5663974991 command 87 '/start' has been accepted
+[2024-06-20 17:38:43,445] [INFO] [source.handlers.command_handler] [command_handler.py:53] Chat 5663974991 command 87 '/start' has been processed
+[2024-06-20 17:38:43,445] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624211 is handled. Duration 170 ms by bot id=7010190829
+[2024-06-20 17:38:44,707] [INFO] [source.handlers.command_handler] [command_handler.py:42] Chat 5663974991 command 88 '/start' has been accepted
+[2024-06-20 17:38:44,867] [INFO] [source.handlers.command_handler] [command_handler.py:53] Chat 5663974991 command 88 '/start' has been processed
+[2024-06-20 17:38:44,867] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624212 is handled. Duration 155 ms by bot id=7010190829
+[2024-06-20 17:38:45,503] [INFO] [source.handlers.command_handler] [command_handler.py:42] Chat 5663974991 command 89 '/start' has been accepted
+[2024-06-20 17:38:45,660] [INFO] [source.handlers.command_handler] [command_handler.py:53] Chat 5663974991 command 89 '/start' has been processed
+[2024-06-20 17:38:45,660] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624213 is handled. Duration 155 ms by bot id=7010190829
+[2024-06-20 19:31:38,559] [INFO] [aiogram.dispatcher] [dispatcher.py:359] Polling stopped for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-20 19:31:38,559] [INFO] [aiogram.dispatcher] [dispatcher.py:554] Polling stopped
+[2024-06-20 19:31:38,560] [INFO] [source.handlers.dispather_handlers] [dispather_handlers.py:24] Dispatcher has been shut down
+[2024-06-20 19:31:38,822] [INFO] [source.persistance.database] [database.py:109] Database context has been closed

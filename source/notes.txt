@@ -1,0 +1,44 @@
+user_chat_data: Type[UserChatData] = tg_db_session.query(UserChatData).where(UserChatData.user_tg_id == user_tg_id).first()
+
+
+people = db.query(Person).all()
+
+
+query = select(UserChatData.user_tg_id).where(UserChatData.user_tg_id == user_tg_id)
+res = tg_db_session.execute(query).fetchone()
+
+
+bot_msg_ids_handler: List[Type[BotMsgId]] = tg_db_session.query(BotMsgId).order_by(BotMsgId.msg_id).filter(BotMsgId.user_tg_id == user_tg_id).all()
+
+
+new_user_data = UserData(user_tg_id=user_tg_id)
+tg_db_session.add(new_user_data)
+tg_db_session.commit()
+
+
+
+handler.payment_date.strftime("%m/%d/%Y, %H:%M:%S")
+
+
+
+
+
+
+class HostDB:
+    def __init__(self):
+        pass
+
+    def run_query(self,  query: str, commit: bool = False):
+        with mysql.connect(
+            host=app_settings.dictionary['database']['host'],
+            database=app_settings.dictionary['database']['database'],
+            user=app_settings.dictionary['database']['user'],
+            password=app_settings.dictionary['database']['password'],
+            port=3306
+        ) as conn:
+            with conn.cursor() as cursor:
+                cursor.execute(query)
+            if commit:
+                conn.commit()
+            conn.close()
+            return cursor
