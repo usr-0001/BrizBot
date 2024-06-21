@@ -9,7 +9,24 @@ __all__ = ["BaseModel", "ViewKindVariant", "User", "Chat", "ViewKind", "BotImg",
 
 
 class ViewKindVariant(Enum):
-    MAIN_MENU = 0
+    # Bse windows
+    MAIN_MENU_WINDOW = 0
+
+    # Windows from main menu
+    SHOW_ROOMS_AND_PRICES_WINDOW = 10
+    SHOW_ROOM_RESERVATION_WINDOW = 11
+    SHOW_SAUNA_WINDOW = 12
+    SHOW_PHOTO_GALLERY_WINDOW = 13
+    SHOW_VIDEO_GALLERY_WINDOW = 14
+    SHOW_ADMINS_WINDOW = 15
+    SHOW_MAP_WINDOW = 16
+
+
+class TextKindVariant(Enum):
+    COMMAND_START = 0
+    COMMAND_HELP = 1
+
+    IBUTTON_MAP = 16
 
 
 class User(BaseModel):
@@ -67,11 +84,6 @@ class BotMsg(BaseModel):
     message_id = Column(Integer)
 
     chat = relationship('Chat', back_populates='bot_msg', lazy="noload")
-
-
-class TextKindVariant(Enum):
-    BOT_COMMAND_START = 1
-    BOT_COMMAND_HELP = 2
 
 
 class CompanyText(BaseModel):

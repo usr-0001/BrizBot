@@ -9,7 +9,7 @@ import logging
 
 from sqlalchemy.ext.asyncio import AsyncSession
 
-from source.extensions.database.database_queries import get_bot_messages_query
+from source.extensions.database.query import get_bot_messages_query
 from source.extensions.telegram.event import Event
 from source.persistance.models import BotMsg
 

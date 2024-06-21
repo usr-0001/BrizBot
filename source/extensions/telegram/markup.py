@@ -48,11 +48,11 @@ class TelegramMarkup:
             callback_data=MainMenuButtonData(action=MainMenuButtonAction.SHOW_ADMINS_WINDOW)
         )
         builder.button(
-            text=texts.map_button,
+            text=texts.map.button,
             callback_data=MainMenuButtonData(action=MainMenuButtonAction.SHOW_MAP_WINDOW)
         )
 
-        builder.adjust(2,2,1,1)
+        builder.adjust(2, 2, 1, 1)
         markup = builder.as_markup()
 
         cls.__main_menu = markup

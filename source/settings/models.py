@@ -82,6 +82,14 @@ class BotSettings(BaseModel):
 
 
 # region View
+class Map(BaseModel):
+    model_config = ConfigDict(alias_generator=to_camel, populate_by_name=True)
+
+    button: str
+    latitude: float
+    longitude: float
+
+
 class MainMenu(BaseModel):
     model_config = ConfigDict(alias_generator=to_camel, populate_by_name=True)
 
@@ -90,7 +98,7 @@ class MainMenu(BaseModel):
     photo_gallery_button: str
     video_gallery_button: str
     admins_button: str
-    map_button: str
+    map: Map
 
 
 class Screen(BaseModel):

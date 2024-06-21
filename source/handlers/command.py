@@ -7,8 +7,9 @@ from sqlalchemy.ext.asyncio import AsyncSession
 
 import logging
 from source import context
-from source.extensions.backend.backend_exceptions import DataBaseCompanyTextError
-from source.extensions.database.database_queries import get_user_query, get_company_text_query, get_chat_query
+from source.extensions.backend.exceptions import DataBaseCompanyTextError
+from source.extensions.database.query import get_user_query, get_company_text_query, get_chat_query, get_chat, get_user, \
+    get_company_text
 from source.extensions.telegram.event import Event
 from source.extensions.telegram.exceptions import TelegramNonPrivateChatException, TelegramBotIsBlockedByUserException
 from source.extensions.telegram.helpers import chat_isnt_private, try_delete_message, try_send_photo, store_bot_msg, \
@@ -73,16 +74,16 @@ async def _on_start(message: Message, session: AsyncSession, event: Event) -> No
     Handles start.
     """
 
-    chat: Chat | None = (await session.execute(get_chat_query(id=event.chat_id, include_user=True, include_view=True, lock=True))).scalars().first()
+    # Gets the chat.
+    chat = await get_chat(event.chat_id, session, include_user=True, include_view=True, lock=True)
 
     # Creates the chat.
-    if chat is None:
-
+    if not chat:
         # Gets the user.
-        user: User | None = (await session.execute(get_user_query(id=event.user_id))).scalars().first()
+        user = await get_user(event.user_id, session)
 
         # Creates the user.
-        if user is None:
+        if not user:
             _logger.warning(f"{event.prefix} user {event.user_id} doesn't exist and will be created")
             user = User(
                 telegram_id=event.user_id,
@@ -99,25 +100,20 @@ async def _on_start(message: Message, session: AsyncSession, event: Event) -> No
         chat.user = [user]
         session.add(chat)
 
-    # Resets states.
-    # Chat.
-    chat.kind_id = ViewKindVariant.MAIN_MENU.value
-    chat.content = None
+    # Update states.
+    text = await get_company_text(kind_id=TextKindVariant.COMMAND_START.value, session=session)
+    chat.kind_id = ViewKindVariant.MAIN_MENU_WINDOW.value
+    chat.content = text
     chat.sub_window_number = 1
 
-    # Create user window.
-    # Send start message to user.\
-    company_text: CompanyText | None = (await session.execute(get_company_text_query(TextKindVariant.BOT_COMMAND_START.value))).scalars().first()
-    if company_text is None: raise DataBaseCompanyTextError()
-
+    # Send start message to user.
     message_id = await try_send_photo(
         bot,
         event.chat_id,
         event.prefix,
         photo='http://briz-berdyansk.com/images/briz.png',
-        caption=company_text.text,
+        caption=chat.content,
         reply_markup=TelegramMarkup.main_menu()
-
     )
 
     # Delete all previously bot messages and store new message.
@@ -129,5 +125,3 @@ async def _on_start(message: Message, session: AsyncSession, event: Event) -> No
     )
     await store_bot_msg(chat_id=event.chat_id, message_id=message_id, session=session)
 
-    # Saves changes.
-    await session.commit()

@@ -18,7 +18,7 @@ async def main() -> None:
     try:
         # Bot.
         commands = [BotCommand(command=c.name, description=c.description) for c in settings.bot.commands]
-        await bot.delete_webhook(drop_pending_updates=False)
+        await bot.delete_webhook(drop_pending_updates=True)
         await bot.set_my_commands(commands)
 
         # Dispatcher.
