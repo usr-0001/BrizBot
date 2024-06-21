@@ -10,23 +10,27 @@ import logging
 from sqlalchemy.ext.asyncio import AsyncSession
 
 from source.extensions.database.database_queries import get_bot_messages_query
-from source.extensions.telegram.event import EventData
+from source.extensions.telegram.event import Event
 from source.persistance.models import BotMsg
 
 
-
-_logger = logging.getLogger(__name__)
 __all__ = [
     "try_edit_message",
     "try_send_message",
+    "try_send_photo",
     "try_edit_or_send_message",
     "try_delete_message_using_bot",
     "try_delete_message",
-    "telegram_chat_is_not_private"
+    "chat_isnt_private",
+    "store_bot_msg",
+    "delete_all_bot_messages"
 ]
 
 
-# region Serd photo
+_logger = logging.getLogger(__name__)
+
+
+# region Send photo
 async def try_send_photo(bot: Bot, chat_id: int, event_prefix: str, /, photo: InputFile | str, caption: str | None = None, reply_markup: InlineKeyboardMarkup | None = None) -> int:
     """
     Tries to send a photo.
@@ -220,7 +224,7 @@ async def try_edit_or_send_message(bot: Bot, chat_id: int, message_id: int, even
 
 
 # region Delete message
-async def try_delete_message_using_bot(bot: Bot, chat_id: int, message_id: int, event_prefix: str) -> bool:
+async def try_delete_message_using_bot(bot: Bot, chat_id: int, message_id: int, event: Event) -> bool:
     """
     Tries to delete a message.
 
@@ -233,8 +237,8 @@ async def try_delete_message_using_bot(bot: Bot, chat_id: int, message_id: int, 
     :param message_id: Id of the message to delete.
     :type message_id: int
 
-    :param event_prefix: Prefix of the event to use in logs.
-    :type event_prefix: str
+    :param event: Prefix of the event to use in logs.
+    :type event: Event
 
     :return: True if the message was deleted, False otherwise.
     :rtype: bool
@@ -249,7 +253,7 @@ async def try_delete_message_using_bot(bot: Bot, chat_id: int, message_id: int, 
 
     except TelegramForbiddenError as e:
         if (m := "bot was blocked by the user") in e.message:
-            _logger.error(f"{event_prefix} {m}")
+            _logger.error(f"{event.prefix} {m}")
             return False
 
         else:
@@ -257,11 +261,11 @@ async def try_delete_message_using_bot(bot: Bot, chat_id: int, message_id: int, 
 
     except TelegramBadRequest as e:
         if (m := "message to delete not found") in e.message:
-            _logger.error(f"{event_prefix} message {message_id} {m}")
+            _logger.error(f"{event.prefix} message {message_id} {m}")
             return False
 
         elif (m := "message can't be deleted for everyone") in e.message:
-            _logger.error(f"{event_prefix} message {message_id} {m}")
+            _logger.error(f"{event.prefix} message {message_id} {m}")
             return False
 
         else:
@@ -321,15 +325,15 @@ async def delete_all_bot_messages(bot: Bot, chat_id: int, event_prefix: str, ses
         await session.delete(message)
 
 
-async def try_delete_message(message: Message, event_prefix: str) -> bool:
+async def try_delete_message(message: Message, event: Event) -> bool:
     """
     Tries to delete a message using a Message object.
 
     :param message: The message object containing chat ID and message ID.
     :type message: Message
 
-    :param event_prefix: Prefix of the event to use in logs.
-    :type event_prefix: str
+    :param event: Prefix of the event to use in logs.
+    :type event: Event
 
     :return: True if the message was deleted, False otherwise.
     :rtype: bool
@@ -339,20 +343,17 @@ async def try_delete_message(message: Message, event_prefix: str) -> bool:
     :raises Exception: In any other error occurs in the core method.
     """
 
-    return await try_delete_message_using_bot(bot=message.bot, chat_id=message.chat.id, message_id=message.message_id, event_prefix=event_prefix)
+    return await try_delete_message_using_bot(bot=message.bot, chat_id=message.chat.id, message_id=message.message_id, event=event)
 
 # endregion
 
 
-def telegram_chat_is_not_private(event: EventData) -> bool:
+def chat_isnt_private(event: Event) -> bool:
     """
-    Checks if the telegram chat is not private.
+    Checks if the telegram chat isn't private.
 
-    :param event: The event data containing information about the chat.
-    :type event: EventData
-
-    :return: True if the chat is not private, False otherwise.
-    :rtype: bool
+    :param event: The event data.
+    :return: True, if the chat isn't private, False, otherwise.
     """
 
     return True if event.chat_type != "private" or event.chat_id != event.user_id else False

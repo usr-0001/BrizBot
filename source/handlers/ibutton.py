@@ -1,76 +1,69 @@
-# import inspect
-# from functools import wraps, partial
-#
-# from aiogram import Router
-# import logging
-#
-# from source.extensions.telegram.event import Event
-#
-# from aiogram.types import CallbackQuery
-#
-# from source import settings
-#
-#
-# router = Router(name=__name__)
-# _logger = logging.getLogger(__name__)
-# _popup_settings = settings.popup
-# __all__ = ["router"]
-#
-#
-# def on_button(function):
-#     """Provides wrapper for button handler."""
-#
-#     @wraps(function)
-#     async def wrapper(query: CallbackQuery) -> None:
-#         """Handles button."""
-#
-#         event = Event(
-#             bot=query.bot,
-#             user_id=query.from_user.id,
-#             chat_id=query.message.chat.id, chat_type=query.message.chat.type,
-#             message_id=query.message.message_id, message_text=query.message.text,
-#             prefix=f"event (chat '{query.message.chat.id}', message '{query.message.message_id}', button '{query.data}')"
-#         )
-#
-#         try:
-#             _logger.info(f"{event.prefix} has been accepted")
-#             if chat_isnt_private(event): raise TelegramNonPrivateChatException()
-#
-#             async with context.session() as session:
-#                 await function(query, session, event)
-#                 await session.commit()
-#
-#         except PropertyNotFoundException as e:
-#             _logger.error(f"{event.prefix} Property {e.property} isn't found")
-#             await try_answer_query(query, event, _popup_settings.error)
-#
-#         except TelegramNonPrivateChatException:
-#             _logger.error(f"{event.prefix} chat isn't private")
-#             await try_answer_query(query, event, _popup_settings.error)
-#
-#         except TelegramBotIsBlockedByUserException:
-#             _logger.error(f"{event.prefix} bot is blocked by the user")
-#             await try_answer_query(query, event, _popup_settings.error)
-#
-#         except TelegramForbiddenError as e:
-#             if not try_guard_blocked_bot_FALLBACK(e, event): raise
-#             await try_answer_query(query, event, _popup_settings.error)
-#
-#         except TelegramBadRequest as e:
-#             if not try_guard_expired_or_invalid_query_FALLBACK(e, event): raise
-#
-#         except DBAPIError as e:
-#             if not try_guard_database_lock(e, event): raise
-#             await try_answer_query(query, event, _popup_settings.error)
-#
-#         except Exception as e:
-#             _logger.error(f"{event.prefix} hasn't been processed correctly", exc_info=e)
-#             await try_answer_query(query, event, _popup_settings.error)
-#
-#         else:
-#             _logger.info(f"{event.prefix} has been processed")
-#
-#         finally:
-#             pass
-#
-#     return wrapper
+import inspect
+from functools import wraps, partial
+
+from aiogram import Router, F
+import logging
+
+from sqlalchemy.ext.asyncio import AsyncSession
+
+from source.extensions.telegram.callbacks import MainMenuButtonAction, MainMenuButtonData
+from source.extensions.telegram.event import Event
+
+from aiogram.types import CallbackQuery
+
+from source import settings, context
+
+__all__ = ["router"]
+
+from source.extensions.telegram.exceptions import TelegramNonPrivateChatException
+
+from source.extensions.telegram.helpers import chat_isnt_private
+
+router = Router(name=__name__)
+_logger = logging.getLogger(__name__)
+
+
+def on_button(function):
+    """Provides wrapper for button handler."""
+
+    @wraps(function)
+    async def wrapper(query: CallbackQuery) -> None:
+        """Handles button."""
+
+        event = Event(
+            bot=query.bot,
+            user_id=query.from_user.id,
+            chat_id=query.message.chat.id, chat_type=query.message.chat.type,
+            message_id=query.message.message_id, message_text=query.message.text,
+            prefix=f"event (chat '{query.message.chat.id}', message '{query.message.message_id}', button '{query.data}')"
+        )
+
+        try:
+            _logger.info(f"{event.prefix} has been accepted")
+            if chat_isnt_private(event): raise TelegramNonPrivateChatException()
+
+            async with context.session() as session:
+                await function(query, session, event)
+                await session.commit()
+
+        except TelegramNonPrivateChatException:
+            _logger.error(f"{event.prefix} chat isn't private")
+
+        except Exception as e:
+            _logger.error(f"{event.prefix} hasn't been processed correctly", exc_info=e)
+
+        else:
+            _logger.info(f"{event.prefix} has been processed")
+
+        finally:
+            pass
+
+    return wrapper
+
+
+@router.callback_query(MainMenuButtonData.filter(F.action == MainMenuButtonAction.SHOW_MAP_WINDOW))
+@on_button
+async def on_activation_start(query: CallbackQuery, session: AsyncSession, event: Event):
+    """Handles activation start."""
+
+    pass

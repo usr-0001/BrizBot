@@ -1,58 +1,58 @@
-from typing import Type, cast
+from functools import wraps
 
 from aiogram import Router
 from aiogram.filters import CommandStart
-from aiogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
-from sqlalchemy import select, cast, BigInteger, Select
-from sqlalchemy import BigInteger
+from aiogram.types import Message
 from sqlalchemy.ext.asyncio import AsyncSession
 
 import logging
 from source import context
 from source.extensions.backend.backend_exceptions import DataBaseCompanyTextError
+from source.extensions.database.database_queries import get_user_query, get_company_text_query, get_chat_query
+from source.extensions.telegram.event import Event
+from source.extensions.telegram.exceptions import TelegramNonPrivateChatException, TelegramBotIsBlockedByUserException
+from source.extensions.telegram.helpers import chat_isnt_private, try_delete_message, try_send_photo, store_bot_msg, \
+    delete_all_bot_messages
 from source.extensions.telegram.markup import TelegramMarkup
-from source.extensions.telegram.exceptions import TelegramNonPrivateChatError
-
-from source.extensions.telegram.event import EventData
-from source.extensions.database.database_queries import get_chat_query, get_user_query, get_company_text_query
-from source.extensions.telegram.helpers import telegram_chat_is_not_private, try_send_message, store_bot_msg, \
-    delete_all_bot_messages, try_delete_message, try_send_photo
-from source.persistance.models import *
 from source.extensions.telegram.objects import bot
-from source.persistance.models import TextKindVariant
+from source.persistance.models import User, Chat, ViewKindVariant, CompanyText, TextKindVariant
 
-router = Router(name=__name__)
-_logger = logging.getLogger(__name__)
+
 __all__ = ["router"]
 
 
-def _on_command(function):
-    """
-    Provides wrapper for each command handler.
-    """
+router = Router(name=__name__)
+_logger = logging.getLogger(__name__)
 
+
+def on_command(function):
+    """Provides wrapper for command handler."""
+
+    @wraps(function)
     async def wrapper(message: Message) -> None:
-        """
-        Handles command.
-        """
+        """Handles command."""
 
-        event = EventData(
+        event = Event(
             bot=message.bot,
             user_id=message.from_user.id,
-            chat_id=message.chat.id,
-            chat_type=message.chat.type,
-            message_id=message.message_id,
-            message_text=message.text,
-            prefix=f"Chat {message.chat.id} command {message.message_id} '{message.text}'"
+            chat_id=message.chat.id, chat_type=message.chat.type,
+            message_id=message.message_id, message_text=message.text,
+            prefix=f"event (chat '{message.chat.id}', command '{message.message_id}', text '{message.text}')"
         )
 
         try:
             _logger.info(f"{event.prefix} has been accepted")
-            if telegram_chat_is_not_private(event): raise TelegramNonPrivateChatError()
-            async with context.session() as session: await function(message, session, event)
+            if chat_isnt_private(event): raise TelegramNonPrivateChatException()
 
-        except TelegramNonPrivateChatError as e:
+            async with context.session() as session:
+                await function(message, session, event)
+                await session.commit()
+
+        except TelegramNonPrivateChatException:
             _logger.error(f"{event.prefix} chat isn't private")
+
+        except TelegramBotIsBlockedByUserException:
+            _logger.error(f"{event.prefix} bot is blocked by the user")
 
         except Exception as e:
             _logger.error(f"{event.prefix} hasn't been processed correctly", exc_info=e)
@@ -61,14 +61,14 @@ def _on_command(function):
             _logger.info(f"{event.prefix} has been processed")
 
         finally:
-            await try_delete_message(message, event.prefix)
+            await try_delete_message(message, event)
 
     return wrapper
 
 
 @router.message(CommandStart(ignore_case=True))
-@_on_command
-async def _on_start(message: Message, session: AsyncSession, event: EventData) -> None:
+@on_command
+async def _on_start(message: Message, session: AsyncSession, event: Event) -> None:
     """
     Handles start.
     """

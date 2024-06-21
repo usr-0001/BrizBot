@@ -4,11 +4,11 @@ from datetime import datetime, timezone
 from aiogram import Bot
 
 
-__all__ = ["EventData"]
+__all__ = ["Event"]
 
 
 @dataclass(frozen=True)
-class EventData:
+class Event:
     """
     A class to represent the event data of a Telegram bot.
 

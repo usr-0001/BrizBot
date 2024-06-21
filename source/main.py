@@ -8,7 +8,7 @@ from source.extensions.telegram.objects import bot, dispatcher
 
 import logging
 
-from source.handlers.dispather_handlers import on_startup, on_shutdown
+from source.handlers.dispather import on_startup, on_shutdown
 
 
 async def main() -> None:

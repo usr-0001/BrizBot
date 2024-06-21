@@ -1,6 +1,6 @@
 from aiogram import Router
 
-from .command_handler import router as command_handler_router
+from .command import router as command_handler_router
 
 __all__ = ["router"]
 
