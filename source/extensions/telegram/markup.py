@@ -4,13 +4,15 @@ from aiogram.utils.keyboard import InlineKeyboardBuilder
 from source.extensions.telegram.callbacks import *
 from source import settings
 
-
 __all__ = ["TelegramMarkup"]
+
+from source.extensions.telegram.callbacks import NavigationMenuButtonData, NavigationMenuButtonAction
 
 
 class TelegramMarkup:
     __none: InlineKeyboardMarkup | None = None
     __main_menu: InlineKeyboardMarkup | None = None
+    __load_prev_window: InlineKeyboardMarkup | None = None
 
     @classmethod
     def none(cls) -> InlineKeyboardMarkup | None:
@@ -48,7 +50,7 @@ class TelegramMarkup:
             callback_data=MainMenuButtonData(action=MainMenuButtonAction.SHOW_ADMINS_WINDOW)
         )
         builder.button(
-            text=texts.map.button,
+            text=texts.map_button,
             callback_data=MainMenuButtonData(action=MainMenuButtonAction.SHOW_MAP_WINDOW)
         )
 
@@ -56,4 +58,20 @@ class TelegramMarkup:
         markup = builder.as_markup()
 
         cls.__main_menu = markup
+        return markup
+
+    @classmethod
+    def load_prev_window(cls) -> InlineKeyboardMarkup:
+        if cls.__load_prev_window: return cls.__load_prev_window
+
+        builder = InlineKeyboardBuilder()
+        builder.button(
+            text=settings.view.screen.navigation.load_prev_menu,
+            callback_data=NavigationMenuButtonData(action=NavigationMenuButtonAction.LOAD_PREV_MENU)
+        )
+
+        builder.adjust(1)
+        markup = builder.as_markup()
+
+        cls.__load_prev_window = markup
         return markup

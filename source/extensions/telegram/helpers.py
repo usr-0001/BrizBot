@@ -9,6 +9,7 @@ import logging
 
 from sqlalchemy.ext.asyncio import AsyncSession
 
+from source import settings
 from source.extensions.database.query import get_bot_messages_query
 from source.extensions.telegram.event import Event
 from source.persistance.models import BotMsg
@@ -31,7 +32,7 @@ _logger = logging.getLogger(__name__)
 
 
 # region Send photo
-async def try_send_photo(bot: Bot, chat_id: int, event_prefix: str, /, photo: InputFile | str, caption: str | None = None, reply_markup: InlineKeyboardMarkup | None = None) -> int:
+async def try_send_photo(bot: Bot, chat_id: int, event: Event, /, photo: InputFile | str, caption: str | None = None, reply_markup: InlineKeyboardMarkup | None = None) -> int:
     """
     Tries to send a photo.
 
@@ -43,8 +44,8 @@ async def try_send_photo(bot: Bot, chat_id: int, event_prefix: str, /, photo: In
     :type chat_id: int
 
 
-    :param event_prefix: Prefix of the event to use in logs.
-    :type event_prefix: str
+    :param event_: Prefix of the event to use in logs.
+    :type event: Event
 
 
     :param photo: File or Url of photo.
@@ -70,7 +71,7 @@ async def try_send_photo(bot: Bot, chat_id: int, event_prefix: str, /, photo: In
 
     except TelegramForbiddenError as e:
         if (m := "bot was blocked by the user") in e.message:
-            _logger.error(f"{event_prefix} {m}")
+            _logger.error(f"{event.prefix} {m}")
         raise
 
     else:
@@ -79,10 +80,8 @@ async def try_send_photo(bot: Bot, chat_id: int, event_prefix: str, /, photo: In
 # endregion
 
 
-
-
 # region Edit message
-async def try_edit_message(bot: Bot, chat_id: int, message_id: int, event_prefix: str, /, text: str | None = None, markup: InlineKeyboardMarkup | None = None) -> bool:
+async def try_edit_message(bot: Bot, chat_id: int, message_id: int, event: Event, /, text: str | None = None, markup: InlineKeyboardMarkup | None = None) -> bool:
     """
     Tries to edit a message.
 
@@ -95,8 +94,8 @@ async def try_edit_message(bot: Bot, chat_id: int, message_id: int, event_prefix
     :param message_id: The id of the message to edit.
     :type message_id: int
 
-    :param event_prefix: Prefix of the event to use in logs.
-    :type event_prefix: str
+    :param even.prefix: Prefix of the event to use in logs.
+    :type event: Event
 
     :param text: The new text of the message, defaults to None.
     :type text: str | None, optional
@@ -117,22 +116,22 @@ async def try_edit_message(bot: Bot, chat_id: int, message_id: int, event_prefix
 
     except TelegramForbiddenError as e:
         if (m := "bot was blocked by the user") in e.message:
-            _logger.error(f"{event_prefix} {m}")
+            _logger.error(f"{event.prefix} {m}")
 
         else:
             raise
 
     except TelegramBadRequest as e:
         if (m := "specified new message content and reply markup are exactly the same as a current content and reply markup of the message") in e.message:
-            _logger.warning(f"{event_prefix} message {message_id} {m}")
+            _logger.warning(f"{event.prefix} message {message_id} {m}")
             return True
 
         elif (m := "message can't be edited") in e.message:
-            _logger.error(f"{event_prefix} message {message_id} {m}")
+            _logger.error(f"{event.prefix} message {message_id} {m}")
             return False
 
         elif (m := "message to edit not found") in e.message:
-            _logger.error(f"{event_prefix} message {message_id} {m}")
+            _logger.error(f"{event.prefix} message {message_id} {m}")
             return False
 
         else:
@@ -145,7 +144,7 @@ async def try_edit_message(bot: Bot, chat_id: int, message_id: int, event_prefix
 
 
 # region Send / Edit message
-async def try_send_message(bot: Bot, chat_id: int, event_prefix: str, /, text: str | None = None, markup: InlineKeyboardMarkup | None = None) -> int:
+async def try_send_message(bot: Bot, chat_id: int, event: Event, /, text: str | None = None, markup: InlineKeyboardMarkup | None = None) -> int:
     """
     Tries to send a message.
 
@@ -155,8 +154,8 @@ async def try_send_message(bot: Bot, chat_id: int, event_prefix: str, /, text: s
     :param chat_id: The id of the chat where the message will be sent.
     :type chat_id: int
 
-    :param event_prefix: Prefix of the event to use in logs.
-    :type event_prefix: str
+    :param even.prefix: Prefix of the event to use in logs.
+    :type event: Event
 
     :param text: The text of the message, defaults to None.
     :type text: str | None, optional
@@ -176,14 +175,14 @@ async def try_send_message(bot: Bot, chat_id: int, event_prefix: str, /, text: s
 
     except TelegramForbiddenError as e:
         if (m := "bot was blocked by the user") in e.message:
-            _logger.error(f"{event_prefix} {m}")
+            _logger.error(f"{event.prefix} {m}")
         raise
 
     else:
         return message.message_id
 
 
-async def try_edit_or_send_message(bot: Bot, chat_id: int, message_id: int, event_prefix: str, /, text: str | None = None, markup: InlineKeyboardMarkup | None = None) -> int:
+async def try_edit_or_send_message(bot: Bot, chat_id: int, message_id: int, event: Event, /, text: str | None = None, markup: InlineKeyboardMarkup | None = None) -> int:
     """
     Tries to edit a message. If it fails, sends a new message and updates the chat view's telegram_id.
 
@@ -196,8 +195,8 @@ async def try_edit_or_send_message(bot: Bot, chat_id: int, message_id: int, even
     :param message_id: The id of the message to edit.
     :type message_id: int
 
-    :param event_prefix: Prefix of the event to use in logs.
-    :type event_prefix: str
+    :param even.prefix: Prefix of the event to use in logs.
+    :type event: Event
 
     :param text: The text of the message, defaults to None.
     :type text: str | None, optional
@@ -213,9 +212,9 @@ async def try_edit_or_send_message(bot: Bot, chat_id: int, message_id: int, even
     :raises Exception: In any other error occurs in the core method.
     """
 
-    if await try_edit_message(bot, chat_id, message_id, event_prefix, text=text, markup=markup) is not True:
-        _logger.warning(f"{event_prefix} message {message_id} can't be edited so new message will be sent")
-        return await try_send_message(bot, chat_id, event_prefix, text=text, markup=markup)
+    if await try_edit_message(bot, chat_id, message_id, event, text=text, markup=markup) is not True:
+        _logger.warning(f"{event.prefix} message {message_id} can't be edited so new message will be sent")
+        return await try_send_message(bot, chat_id, event, text=text, markup=markup)
 
     else:
         return message_id
@@ -224,6 +223,56 @@ async def try_edit_or_send_message(bot: Bot, chat_id: int, message_id: int, even
 
 
 # region Delete message
+async def try_delete_message_by_id(bot: Bot, message: BotMsg, event: Event, session: AsyncSession) -> bool:
+    """
+    Tries to delete a message using a Message object.
+
+    :param bot:
+    :param message: The message object containing chat ID and message ID.
+    :type message: Message
+
+    :param event: Prefix of the event to use in logs.
+    :type event: Event
+
+    :return: True if the message was deleted, False otherwise.
+    :rtype: bool
+
+    :raises TelegramForbiddenError: In any other case except when the bot was blocked by the user.
+    :raises TelegramBadRequest: In any other case except when the message can't be found.
+    :raises Exception: In any other error occurs in the core method.
+    """
+
+    # Delete from chat.
+    await try_delete_message_using_bot(bot=bot, chat_id=event.chat_id, message_id=message.message_id, event=event)
+    # Delete from database.
+    await session.delete(message)
+    
+    
+async def try_delete_message(bot: Bot, bot_message: BotMsg, event: Event, session: AsyncSession) -> bool:
+    """
+    Tries to delete a message using a Message object.
+
+    :param bot:
+    :param message: The message object containing chat ID and message ID.
+    :type message: Message
+
+    :param event: Prefix of the event to use in logs.
+    :type event: Event
+
+    :return: True if the message was deleted, False otherwise.
+    :rtype: bool
+
+    :raises TelegramForbiddenError: In any other case except when the bot was blocked by the user.
+    :raises TelegramBadRequest: In any other case except when the message can't be found.
+    :raises Exception: In any other error occurs in the core method.
+    """
+
+    # Delete from chat.
+    await try_delete_message_using_bot(bot=bot, chat_id=event.chat_id, message_id=bot_message.message_id, event=event)
+    # Delete from database.
+    await session.delete(bot_message)
+
+
 async def try_delete_message_using_bot(bot: Bot, chat_id: int, message_id: int, event: Event) -> bool:
     """
     Tries to delete a message.
@@ -275,7 +324,7 @@ async def try_delete_message_using_bot(bot: Bot, chat_id: int, message_id: int, 
         return True
 
 
-async def _get_all_bot_messages(session: AsyncSession, chat_id: int) -> List[BotMsg]:
+async def get_all_bot_messages(session: AsyncSession, chat_id: int) -> List[BotMsg]:
     """
     This function retrieves all bot messages from the database for a specific chat.
 
@@ -294,7 +343,7 @@ async def _get_all_bot_messages(session: AsyncSession, chat_id: int) -> List[Bot
     return bot_messages
 
 
-async def delete_all_bot_messages(bot: Bot, chat_id: int, event_prefix: str, session: AsyncSession):
+async def delete_all_bot_messages(bot: Bot, chat_id: int, event: Event, session: AsyncSession):
     """
     This function deletes all bot messages in a chat using the provided bot instance.
 
@@ -304,8 +353,8 @@ async def delete_all_bot_messages(bot: Bot, chat_id: int, event_prefix: str, ses
     :param chat_id: The ID of the chat.
     :type chat_id: int
 
-    :param event_prefix: A prefix for event handling.
-    :type event_prefix: str
+    :param even.prefix: A prefix for event handling.
+    :type event: Event
 
     :param session: A database session.
     :type session: AsyncSession
@@ -315,36 +364,14 @@ async def delete_all_bot_messages(bot: Bot, chat_id: int, event_prefix: str, ses
     """
 
     # Get messages from database/
-    bot_messages: list[BotMsg] = await _get_all_bot_messages(session=session, chat_id=chat_id)
+    bot_messages: list[BotMsg] = await get_all_bot_messages(session=session, chat_id=chat_id)
 
     # Delete messages.
-    for message in bot_messages:
+    for bot_message in bot_messages:
         # Delete from chat.
-        await try_delete_message_using_bot(bot, chat_id, message.message_id, event_prefix)
+        await try_delete_message_using_bot(bot, chat_id, bot_message.message_id, event)
         # Delete from database.
-        await session.delete(message)
-
-
-async def try_delete_message(message: Message, event: Event) -> bool:
-    """
-    Tries to delete a message using a Message object.
-
-    :param message: The message object containing chat ID and message ID.
-    :type message: Message
-
-    :param event: Prefix of the event to use in logs.
-    :type event: Event
-
-    :return: True if the message was deleted, False otherwise.
-    :rtype: bool
-
-    :raises TelegramForbiddenError: In any other case except when the bot was blocked by the user.
-    :raises TelegramBadRequest: In any other case except when the message can't be found.
-    :raises Exception: In any other error occurs in the core method.
-    """
-
-    return await try_delete_message_using_bot(bot=message.bot, chat_id=message.chat.id, message_id=message.message_id, event=event)
-
+        await session.delete(bot_message)
 # endregion
 
 
@@ -375,6 +402,7 @@ async def store_bot_msg(chat_id: int, message_id: int, session: AsyncSession):
 
     bot_msg = BotMsg(chat_id=chat_id, message_id=message_id)
     session.add(bot_msg)
+
 
 
 

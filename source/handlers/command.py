@@ -1,21 +1,22 @@
 from functools import wraps
 
-from aiogram import Router
+from aiogram import Router, Bot
 from aiogram.filters import CommandStart
 from aiogram.types import Message
 from sqlalchemy.ext.asyncio import AsyncSession
 
 import logging
-from source import context
+from source import context, settings
 from source.extensions.backend.exceptions import DataBaseCompanyTextError
-from source.extensions.database.query import get_user_query, get_company_text_query, get_chat_query, get_chat, get_user, \
-    get_company_text
+from source.extensions.database.query import get_chat, get_user
+
 from source.extensions.telegram.event import Event
 from source.extensions.telegram.exceptions import TelegramNonPrivateChatException, TelegramBotIsBlockedByUserException
 from source.extensions.telegram.helpers import chat_isnt_private, try_delete_message, try_send_photo, store_bot_msg, \
-    delete_all_bot_messages
+    delete_all_bot_messages, try_delete_message_using_bot
 from source.extensions.telegram.markup import TelegramMarkup
 from source.extensions.telegram.objects import bot
+from source.extensions.telegram.windows import load_main_window
 from source.persistance.models import User, Chat, ViewKindVariant, CompanyText, TextKindVariant
 
 
@@ -62,7 +63,7 @@ def on_command(function):
             _logger.info(f"{event.prefix} has been processed")
 
         finally:
-            await try_delete_message(message, event)
+            await try_delete_message_using_bot(bot, event.chat_id, message.message_id, event)
 
     return wrapper
 
@@ -100,28 +101,6 @@ async def _on_start(message: Message, session: AsyncSession, event: Event) -> No
         chat.user = [user]
         session.add(chat)
 
-    # Update states.
-    text = await get_company_text(kind_id=TextKindVariant.COMMAND_START.value, session=session)
-    chat.kind_id = ViewKindVariant.MAIN_MENU_WINDOW.value
-    chat.content = text
-    chat.sub_window_number = 1
+    await load_main_window(chat=chat, event=event, session=session)
 
-    # Send start message to user.
-    message_id = await try_send_photo(
-        bot,
-        event.chat_id,
-        event.prefix,
-        photo='http://briz-berdyansk.com/images/briz.png',
-        caption=chat.content,
-        reply_markup=TelegramMarkup.main_menu()
-    )
-
-    # Delete all previously bot messages and store new message.
-    await delete_all_bot_messages(
-        bot=bot,
-        chat_id=event.chat_id,
-        event_prefix=event.prefix,
-        session=session
-    )
-    await store_bot_msg(chat_id=event.chat_id, message_id=message_id, session=session)
 

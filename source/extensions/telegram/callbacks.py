@@ -20,7 +20,7 @@ class MainMenuButtonAction(Enum):
     SHOW_MAP_WINDOW = 'SHOW_MAP_WINDOW'
 
 
-class MainMenuButtonData(CallbackData, prefix="ACTIVATION"):
+class MainMenuButtonData(CallbackData, prefix="MainMenu"):
     """
     Data for RoomsAndPrices button callback data.
 
@@ -29,3 +29,15 @@ class MainMenuButtonData(CallbackData, prefix="ACTIVATION"):
 
     action: MainMenuButtonAction
 # region
+
+
+# region NavigationButton
+class NavigationMenuButtonAction(Enum):
+    LIST_BACK = 'LIST_BACK'
+    LIST_FORWARD = 'LIST_BACK'
+    LOAD_PREV_MENU = 'LIST_BACK'
+
+
+class NavigationMenuButtonData(CallbackData, prefix="NavigationMenu"):
+    action: NavigationMenuButtonAction
+# endregion

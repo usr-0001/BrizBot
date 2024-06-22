@@ -10,6 +10,10 @@ from source.persistance.models import Chat, User, CompanyText, BotMsg
 __all__ = ["get_chat_query", "get_user_query"]
 
 
+async def get_bot_messages(chat_id: int, session: AsyncSession) -> list[BotMsg]:
+    return (await session.execute(get_chat_query(chat_id))).scalars().all()
+
+
 def get_bot_messages_query(chat_id: int):
     query = select(BotMsg).where(BotMsg.chat_id == cast(chat_id, BigInteger))
     return query
@@ -99,31 +103,31 @@ def get_user_query(id: int, include_chat: bool = False, lock: bool = False) -> S
     return query
 
 
-async def get_company_text(kind_id: int, session: AsyncSession) -> str:
-    """
-    Gets the text from database.
-
-    :param kind_id:
-    :param session:
-    :return: Text from database filtered by kind_id from TextKindVariant enum
-    """
-
-    company_text: CompanyText | None = (await session.execute(get_company_text_query(kind_id))).scalars().first()
-    if company_text is None: raise DataBaseCompanyTextError()
-
-    return company_text.text
-
-
-def get_company_text_query(text_id: int):
-    """
-    Constructs a query to fetch a Chat.
-
-    :param text_id: The id of the text in database.
-    :type text_id: int
-
-    :return: A query to fetch the Chat.
-    :rtype: Select[Tuple[CompanyText]]
-    """
-
-    query = select(CompanyText).where(CompanyText.id == cast(text_id, BigInteger))
-    return query
+# async def get_company_text(kind_id: int, session: AsyncSession) -> str:
+#     """
+#     Gets the text from database.
+#
+#     :param kind_id:
+#     :param session:
+#     :return: Text from database filtered by kind_id from TextKindVariant enum
+#     """
+#
+#     company_text: CompanyText | None = (await session.execute(get_company_text_query(kind_id))).scalars().first()
+#     if company_text is None: raise DataBaseCompanyTextError()
+#
+#     return company_text.text
+#
+#
+# def get_company_text_query(text_id: int):
+#     """
+#     Constructs a query to fetch a Chat.
+#
+#     :param text_id: The id of the text in database.
+#     :type text_id: int
+#
+#     :return: A query to fetch the Chat.
+#     :rtype: Select[Tuple[CompanyText]]
+#     """
+#
+#     query = select(CompanyText).where(CompanyText.id == cast(text_id, BigInteger))
+#     return query
