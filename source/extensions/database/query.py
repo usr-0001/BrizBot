@@ -1,11 +1,11 @@
 from typing import Tuple
 
-from sqlalchemy import select, cast, BigInteger, Select
+from sqlalchemy import select, cast, BigInteger, Select, Integer
 from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy.orm import joinedload
 
 from source.extensions.backend.exceptions import DataBaseCompanyTextError
-from source.persistance.models import Chat, User, CompanyText, BotMsg
+from source.persistance.models import Chat, User, CompanyText, BotMsg, Room
 
 __all__ = ["get_chat_query", "get_user_query"]
 
@@ -131,3 +131,27 @@ def get_user_query(id: int, include_chat: bool = False, lock: bool = False) -> S
 #
 #     query = select(CompanyText).where(CompanyText.id == cast(text_id, BigInteger))
 #     return query
+
+
+async def get_room_by_id(id: int, session: AsyncSession) -> Room:
+    room: list[Room] | None = (await session.execute(get_rooms_query_by_id(id))).scalars().first()
+    if not room: raise
+
+    return room
+
+
+def get_rooms_query_by_id(id: int):
+    query = select(Room).where(Room.id == cast(id, Integer))
+    return query
+
+
+async def get_all_rooms(session: AsyncSession) -> list[Room]:
+    rooms: list[Room] | None = (await session.execute(get_rooms_query())).scalars().first()
+    if not rooms: raise
+
+    return rooms
+
+
+def get_rooms_query():
+    query = select(Room)
+    return query

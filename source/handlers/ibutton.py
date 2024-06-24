@@ -7,12 +7,12 @@ import logging
 from sqlalchemy.ext.asyncio import AsyncSession
 
 from source.extensions.backend.exceptions import DataBaseCompanyTextError
-from source.extensions.database.query import get_chat
+from source.extensions.database.query import get_chat, get_room_by_id
 from source.extensions.telegram.callbacks import MainMenuButtonAction, MainMenuButtonData, NavigationMenuButtonData, \
     NavigationMenuButtonAction
 from source.extensions.telegram.event import Event
 
-from aiogram.types import CallbackQuery
+from aiogram.types import CallbackQuery, InputMediaPhoto, MessageEntity
 
 from source import settings, context
 
@@ -24,7 +24,7 @@ from source.extensions.telegram.helpers import chat_isnt_private, delete_all_bot
     try_send_message, get_all_bot_messages, try_delete_message, try_edit_or_send_message, try_send_photo
 from source.extensions.telegram.markup import TelegramMarkup
 from source.extensions.telegram.objects import bot
-from source.extensions.telegram.windows import load_main_window
+from source.extensions.telegram.windows import load_main_window, load_room_and_prices_window
 from source.persistance.models import ViewKindVariant, CompanyText, TextKindVariant
 
 router = Router(name=__name__)
@@ -67,6 +67,27 @@ def on_button(function):
             pass
 
     return wrapper
+
+
+@router.callback_query(MainMenuButtonData.filter(F.action == MainMenuButtonAction.SHOW_ROOMS_AND_PRICES_WINDOW))
+@on_button
+async def on_show_rooms_and_prices(query: CallbackQuery, session: AsyncSession, event: Event):
+    # Gets the chat.
+    chat = await get_chat(event.chat_id, session, include_user=True, include_view=True, lock=True)
+
+    # Update states.
+    text = settings.view.screen.map_menu.text
+    chat.kind_id = ViewKindVariant.SHOW_ROOMS_AND_PRICES_WINDOW.value
+    chat.content = text
+    chat.sub_window_number = 1
+
+    await load_room_and_prices_window(chat=chat, event=event, session=session)
+
+
+
+
+
+
 
 
 @router.callback_query(MainMenuButtonData.filter(F.action == MainMenuButtonAction.SHOW_MAP_WINDOW))
@@ -149,12 +170,39 @@ async def on_show_admins_window(query: CallbackQuery, session: AsyncSession, eve
     await store_bot_msg(chat_id=event.chat_id, message_id=contact_2_message_id, session=session)
 
 
+@router.callback_query(NavigationMenuButtonData.filter(F.action == NavigationMenuButtonAction.LIST_BACK))
+@on_button
+async def on_list_back(query: CallbackQuery, session: AsyncSession, event: Event):
+    # Gets the chat.
+    chat = await get_chat(event.chat_id, session, include_user=True, include_view=True, lock=True)
+
+    # Update states.
+    text = settings.view.screen.map_menu.text
+    chat.kind_id = ViewKindVariant.SHOW_ROOMS_AND_PRICES_WINDOW.value
+    chat.content = text
+    chat.sub_window_number -= 1
+
+    await load_room_and_prices_window(chat=chat, event=event, session=session)
+
+
+@router.callback_query(NavigationMenuButtonData.filter(F.action == NavigationMenuButtonAction.LIST_FORWARD))
+@on_button
+async def on_list_forward(query: CallbackQuery, session: AsyncSession, event: Event):
+    # Gets the chat.
+    chat = await get_chat(event.chat_id, session, include_user=True, include_view=True, lock=True)
+
+    # Update states.
+    text = settings.view.screen.map_menu.text
+    chat.kind_id = ViewKindVariant.SHOW_ROOMS_AND_PRICES_WINDOW.value
+    chat.content = text
+    chat.sub_window_number += 1
+
+    await load_room_and_prices_window(chat=chat, event=event, session=session)
+
+
 @router.callback_query(NavigationMenuButtonData.filter(F.action == NavigationMenuButtonAction.LOAD_PREV_MENU))
 @on_button
 async def on_load_prev_window(query: CallbackQuery, session: AsyncSession, event: Event):
     # Gets the chat.
     chat = await get_chat(event.chat_id, session, include_user=True, include_view=True, lock=True)
-
-    match chat.kind_id:
-        case ViewKindVariant.SHOW_MAP_WINDOW.value | ViewKindVariant.SHOW_ADMINS_WINDOW.value:
-            await load_main_window(chat=chat, event=event, session=session)
+    await load_main_window(chat=chat, event=event, session=session)

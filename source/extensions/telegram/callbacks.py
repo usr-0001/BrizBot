@@ -34,8 +34,8 @@ class MainMenuButtonData(CallbackData, prefix="MainMenu"):
 # region NavigationButton
 class NavigationMenuButtonAction(Enum):
     LIST_BACK = 'LIST_BACK'
-    LIST_FORWARD = 'LIST_BACK'
-    LOAD_PREV_MENU = 'LIST_BACK'
+    LIST_FORWARD = 'LIST_FORWARD'
+    LOAD_PREV_MENU = 'LOAD_PREV_MENU'
 
 
 class NavigationMenuButtonData(CallbackData, prefix="NavigationMenu"):

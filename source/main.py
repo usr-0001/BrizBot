@@ -9,6 +9,7 @@ from source.extensions.telegram.objects import bot, dispatcher
 import logging
 
 from source.handlers.dispather import on_startup, on_shutdown
+from source.handlers.ibutton import on_load_prev_window
 
 
 async def main() -> None:

@@ -92,3 +92,14 @@ class CompanyText(BaseModel):
     id = Column(Integer, primary_key=True)
     name = Column(String(255), nullable=True, default=None)
     text = Column(String(4096))
+
+
+class Room(BaseModel):
+    __tablename__ = 'rooms'
+
+    id = Column(Integer, primary_key=True)
+    name = Column(String(65535))
+    price_text  = Column(String(65535))
+    sleeping_places  = Column(String(65535))
+    description = Column(String(65535))
+    preview_img_url = Column(String(65535))

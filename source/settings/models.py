@@ -95,6 +95,12 @@ class MainMenu(BaseModel):
     map_button: str
 
 
+class RoomsAndPricesMenu(BaseModel):
+    model_config = ConfigDict(alias_generator=to_camel, populate_by_name=True)
+
+    rooms_count: int
+
+
 class Contact(BaseModel):
     model_config = ConfigDict(alias_generator=to_camel, populate_by_name=True)
 
@@ -129,6 +135,7 @@ class Screen(BaseModel):
     model_config = ConfigDict(alias_generator=to_camel, populate_by_name=True)
 
     main_menu: MainMenu
+    rooms_and_prices_menu: RoomsAndPricesMenu
     admin_menu: AdminMenu
     map_menu: MapMenu
     navigation: Navigation
