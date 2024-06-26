@@ -82,21 +82,3 @@ async def load_room_and_prices_window(chat: Chat, event: Event, session: AsyncSe
         ),
         reply_markup=markup
     )
-
-    # message_id = await try_send_photo(
-    #     bot,
-    #     event.chat_id,
-    #     event,
-    #     photo=room.preview_img_url,
-    #     caption=chat.content,
-    #     reply_markup=markup
-    # )
-    #
-    # # Delete all previously bot messages and store new message.
-    # await delete_all_bot_messages(
-    #     bot=bot,
-    #     chat_id=event.chat_id,
-    #     event=event,
-    #     session=session
-    # )
-    # await store_bot_msg(chat_id=event.chat_id, message_id=message_id, session=session)

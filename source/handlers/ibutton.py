@@ -84,6 +84,46 @@ async def on_show_rooms_and_prices(query: CallbackQuery, session: AsyncSession, 
     await load_room_and_prices_window(chat=chat, event=event, session=session)
 
 
+@router.callback_query(MainMenuButtonData.filter(F.action == MainMenuButtonAction.SHOW_ROOM_RESERVATION_WINDOW))
+@on_button
+async def on_show_room_reservation(query: CallbackQuery, session: AsyncSession, event: Event):
+    # Gets the chat.
+    chat = await get_chat(event.chat_id, session, include_user=True, include_view=True, lock=True)
+
+    # Update states.
+    text = settings.view.screen.room_reservation.text
+    chat.kind_id = ViewKindVariant.SHOW_ROOM_RESERVATION_WINDOW.value
+    chat.content = text
+    chat.sub_window_number = 1
+
+    contact_1_message_id = (await bot.send_contact(
+        chat_id=event.chat_id,
+        phone_number=settings.view.screen.admin_menu.contacts[0].phone,
+        first_name=settings.view.screen.admin_menu.contacts[0].name
+    )).message_id
+    contact_2_message_id = (await bot.send_contact(
+        chat_id=event.chat_id,
+        phone_number=settings.view.screen.admin_menu.contacts[1].phone,
+        first_name=settings.view.screen.admin_menu.contacts[1].name
+    )).message_id
+    message_id = await try_send_message(
+        bot,
+        event.chat_id,
+        event,
+        text=chat.content,
+        markup=TelegramMarkup.load_prev_window()
+    )
+
+    # Delete all previously bot messages and store new message.
+    await delete_all_bot_messages(
+        bot=bot,
+        chat_id=event.chat_id,
+        event=event,
+        session=session
+    )
+    await store_bot_msg(chat_id=event.chat_id, message_id=contact_1_message_id, session=session)
+    await store_bot_msg(chat_id=event.chat_id, message_id=contact_2_message_id, session=session)
+    await store_bot_msg(chat_id=event.chat_id, message_id=message_id, session=session)
 
 
 
@@ -102,19 +142,18 @@ async def on_show_map_window(query: CallbackQuery, session: AsyncSession, event:
     chat.content = text
     chat.sub_window_number = 1
 
+    map_message_id = (await bot.send_location(
+        chat_id=event.chat_id,
+        latitude=settings.view.screen.map_menu.latitude,
+        longitude=settings.view.screen.map_menu.longitude
+    )).message_id
     message_id = await try_send_message(
         bot,
         event.chat_id,
         event,
-        text=chat.content
+        text=chat.content,
+        markup=TelegramMarkup.load_prev_window()
     )
-
-    map_message_id = (await bot.send_location(
-        chat_id=event.chat_id,
-        latitude=settings.view.screen.map_menu.latitude,
-        longitude=settings.view.screen.map_menu.longitude,
-        reply_markup=TelegramMarkup.load_prev_window()
-    )).message_id
 
     # Delete all previously bot messages and store new message.
     await delete_all_bot_messages(
@@ -123,8 +162,8 @@ async def on_show_map_window(query: CallbackQuery, session: AsyncSession, event:
         event=event,
         session=session
     )
-    await store_bot_msg(chat_id=event.chat_id, message_id=message_id, session=session)
     await store_bot_msg(chat_id=event.chat_id, message_id=map_message_id, session=session)
+    await store_bot_msg(chat_id=event.chat_id, message_id=message_id, session=session)
 
 
 @router.callback_query(MainMenuButtonData.filter(F.action == MainMenuButtonAction.SHOW_ADMINS_WINDOW))
@@ -139,13 +178,6 @@ async def on_show_admins_window(query: CallbackQuery, session: AsyncSession, eve
     chat.content = settings.view.screen.admin_menu.text
     chat.sub_window_number = 1
 
-    message_id = await try_send_message(
-        bot,
-        event.chat_id,
-        event,
-        text=chat.content
-    )
-
     contact_1_message_id = (await bot.send_contact(
         chat_id=event.chat_id,
         phone_number=settings.view.screen.admin_menu.contacts[0].phone,
@@ -154,9 +186,15 @@ async def on_show_admins_window(query: CallbackQuery, session: AsyncSession, eve
     contact_2_message_id = (await bot.send_contact(
         chat_id=event.chat_id,
         phone_number=settings.view.screen.admin_menu.contacts[1].phone,
-        first_name=settings.view.screen.admin_menu.contacts[1].name,
-        reply_markup=TelegramMarkup.load_prev_window()
+        first_name=settings.view.screen.admin_menu.contacts[1].name
     )).message_id
+    message_id = await try_send_message(
+        bot,
+        event.chat_id,
+        event,
+        text=chat.content,
+        markup=TelegramMarkup.load_prev_window()
+    )
 
     # Delete all previously bot messages and store new message.
     await delete_all_bot_messages(
@@ -165,9 +203,9 @@ async def on_show_admins_window(query: CallbackQuery, session: AsyncSession, eve
         event=event,
         session=session
     )
-    await store_bot_msg(chat_id=event.chat_id, message_id=message_id, session=session)
     await store_bot_msg(chat_id=event.chat_id, message_id=contact_1_message_id, session=session)
     await store_bot_msg(chat_id=event.chat_id, message_id=contact_2_message_id, session=session)
+    await store_bot_msg(chat_id=event.chat_id, message_id=message_id, session=session)
 
 
 @router.callback_query(NavigationMenuButtonData.filter(F.action == NavigationMenuButtonAction.LIST_BACK))

@@ -1,0 +1,1282 @@
+[2024-06-24 11:54:50,801] [INFO] [source.persistance.database] [database.py:43] Database context has been initialized
+[2024-06-24 11:54:50,900] [INFO] [__main__] [main.py:39] Application has been started
+[2024-06-24 11:54:51,532] [INFO] [source.handlers.dispather] [dispather.py:16] Dispatcher has been started
+[2024-06-24 11:54:51,533] [INFO] [aiogram.dispatcher] [dispatcher.py:527] Start polling
+[2024-06-24 11:54:51,631] [INFO] [aiogram.dispatcher] [dispatcher.py:341] Run polling for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-24 11:55:32,063] [INFO] [source.handlers.command] [command.py:46] event (chat '5663974991', command '602', text '/start') has been accepted
+[2024-06-24 11:55:34,391] [INFO] [source.handlers.command] [command.py:63] event (chat '5663974991', command '602', text '/start') has been processed
+[2024-06-24 11:55:34,504] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624584 is handled. Duration 2453 ms by bot id=7010190829
+[2024-06-24 11:55:35,694] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '603', button 'MainMenu:SHOW_ROOMS_AND_PRICES_WINDOW') has been accepted
+[2024-06-24 11:55:36,116] [ERROR] [source.persistance.database] [database.py:94] An error occurred during database session
+[2024-06-24 11:55:36,333] [ERROR] [source.handlers.ibutton] [ibutton.py:61] event (chat '5663974991', message '603', button 'MainMenu:SHOW_ROOMS_AND_PRICES_WINDOW') hasn't been processed correctly
+Traceback (most recent call last):
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\source\handlers\ibutton.py", line 54, in wrapper
+    await function(query, session, event)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\source\handlers\ibutton.py", line 84, in on_show_rooms_and_prices
+    await load_room_and_prices_window(chat=chat, event=event, session=session)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\source\extensions\telegram\windows.py", line 45, in load_room_and_prices_window
+    markup = TelegramMarkup.navigate_between_items(list_forward=list_forward, list_back=list_back)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\source\extensions\telegram\markup.py", line 95, in navigate_between_items
+    cls.__navigate_between_items = markup
+NameError: name 'markup' is not defined
+[2024-06-24 11:55:36,339] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624585 is handled. Duration 641 ms by bot id=7010190829
+[2024-06-24 11:55:55,579] [INFO] [aiogram.dispatcher] [dispatcher.py:359] Polling stopped for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-24 11:55:55,580] [INFO] [aiogram.dispatcher] [dispatcher.py:554] Polling stopped
+[2024-06-24 11:55:55,580] [INFO] [source.handlers.dispather] [dispather.py:24] Dispatcher has been shut down
+[2024-06-24 11:55:55,840] [INFO] [source.persistance.database] [database.py:109] Database context has been closed
+[2024-06-24 11:56:08,840] [INFO] [source.persistance.database] [database.py:43] Database context has been initialized
+[2024-06-24 11:56:08,955] [INFO] [__main__] [main.py:39] Application has been started
+[2024-06-24 11:56:09,394] [INFO] [source.handlers.dispather] [dispather.py:16] Dispatcher has been started
+[2024-06-24 11:56:09,394] [INFO] [aiogram.dispatcher] [dispatcher.py:527] Start polling
+[2024-06-24 11:56:09,526] [INFO] [aiogram.dispatcher] [dispatcher.py:341] Run polling for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-24 11:56:12,292] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '603', button 'MainMenu:SHOW_ROOMS_AND_PRICES_WINDOW') has been accepted
+[2024-06-24 11:56:15,159] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '603', button 'MainMenu:SHOW_ROOMS_AND_PRICES_WINDOW') has been processed
+[2024-06-24 11:56:15,159] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624586 is handled. Duration 2859 ms by bot id=7010190829
+[2024-06-24 11:56:22,878] [INFO] [aiogram.dispatcher] [dispatcher.py:359] Polling stopped for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-24 11:56:22,878] [INFO] [aiogram.dispatcher] [dispatcher.py:554] Polling stopped
+[2024-06-24 11:56:22,878] [INFO] [source.handlers.dispather] [dispather.py:24] Dispatcher has been shut down
+[2024-06-24 11:56:23,151] [INFO] [source.persistance.database] [database.py:109] Database context has been closed
+[2024-06-24 12:02:59,488] [INFO] [source.persistance.database] [database.py:43] Database context has been initialized
+[2024-06-24 12:02:59,549] [INFO] [__main__] [main.py:39] Application has been started
+[2024-06-24 12:03:00,153] [INFO] [source.handlers.dispather] [dispather.py:16] Dispatcher has been started
+[2024-06-24 12:03:00,153] [INFO] [aiogram.dispatcher] [dispatcher.py:527] Start polling
+[2024-06-24 12:03:00,246] [INFO] [aiogram.dispatcher] [dispatcher.py:341] Run polling for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-24 12:03:10,169] [INFO] [source.handlers.command] [command.py:46] event (chat '5663974991', command '605', text '/start') has been accepted
+[2024-06-24 12:03:12,835] [INFO] [source.handlers.command] [command.py:63] event (chat '5663974991', command '605', text '/start') has been processed
+[2024-06-24 12:03:12,998] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624587 is handled. Duration 2827 ms by bot id=7010190829
+[2024-06-24 12:03:14,045] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '606', button 'MainMenu:SHOW_ROOMS_AND_PRICES_WINDOW') has been accepted
+[2024-06-24 12:03:14,396] [ERROR] [source.extensions.telegram.markup] [markup.py:76] <class 'source.extensions.telegram.callbacks.NavigationMenuButtonData'>, action=<NavigationMenuButtonAction.LIST_FORWARD: 'LIST_FORVARD'>
+[2024-06-24 12:03:15,321] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '606', button 'MainMenu:SHOW_ROOMS_AND_PRICES_WINDOW') has been processed
+[2024-06-24 12:03:15,321] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624588 is handled. Duration 1280 ms by bot id=7010190829
+[2024-06-24 12:03:33,178] [INFO] [aiogram.dispatcher] [dispatcher.py:359] Polling stopped for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-24 12:03:33,178] [INFO] [aiogram.dispatcher] [dispatcher.py:554] Polling stopped
+[2024-06-24 12:03:33,179] [INFO] [source.handlers.dispather] [dispather.py:24] Dispatcher has been shut down
+[2024-06-24 12:03:33,440] [INFO] [source.persistance.database] [database.py:109] Database context has been closed
+[2024-06-24 12:03:40,462] [INFO] [source.persistance.database] [database.py:43] Database context has been initialized
+[2024-06-24 12:03:40,536] [INFO] [__main__] [main.py:39] Application has been started
+[2024-06-24 12:03:41,034] [INFO] [source.handlers.dispather] [dispather.py:16] Dispatcher has been started
+[2024-06-24 12:03:41,035] [INFO] [aiogram.dispatcher] [dispatcher.py:527] Start polling
+[2024-06-24 12:03:41,131] [INFO] [aiogram.dispatcher] [dispatcher.py:341] Run polling for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-24 12:03:51,862] [INFO] [source.handlers.command] [command.py:46] event (chat '5663974991', command '608', text '/start') has been accepted
+[2024-06-24 12:03:54,647] [INFO] [source.handlers.command] [command.py:63] event (chat '5663974991', command '608', text '/start') has been processed
+[2024-06-24 12:03:54,779] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624589 is handled. Duration 2922 ms by bot id=7010190829
+[2024-06-24 12:03:56,511] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '609', button 'MainMenu:SHOW_ROOMS_AND_PRICES_WINDOW') has been accepted
+[2024-06-24 12:03:56,853] [ERROR] [source.extensions.telegram.markup] [markup.py:76] <class 'source.extensions.telegram.callbacks.NavigationMenuButtonData'>, action=<NavigationMenuButtonAction.LIST_FORWARD: 'LIST_FORVARD'>
+[2024-06-24 12:03:57,930] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '609', button 'MainMenu:SHOW_ROOMS_AND_PRICES_WINDOW') has been processed
+[2024-06-24 12:03:57,930] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624590 is handled. Duration 1421 ms by bot id=7010190829
+[2024-06-24 12:04:33,965] [INFO] [aiogram.dispatcher] [dispatcher.py:359] Polling stopped for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-24 12:04:33,965] [INFO] [aiogram.dispatcher] [dispatcher.py:554] Polling stopped
+[2024-06-24 12:04:33,966] [INFO] [source.handlers.dispather] [dispather.py:24] Dispatcher has been shut down
+[2024-06-24 12:04:34,219] [INFO] [source.persistance.database] [database.py:109] Database context has been closed
+[2024-06-24 12:04:40,518] [INFO] [source.persistance.database] [database.py:43] Database context has been initialized
+[2024-06-24 12:04:40,572] [INFO] [__main__] [main.py:39] Application has been started
+[2024-06-24 12:04:40,970] [INFO] [source.handlers.dispather] [dispather.py:16] Dispatcher has been started
+[2024-06-24 12:04:40,970] [INFO] [aiogram.dispatcher] [dispatcher.py:527] Start polling
+[2024-06-24 12:04:41,063] [INFO] [aiogram.dispatcher] [dispatcher.py:341] Run polling for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-24 12:04:55,433] [INFO] [source.handlers.command] [command.py:46] event (chat '5663974991', command '611', text '/start') has been accepted
+[2024-06-24 12:04:57,960] [INFO] [source.handlers.command] [command.py:63] event (chat '5663974991', command '611', text '/start') has been processed
+[2024-06-24 12:04:58,055] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624591 is handled. Duration 2625 ms by bot id=7010190829
+[2024-06-24 12:04:58,382] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '612', button 'MainMenu:SHOW_ROOMS_AND_PRICES_WINDOW') has been accepted
+[2024-06-24 12:04:58,726] [ERROR] [source.extensions.telegram.markup] [markup.py:76] <enum 'NavigationMenuButtonAction'>, NavigationMenuButtonAction.LIST_FORWARD
+[2024-06-24 12:04:59,778] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '612', button 'MainMenu:SHOW_ROOMS_AND_PRICES_WINDOW') has been processed
+[2024-06-24 12:04:59,778] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624592 is handled. Duration 1390 ms by bot id=7010190829
+[2024-06-24 12:05:07,201] [INFO] [aiogram.dispatcher] [dispatcher.py:359] Polling stopped for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-24 12:05:07,201] [INFO] [aiogram.dispatcher] [dispatcher.py:554] Polling stopped
+[2024-06-24 12:05:07,202] [INFO] [source.handlers.dispather] [dispather.py:24] Dispatcher has been shut down
+[2024-06-24 12:05:07,448] [INFO] [source.persistance.database] [database.py:109] Database context has been closed
+[2024-06-24 12:05:13,386] [INFO] [source.persistance.database] [database.py:43] Database context has been initialized
+[2024-06-24 12:05:13,432] [INFO] [__main__] [main.py:39] Application has been started
+[2024-06-24 12:05:13,796] [INFO] [source.handlers.dispather] [dispather.py:16] Dispatcher has been started
+[2024-06-24 12:05:13,796] [INFO] [aiogram.dispatcher] [dispatcher.py:527] Start polling
+[2024-06-24 12:05:13,886] [INFO] [aiogram.dispatcher] [dispatcher.py:341] Run polling for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-24 12:05:17,042] [INFO] [source.handlers.command] [command.py:46] event (chat '5663974991', command '614', text '/start') has been accepted
+[2024-06-24 12:05:19,494] [INFO] [source.handlers.command] [command.py:63] event (chat '5663974991', command '614', text '/start') has been processed
+[2024-06-24 12:05:19,687] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624593 is handled. Duration 2640 ms by bot id=7010190829
+[2024-06-24 12:05:20,240] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '615', button 'MainMenu:SHOW_ROOMS_AND_PRICES_WINDOW') has been accepted
+[2024-06-24 12:05:20,577] [ERROR] [source.extensions.telegram.markup] [markup.py:76] <class 'str'>, LIST_FORVARD
+[2024-06-24 12:05:21,723] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '615', button 'MainMenu:SHOW_ROOMS_AND_PRICES_WINDOW') has been processed
+[2024-06-24 12:05:21,724] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624594 is handled. Duration 1484 ms by bot id=7010190829
+[2024-06-24 12:05:29,064] [INFO] [aiogram.dispatcher] [dispatcher.py:359] Polling stopped for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-24 12:05:29,064] [INFO] [aiogram.dispatcher] [dispatcher.py:554] Polling stopped
+[2024-06-24 12:05:29,065] [INFO] [source.handlers.dispather] [dispather.py:24] Dispatcher has been shut down
+[2024-06-24 12:05:29,313] [INFO] [source.persistance.database] [database.py:109] Database context has been closed
+[2024-06-24 12:06:06,807] [INFO] [source.persistance.database] [database.py:43] Database context has been initialized
+[2024-06-24 12:06:06,858] [INFO] [__main__] [main.py:39] Application has been started
+[2024-06-24 12:06:07,501] [INFO] [source.handlers.dispather] [dispather.py:16] Dispatcher has been started
+[2024-06-24 12:06:07,501] [INFO] [aiogram.dispatcher] [dispatcher.py:527] Start polling
+[2024-06-24 12:06:07,588] [INFO] [aiogram.dispatcher] [dispatcher.py:341] Run polling for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-24 12:06:13,109] [INFO] [source.handlers.command] [command.py:46] event (chat '5663974991', command '617', text '/start') has been accepted
+[2024-06-24 12:06:15,537] [INFO] [source.handlers.command] [command.py:63] event (chat '5663974991', command '617', text '/start') has been processed
+[2024-06-24 12:06:15,649] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624595 is handled. Duration 2547 ms by bot id=7010190829
+[2024-06-24 12:06:16,204] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '618', button 'MainMenu:SHOW_ROOMS_AND_PRICES_WINDOW') has been accepted
+[2024-06-24 12:06:17,445] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '618', button 'MainMenu:SHOW_ROOMS_AND_PRICES_WINDOW') has been processed
+[2024-06-24 12:06:17,447] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624596 is handled. Duration 1250 ms by bot id=7010190829
+[2024-06-24 12:06:19,676] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624597 is not handled. Duration 0 ms by bot id=7010190829
+[2024-06-24 12:06:28,504] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624598 is not handled. Duration 0 ms by bot id=7010190829
+[2024-06-24 12:06:32,632] [INFO] [aiogram.dispatcher] [dispatcher.py:359] Polling stopped for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-24 12:06:32,633] [INFO] [aiogram.dispatcher] [dispatcher.py:554] Polling stopped
+[2024-06-24 12:06:32,633] [INFO] [source.handlers.dispather] [dispather.py:24] Dispatcher has been shut down
+[2024-06-24 12:06:32,905] [INFO] [source.persistance.database] [database.py:109] Database context has been closed
+[2024-06-24 12:07:53,990] [INFO] [source.persistance.database] [database.py:43] Database context has been initialized
+[2024-06-24 12:07:54,063] [INFO] [__main__] [main.py:39] Application has been started
+[2024-06-24 12:07:54,461] [INFO] [source.handlers.dispather] [dispather.py:16] Dispatcher has been started
+[2024-06-24 12:07:54,461] [INFO] [aiogram.dispatcher] [dispatcher.py:527] Start polling
+[2024-06-24 12:07:54,650] [INFO] [aiogram.dispatcher] [dispatcher.py:341] Run polling for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-24 12:12:59,981] [INFO] [aiogram.dispatcher] [dispatcher.py:359] Polling stopped for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-24 12:12:59,981] [INFO] [aiogram.dispatcher] [dispatcher.py:554] Polling stopped
+[2024-06-24 12:12:59,982] [INFO] [source.handlers.dispather] [dispather.py:24] Dispatcher has been shut down
+[2024-06-24 12:13:00,249] [INFO] [source.persistance.database] [database.py:109] Database context has been closed
+[2024-06-24 12:13:15,773] [INFO] [source.persistance.database] [database.py:43] Database context has been initialized
+[2024-06-24 12:13:15,853] [INFO] [__main__] [main.py:39] Application has been started
+[2024-06-24 12:13:16,415] [INFO] [source.handlers.dispather] [dispather.py:16] Dispatcher has been started
+[2024-06-24 12:13:16,416] [INFO] [aiogram.dispatcher] [dispatcher.py:527] Start polling
+[2024-06-24 12:13:16,508] [INFO] [aiogram.dispatcher] [dispatcher.py:341] Run polling for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-24 12:13:18,916] [INFO] [source.handlers.command] [command.py:46] event (chat '5663974991', command '620', text '/start') has been accepted
+[2024-06-24 12:13:21,645] [INFO] [source.handlers.command] [command.py:63] event (chat '5663974991', command '620', text '/start') has been processed
+[2024-06-24 12:13:21,828] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624599 is handled. Duration 2905 ms by bot id=7010190829
+[2024-06-24 12:13:22,530] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '621', button 'MainMenu:SHOW_ROOMS_AND_PRICES_WINDOW') has been accepted
+[2024-06-24 12:13:23,845] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '621', button 'MainMenu:SHOW_ROOMS_AND_PRICES_WINDOW') has been processed
+[2024-06-24 12:13:23,846] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624600 is handled. Duration 1312 ms by bot id=7010190829
+[2024-06-24 12:13:45,905] [INFO] [source.handlers.command] [command.py:46] event (chat '5663974991', command '623', text '/start') has been accepted
+[2024-06-24 12:13:47,127] [INFO] [source.handlers.command] [command.py:63] event (chat '5663974991', command '623', text '/start') has been processed
+[2024-06-24 12:13:47,303] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624601 is handled. Duration 1405 ms by bot id=7010190829
+[2024-06-24 12:13:47,304] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '624', button 'MainMenu:SHOW_ROOMS_AND_PRICES_WINDOW') has been accepted
+[2024-06-24 12:13:48,563] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '624', button 'MainMenu:SHOW_ROOMS_AND_PRICES_WINDOW') has been processed
+[2024-06-24 12:13:48,563] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624602 is handled. Duration 1390 ms by bot id=7010190829
+[2024-06-24 12:13:51,482] [INFO] [aiogram.dispatcher] [dispatcher.py:359] Polling stopped for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-24 12:13:51,483] [INFO] [aiogram.dispatcher] [dispatcher.py:554] Polling stopped
+[2024-06-24 12:13:51,483] [INFO] [source.handlers.dispather] [dispather.py:24] Dispatcher has been shut down
+[2024-06-24 12:13:51,751] [INFO] [source.persistance.database] [database.py:109] Database context has been closed
+[2024-06-24 12:13:57,474] [INFO] [source.persistance.database] [database.py:43] Database context has been initialized
+[2024-06-24 12:13:57,517] [INFO] [__main__] [main.py:39] Application has been started
+[2024-06-24 12:13:57,888] [INFO] [source.handlers.dispather] [dispather.py:16] Dispatcher has been started
+[2024-06-24 12:13:57,888] [INFO] [aiogram.dispatcher] [dispatcher.py:527] Start polling
+[2024-06-24 12:13:57,976] [INFO] [aiogram.dispatcher] [dispatcher.py:341] Run polling for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-24 12:14:04,443] [INFO] [source.handlers.command] [command.py:46] event (chat '5663974991', command '626', text '/start') has been accepted
+[2024-06-24 12:14:06,898] [INFO] [source.handlers.command] [command.py:63] event (chat '5663974991', command '626', text '/start') has been processed
+[2024-06-24 12:14:06,999] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624603 is handled. Duration 2547 ms by bot id=7010190829
+[2024-06-24 12:14:09,922] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '627', button 'MainMenu:SHOW_ROOMS_AND_PRICES_WINDOW') has been accepted
+[2024-06-24 12:14:11,171] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '627', button 'MainMenu:SHOW_ROOMS_AND_PRICES_WINDOW') has been processed
+[2024-06-24 12:14:11,171] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624604 is handled. Duration 1250 ms by bot id=7010190829
+[2024-06-24 12:14:16,767] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624605 is not handled. Duration 0 ms by bot id=7010190829
+[2024-06-24 12:14:18,796] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624606 is not handled. Duration 0 ms by bot id=7010190829
+[2024-06-24 12:15:28,313] [INFO] [aiogram.dispatcher] [dispatcher.py:359] Polling stopped for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-24 12:15:28,313] [INFO] [aiogram.dispatcher] [dispatcher.py:554] Polling stopped
+[2024-06-24 12:15:28,314] [INFO] [source.handlers.dispather] [dispather.py:24] Dispatcher has been shut down
+[2024-06-24 12:15:28,568] [INFO] [source.persistance.database] [database.py:109] Database context has been closed
+[2024-06-24 12:15:39,875] [INFO] [source.persistance.database] [database.py:43] Database context has been initialized
+[2024-06-24 12:15:39,950] [INFO] [__main__] [main.py:39] Application has been started
+[2024-06-24 12:15:40,377] [INFO] [source.handlers.dispather] [dispather.py:16] Dispatcher has been started
+[2024-06-24 12:15:40,377] [INFO] [aiogram.dispatcher] [dispatcher.py:527] Start polling
+[2024-06-24 12:15:40,476] [INFO] [aiogram.dispatcher] [dispatcher.py:341] Run polling for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-24 12:15:57,327] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624607 is not handled. Duration 0 ms by bot id=7010190829
+[2024-06-24 12:17:25,072] [INFO] [aiogram.dispatcher] [dispatcher.py:359] Polling stopped for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-24 12:17:25,073] [INFO] [aiogram.dispatcher] [dispatcher.py:554] Polling stopped
+[2024-06-24 12:17:25,073] [INFO] [source.handlers.dispather] [dispather.py:24] Dispatcher has been shut down
+[2024-06-24 12:17:25,335] [INFO] [source.persistance.database] [database.py:109] Database context has been closed
+[2024-06-24 12:17:36,374] [INFO] [source.persistance.database] [database.py:43] Database context has been initialized
+[2024-06-24 12:17:36,454] [INFO] [__main__] [main.py:39] Application has been started
+[2024-06-24 12:17:37,197] [INFO] [source.handlers.dispather] [dispather.py:16] Dispatcher has been started
+[2024-06-24 12:17:37,197] [INFO] [aiogram.dispatcher] [dispatcher.py:527] Start polling
+[2024-06-24 12:17:37,312] [INFO] [aiogram.dispatcher] [dispatcher.py:341] Run polling for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-24 12:17:38,853] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624608 is not handled. Duration 0 ms by bot id=7010190829
+[2024-06-24 12:18:15,944] [INFO] [aiogram.dispatcher] [dispatcher.py:359] Polling stopped for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-24 12:18:15,944] [INFO] [aiogram.dispatcher] [dispatcher.py:554] Polling stopped
+[2024-06-24 12:18:15,944] [INFO] [source.handlers.dispather] [dispather.py:24] Dispatcher has been shut down
+[2024-06-24 12:18:16,297] [INFO] [source.persistance.database] [database.py:109] Database context has been closed
+[2024-06-24 12:18:30,632] [INFO] [source.persistance.database] [database.py:43] Database context has been initialized
+[2024-06-24 12:19:04,401] [INFO] [source.persistance.database] [database.py:43] Database context has been initialized
+[2024-06-24 12:19:04,476] [INFO] [__main__] [main.py:39] Application has been started
+[2024-06-24 12:19:04,881] [INFO] [source.handlers.dispather] [dispather.py:16] Dispatcher has been started
+[2024-06-24 12:19:04,881] [INFO] [aiogram.dispatcher] [dispatcher.py:527] Start polling
+[2024-06-24 12:19:04,976] [INFO] [aiogram.dispatcher] [dispatcher.py:341] Run polling for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-24 12:19:08,565] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624609 is not handled. Duration 0 ms by bot id=7010190829
+[2024-06-24 12:20:04,803] [INFO] [aiogram.dispatcher] [dispatcher.py:359] Polling stopped for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-24 12:20:04,804] [INFO] [aiogram.dispatcher] [dispatcher.py:554] Polling stopped
+[2024-06-24 12:20:04,804] [INFO] [source.handlers.dispather] [dispather.py:24] Dispatcher has been shut down
+[2024-06-24 12:20:05,070] [INFO] [source.persistance.database] [database.py:109] Database context has been closed
+[2024-06-24 12:20:18,330] [INFO] [source.persistance.database] [database.py:43] Database context has been initialized
+[2024-06-24 12:20:18,407] [INFO] [__main__] [main.py:39] Application has been started
+[2024-06-24 12:20:18,812] [INFO] [source.handlers.dispather] [dispather.py:16] Dispatcher has been started
+[2024-06-24 12:20:18,813] [INFO] [aiogram.dispatcher] [dispatcher.py:527] Start polling
+[2024-06-24 12:20:18,917] [INFO] [aiogram.dispatcher] [dispatcher.py:341] Run polling for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-24 12:20:23,759] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624610 is not handled. Duration 0 ms by bot id=7010190829
+[2024-06-24 12:20:26,278] [INFO] [aiogram.dispatcher] [dispatcher.py:359] Polling stopped for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-24 12:20:26,279] [INFO] [aiogram.dispatcher] [dispatcher.py:554] Polling stopped
+[2024-06-24 12:20:26,279] [INFO] [source.handlers.dispather] [dispather.py:24] Dispatcher has been shut down
+[2024-06-24 12:20:26,537] [INFO] [source.persistance.database] [database.py:109] Database context has been closed
+[2024-06-24 12:20:47,876] [INFO] [source.persistance.database] [database.py:43] Database context has been initialized
+[2024-06-24 12:20:47,955] [INFO] [__main__] [main.py:39] Application has been started
+[2024-06-24 12:20:48,396] [INFO] [source.handlers.dispather] [dispather.py:16] Dispatcher has been started
+[2024-06-24 12:20:48,396] [INFO] [aiogram.dispatcher] [dispatcher.py:527] Start polling
+[2024-06-24 12:20:48,485] [INFO] [aiogram.dispatcher] [dispatcher.py:341] Run polling for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-24 12:20:53,997] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624611 is not handled. Duration 0 ms by bot id=7010190829
+[2024-06-24 12:20:57,901] [INFO] [source.handlers.command] [command.py:46] event (chat '5663974991', command '629', text '/start') has been accepted
+[2024-06-24 12:21:00,466] [INFO] [source.handlers.command] [command.py:63] event (chat '5663974991', command '629', text '/start') has been processed
+[2024-06-24 12:21:00,579] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624612 is handled. Duration 2670 ms by bot id=7010190829
+[2024-06-24 12:21:00,729] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '630', button 'MainMenu:SHOW_ROOMS_AND_PRICES_WINDOW') has been accepted
+[2024-06-24 12:21:01,953] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '630', button 'MainMenu:SHOW_ROOMS_AND_PRICES_WINDOW') has been processed
+[2024-06-24 12:21:01,953] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624613 is handled. Duration 1217 ms by bot id=7010190829
+[2024-06-24 12:21:04,171] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624614 is not handled. Duration 0 ms by bot id=7010190829
+[2024-06-24 12:21:06,014] [INFO] [aiogram.dispatcher] [dispatcher.py:359] Polling stopped for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-24 12:21:06,014] [INFO] [aiogram.dispatcher] [dispatcher.py:554] Polling stopped
+[2024-06-24 12:21:06,015] [INFO] [source.handlers.dispather] [dispather.py:24] Dispatcher has been shut down
+[2024-06-24 12:21:06,275] [INFO] [source.persistance.database] [database.py:109] Database context has been closed
+[2024-06-24 12:32:01,483] [INFO] [source.persistance.database] [database.py:43] Database context has been initialized
+[2024-06-24 12:32:01,583] [INFO] [__main__] [main.py:40] Application has been started
+[2024-06-24 12:32:02,100] [INFO] [source.handlers.dispather] [dispather.py:16] Dispatcher has been started
+[2024-06-24 12:32:02,101] [INFO] [aiogram.dispatcher] [dispatcher.py:527] Start polling
+[2024-06-24 12:32:02,219] [INFO] [aiogram.dispatcher] [dispatcher.py:341] Run polling for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-24 12:32:03,381] [INFO] [source.handlers.command] [command.py:46] event (chat '5663974991', command '632', text '/start') has been accepted
+[2024-06-24 12:32:05,886] [INFO] [source.handlers.command] [command.py:63] event (chat '5663974991', command '632', text '/start') has been processed
+[2024-06-24 12:32:06,046] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624615 is handled. Duration 2672 ms by bot id=7010190829
+[2024-06-24 12:32:06,431] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '633', button 'MainMenu:SHOW_ROOMS_AND_PRICES_WINDOW') has been accepted
+[2024-06-24 12:32:07,984] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '633', button 'MainMenu:SHOW_ROOMS_AND_PRICES_WINDOW') has been processed
+[2024-06-24 12:32:07,984] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624616 is handled. Duration 1547 ms by bot id=7010190829
+[2024-06-24 12:32:11,935] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624617 is not handled. Duration 0 ms by bot id=7010190829
+[2024-06-24 12:32:13,268] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '634', button 'NavigationMenu:LOAD_PREV_MENU') has been accepted
+[2024-06-24 12:32:14,408] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '634', button 'NavigationMenu:LOAD_PREV_MENU') has been processed
+[2024-06-24 12:32:14,410] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624618 is handled. Duration 1155 ms by bot id=7010190829
+[2024-06-24 12:32:16,421] [INFO] [aiogram.dispatcher] [dispatcher.py:554] Polling stopped
+[2024-06-24 12:32:16,421] [INFO] [source.handlers.dispather] [dispather.py:24] Dispatcher has been shut down
+[2024-06-24 12:32:16,422] [INFO] [aiogram.dispatcher] [dispatcher.py:359] Polling stopped for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-24 12:32:16,677] [INFO] [source.persistance.database] [database.py:109] Database context has been closed
+[2024-06-24 12:32:36,700] [INFO] [source.persistance.database] [database.py:43] Database context has been initialized
+[2024-06-24 12:32:36,758] [INFO] [__main__] [main.py:40] Application has been started
+[2024-06-24 12:32:37,149] [INFO] [source.handlers.dispather] [dispather.py:16] Dispatcher has been started
+[2024-06-24 12:32:37,149] [INFO] [aiogram.dispatcher] [dispatcher.py:527] Start polling
+[2024-06-24 12:32:37,236] [INFO] [aiogram.dispatcher] [dispatcher.py:341] Run polling for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-24 12:32:48,766] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '635', button 'MainMenu:SHOW_ROOMS_AND_PRICES_WINDOW') has been accepted
+[2024-06-24 12:32:51,575] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '635', button 'MainMenu:SHOW_ROOMS_AND_PRICES_WINDOW') has been processed
+[2024-06-24 12:32:51,575] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624619 is handled. Duration 2811 ms by bot id=7010190829
+[2024-06-24 12:35:48,059] [INFO] [aiogram.dispatcher] [dispatcher.py:554] Polling stopped
+[2024-06-24 12:35:48,059] [INFO] [source.handlers.dispather] [dispather.py:24] Dispatcher has been shut down
+[2024-06-24 12:35:48,060] [INFO] [aiogram.dispatcher] [dispatcher.py:359] Polling stopped for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-24 12:35:48,316] [INFO] [source.persistance.database] [database.py:109] Database context has been closed
+[2024-06-24 12:35:54,900] [INFO] [source.persistance.database] [database.py:43] Database context has been initialized
+[2024-06-24 12:35:54,950] [INFO] [__main__] [main.py:40] Application has been started
+[2024-06-24 12:35:55,412] [INFO] [source.handlers.dispather] [dispather.py:16] Dispatcher has been started
+[2024-06-24 12:35:55,412] [INFO] [aiogram.dispatcher] [dispatcher.py:527] Start polling
+[2024-06-24 12:35:55,501] [INFO] [aiogram.dispatcher] [dispatcher.py:341] Run polling for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-24 12:35:56,612] [INFO] [source.handlers.command] [command.py:46] event (chat '5663974991', command '637', text '/start') has been accepted
+[2024-06-24 12:35:59,075] [INFO] [source.handlers.command] [command.py:63] event (chat '5663974991', command '637', text '/start') has been processed
+[2024-06-24 12:35:59,181] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624620 is handled. Duration 2577 ms by bot id=7010190829
+[2024-06-24 12:35:59,985] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '638', button 'MainMenu:SHOW_ROOMS_AND_PRICES_WINDOW') has been accepted
+[2024-06-24 12:36:01,206] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '638', button 'MainMenu:SHOW_ROOMS_AND_PRICES_WINDOW') has been processed
+[2024-06-24 12:36:01,206] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624621 is handled. Duration 1217 ms by bot id=7010190829
+[2024-06-24 12:36:01,767] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624622 is not handled. Duration 0 ms by bot id=7010190829
+[2024-06-24 12:36:03,282] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '639', button 'NavigationMenu:LOAD_PREV_MENU') has been accepted
+[2024-06-24 12:36:04,372] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '639', button 'NavigationMenu:LOAD_PREV_MENU') has been processed
+[2024-06-24 12:36:04,373] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624623 is handled. Duration 1092 ms by bot id=7010190829
+[2024-06-24 12:36:04,792] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '640', button 'MainMenu:SHOW_ROOMS_AND_PRICES_WINDOW') has been accepted
+[2024-06-24 12:36:06,050] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '640', button 'MainMenu:SHOW_ROOMS_AND_PRICES_WINDOW') has been processed
+[2024-06-24 12:36:06,050] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624624 is handled. Duration 1265 ms by bot id=7010190829
+[2024-06-24 12:36:06,921] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '641', button 'NavigationMenu:LOAD_PREV_MENU') has been accepted
+[2024-06-24 12:36:08,020] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '641', button 'NavigationMenu:LOAD_PREV_MENU') has been processed
+[2024-06-24 12:36:08,021] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624625 is handled. Duration 1109 ms by bot id=7010190829
+[2024-06-24 12:36:08,284] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '642', button 'MainMenu:SHOW_ROOMS_AND_PRICES_WINDOW') has been accepted
+[2024-06-24 12:36:09,580] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '642', button 'MainMenu:SHOW_ROOMS_AND_PRICES_WINDOW') has been processed
+[2024-06-24 12:36:09,581] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624626 is handled. Duration 1297 ms by bot id=7010190829
+[2024-06-24 12:36:09,747] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '643', button 'NavigationMenu:LOAD_PREV_MENU') has been accepted
+[2024-06-24 12:36:10,806] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '643', button 'NavigationMenu:LOAD_PREV_MENU') has been processed
+[2024-06-24 12:36:10,806] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624627 is handled. Duration 1062 ms by bot id=7010190829
+[2024-06-24 12:36:10,948] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '644', button 'MainMenu:SHOW_ROOMS_AND_PRICES_WINDOW') has been accepted
+[2024-06-24 12:36:12,308] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '644', button 'MainMenu:SHOW_ROOMS_AND_PRICES_WINDOW') has been processed
+[2024-06-24 12:36:12,308] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624628 is handled. Duration 1359 ms by bot id=7010190829
+[2024-06-24 12:36:12,310] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '645', button 'NavigationMenu:LOAD_PREV_MENU') has been accepted
+[2024-06-24 12:36:13,522] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '645', button 'NavigationMenu:LOAD_PREV_MENU') has been processed
+[2024-06-24 12:36:13,522] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624629 is handled. Duration 1375 ms by bot id=7010190829
+[2024-06-24 12:36:14,453] [INFO] [aiogram.dispatcher] [dispatcher.py:554] Polling stopped
+[2024-06-24 12:36:14,453] [INFO] [source.handlers.dispather] [dispather.py:24] Dispatcher has been shut down
+[2024-06-24 12:36:14,454] [INFO] [aiogram.dispatcher] [dispatcher.py:359] Polling stopped for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-24 12:36:14,700] [INFO] [source.persistance.database] [database.py:109] Database context has been closed
+[2024-06-24 12:38:35,697] [INFO] [source.persistance.database] [database.py:43] Database context has been initialized
+[2024-06-24 12:38:35,743] [INFO] [__main__] [main.py:40] Application has been started
+[2024-06-24 12:38:36,166] [INFO] [source.handlers.dispather] [dispather.py:16] Dispatcher has been started
+[2024-06-24 12:38:36,166] [INFO] [aiogram.dispatcher] [dispatcher.py:527] Start polling
+[2024-06-24 12:38:36,257] [INFO] [aiogram.dispatcher] [dispatcher.py:341] Run polling for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-24 12:38:48,046] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '646', button 'MainMenu:SHOW_ROOMS_AND_PRICES_WINDOW') has been accepted
+[2024-06-24 12:38:50,777] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '646', button 'MainMenu:SHOW_ROOMS_AND_PRICES_WINDOW') has been processed
+[2024-06-24 12:38:50,777] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624630 is handled. Duration 2734 ms by bot id=7010190829
+[2024-06-24 12:38:51,391] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '647', button 'NavigationMenu:LIST_FORWARD') has been accepted
+[2024-06-24 12:38:52,635] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '647', button 'NavigationMenu:LIST_FORWARD') has been processed
+[2024-06-24 12:38:52,636] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624631 is handled. Duration 1250 ms by bot id=7010190829
+[2024-06-24 12:38:53,019] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '648', button 'NavigationMenu:LIST_FORWARD') has been accepted
+[2024-06-24 12:38:54,332] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '648', button 'NavigationMenu:LIST_FORWARD') has been processed
+[2024-06-24 12:38:54,332] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624632 is handled. Duration 1327 ms by bot id=7010190829
+[2024-06-24 12:38:54,673] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '649', button 'NavigationMenu:LIST_FORWARD') has been accepted
+[2024-06-24 12:38:55,936] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '649', button 'NavigationMenu:LIST_FORWARD') has been processed
+[2024-06-24 12:38:55,937] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624633 is handled. Duration 1265 ms by bot id=7010190829
+[2024-06-24 12:38:56,128] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '650', button 'NavigationMenu:LIST_FORWARD') has been accepted
+[2024-06-24 12:38:57,506] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '650', button 'NavigationMenu:LIST_FORWARD') has been processed
+[2024-06-24 12:38:57,506] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624634 is handled. Duration 1391 ms by bot id=7010190829
+[2024-06-24 12:38:57,597] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '651', button 'NavigationMenu:LIST_FORWARD') has been accepted
+[2024-06-24 12:38:59,093] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '651', button 'NavigationMenu:LIST_FORWARD') has been processed
+[2024-06-24 12:38:59,094] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624635 is handled. Duration 1500 ms by bot id=7010190829
+[2024-06-24 12:38:59,095] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '652', button 'NavigationMenu:LIST_FORWARD') has been accepted
+[2024-06-24 12:39:00,298] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '652', button 'NavigationMenu:LIST_FORWARD') has been processed
+[2024-06-24 12:39:00,298] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624636 is handled. Duration 1234 ms by bot id=7010190829
+[2024-06-24 12:39:00,665] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '653', button 'NavigationMenu:LIST_FORWARD') has been accepted
+[2024-06-24 12:39:01,870] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '653', button 'NavigationMenu:LIST_FORWARD') has been processed
+[2024-06-24 12:39:01,870] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624637 is handled. Duration 1202 ms by bot id=7010190829
+[2024-06-24 12:39:02,078] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '654', button 'NavigationMenu:LIST_FORWARD') has been accepted
+[2024-06-24 12:39:03,317] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '654', button 'NavigationMenu:LIST_FORWARD') has been processed
+[2024-06-24 12:39:03,317] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624638 is handled. Duration 1250 ms by bot id=7010190829
+[2024-06-24 12:39:03,956] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '655', button 'NavigationMenu:LIST_FORWARD') has been accepted
+[2024-06-24 12:39:04,298] [ERROR] [source.persistance.database] [database.py:94] An error occurred during database session
+[2024-06-24 12:39:04,515] [ERROR] [source.handlers.ibutton] [ibutton.py:61] event (chat '5663974991', message '655', button 'NavigationMenu:LIST_FORWARD') hasn't been processed correctly
+Traceback (most recent call last):
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\source\handlers\ibutton.py", line 54, in wrapper
+    await function(query, session, event)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\source\handlers\ibutton.py", line 200, in on_list_forward
+    await load_room_and_prices_window(chat=chat, event=event, session=session)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\source\extensions\telegram\windows.py", line 40, in load_room_and_prices_window
+    room = await get_room_by_id(id=chat.sub_window_number, session=session)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\source\extensions\database\query.py", line 138, in get_room_by_id
+    if not room: raise
+RuntimeError: No active exception to reraise
+[2024-06-24 12:39:04,519] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624639 is handled. Duration 579 ms by bot id=7010190829
+[2024-06-24 12:39:22,174] [INFO] [source.handlers.command] [command.py:46] event (chat '5663974991', command '656', text '/start') has been accepted
+[2024-06-24 12:39:23,409] [INFO] [source.handlers.command] [command.py:63] event (chat '5663974991', command '656', text '/start') has been processed
+[2024-06-24 12:39:23,508] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624640 is handled. Duration 1344 ms by bot id=7010190829
+[2024-06-24 12:39:23,785] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '657', button 'MainMenu:SHOW_ROOMS_AND_PRICES_WINDOW') has been accepted
+[2024-06-24 12:39:25,049] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '657', button 'MainMenu:SHOW_ROOMS_AND_PRICES_WINDOW') has been processed
+[2024-06-24 12:39:25,049] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624641 is handled. Duration 1250 ms by bot id=7010190829
+[2024-06-24 12:39:25,226] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '658', button 'NavigationMenu:LIST_FORWARD') has been accepted
+[2024-06-24 12:39:26,461] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '658', button 'NavigationMenu:LIST_FORWARD') has been processed
+[2024-06-24 12:39:26,461] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624642 is handled. Duration 1234 ms by bot id=7010190829
+[2024-06-24 12:40:48,085] [INFO] [aiogram.dispatcher] [dispatcher.py:554] Polling stopped
+[2024-06-24 12:40:48,085] [INFO] [source.handlers.dispather] [dispather.py:24] Dispatcher has been shut down
+[2024-06-24 12:40:48,086] [INFO] [aiogram.dispatcher] [dispatcher.py:359] Polling stopped for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-24 12:40:48,344] [INFO] [source.persistance.database] [database.py:109] Database context has been closed
+[2024-06-24 12:40:55,746] [INFO] [source.persistance.database] [database.py:43] Database context has been initialized
+[2024-06-24 12:40:55,795] [INFO] [__main__] [main.py:40] Application has been started
+[2024-06-24 12:40:56,258] [INFO] [source.handlers.dispather] [dispather.py:16] Dispatcher has been started
+[2024-06-24 12:40:56,258] [INFO] [aiogram.dispatcher] [dispatcher.py:527] Start polling
+[2024-06-24 12:40:56,350] [INFO] [aiogram.dispatcher] [dispatcher.py:341] Run polling for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-24 12:41:04,843] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '659', button 'NavigationMenu:LIST_FORWARD') has been accepted
+[2024-06-24 12:41:07,519] [WARNING] [source.extensions.telegram.windows] [windows.py:48] chat.sub_window_number is 3
+[2024-06-24 12:41:08,648] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '659', button 'NavigationMenu:LIST_FORWARD') has been processed
+[2024-06-24 12:41:08,648] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624643 is handled. Duration 3812 ms by bot id=7010190829
+[2024-06-24 12:41:09,278] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '660', button 'NavigationMenu:LIST_FORWARD') has been accepted
+[2024-06-24 12:41:09,623] [WARNING] [source.extensions.telegram.windows] [windows.py:48] chat.sub_window_number is 4
+[2024-06-24 12:41:10,586] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '660', button 'NavigationMenu:LIST_FORWARD') has been processed
+[2024-06-24 12:41:10,586] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624644 is handled. Duration 1312 ms by bot id=7010190829
+[2024-06-24 12:41:11,940] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '661', button 'NavigationMenu:LIST_FORWARD') has been accepted
+[2024-06-24 12:41:12,289] [WARNING] [source.extensions.telegram.windows] [windows.py:48] chat.sub_window_number is 5
+[2024-06-24 12:41:13,293] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '661', button 'NavigationMenu:LIST_FORWARD') has been processed
+[2024-06-24 12:41:13,293] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624645 is handled. Duration 1359 ms by bot id=7010190829
+[2024-06-24 12:41:13,667] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '662', button 'NavigationMenu:LIST_FORWARD') has been accepted
+[2024-06-24 12:41:14,010] [WARNING] [source.extensions.telegram.windows] [windows.py:48] chat.sub_window_number is 6
+[2024-06-24 12:41:15,054] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '662', button 'NavigationMenu:LIST_FORWARD') has been processed
+[2024-06-24 12:41:15,055] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624646 is handled. Duration 1390 ms by bot id=7010190829
+[2024-06-24 12:41:15,279] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '663', button 'NavigationMenu:LIST_FORWARD') has been accepted
+[2024-06-24 12:41:15,630] [WARNING] [source.extensions.telegram.windows] [windows.py:48] chat.sub_window_number is 7
+[2024-06-24 12:41:16,679] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '663', button 'NavigationMenu:LIST_FORWARD') has been processed
+[2024-06-24 12:41:16,680] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624647 is handled. Duration 1405 ms by bot id=7010190829
+[2024-06-24 12:41:17,105] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '664', button 'NavigationMenu:LIST_FORWARD') has been accepted
+[2024-06-24 12:41:17,448] [WARNING] [source.extensions.telegram.windows] [windows.py:48] chat.sub_window_number is 8
+[2024-06-24 12:41:18,486] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '664', button 'NavigationMenu:LIST_FORWARD') has been processed
+[2024-06-24 12:41:18,486] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624648 is handled. Duration 1375 ms by bot id=7010190829
+[2024-06-24 12:41:18,724] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '665', button 'NavigationMenu:LIST_FORWARD') has been accepted
+[2024-06-24 12:41:19,067] [WARNING] [source.extensions.telegram.windows] [windows.py:48] chat.sub_window_number is 9
+[2024-06-24 12:41:20,021] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '665', button 'NavigationMenu:LIST_FORWARD') has been processed
+[2024-06-24 12:41:20,021] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624649 is handled. Duration 1297 ms by bot id=7010190829
+[2024-06-24 12:41:21,272] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '666', button 'NavigationMenu:LIST_FORWARD') has been accepted
+[2024-06-24 12:41:21,615] [ERROR] [source.persistance.database] [database.py:94] An error occurred during database session
+[2024-06-24 12:41:21,840] [ERROR] [source.handlers.ibutton] [ibutton.py:61] event (chat '5663974991', message '666', button 'NavigationMenu:LIST_FORWARD') hasn't been processed correctly
+Traceback (most recent call last):
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\source\handlers\ibutton.py", line 54, in wrapper
+    await function(query, session, event)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\source\handlers\ibutton.py", line 200, in on_list_forward
+    await load_room_and_prices_window(chat=chat, event=event, session=session)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\source\extensions\telegram\windows.py", line 45, in load_room_and_prices_window
+    room = await get_room_by_id(id=chat.sub_window_number, session=session)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\source\extensions\database\query.py", line 138, in get_room_by_id
+    if not room: raise
+RuntimeError: No active exception to reraise
+[2024-06-24 12:41:21,842] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624650 is handled. Duration 562 ms by bot id=7010190829
+[2024-06-24 12:41:22,928] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '666', button 'NavigationMenu:LIST_BACK') has been accepted
+[2024-06-24 12:41:23,283] [WARNING] [source.extensions.telegram.windows] [windows.py:48] chat.sub_window_number is 8
+[2024-06-24 12:41:24,397] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '666', button 'NavigationMenu:LIST_BACK') has been processed
+[2024-06-24 12:41:24,397] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624651 is handled. Duration 1469 ms by bot id=7010190829
+[2024-06-24 12:41:24,616] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '667', button 'NavigationMenu:LIST_BACK') has been accepted
+[2024-06-24 12:41:24,957] [WARNING] [source.extensions.telegram.windows] [windows.py:48] chat.sub_window_number is 7
+[2024-06-24 12:41:25,990] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '667', button 'NavigationMenu:LIST_BACK') has been processed
+[2024-06-24 12:41:25,991] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624652 is handled. Duration 1375 ms by bot id=7010190829
+[2024-06-24 12:41:25,991] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '668', button 'NavigationMenu:LIST_BACK') has been accepted
+[2024-06-24 12:41:26,337] [WARNING] [source.extensions.telegram.windows] [windows.py:48] chat.sub_window_number is 6
+[2024-06-24 12:41:27,259] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '668', button 'NavigationMenu:LIST_BACK') has been processed
+[2024-06-24 12:41:27,259] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624653 is handled. Duration 1406 ms by bot id=7010190829
+[2024-06-24 12:41:27,261] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '669', button 'NavigationMenu:LIST_BACK') has been accepted
+[2024-06-24 12:41:27,602] [WARNING] [source.extensions.telegram.windows] [windows.py:48] chat.sub_window_number is 5
+[2024-06-24 12:41:28,535] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '669', button 'NavigationMenu:LIST_BACK') has been processed
+[2024-06-24 12:41:28,535] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624654 is handled. Duration 1327 ms by bot id=7010190829
+[2024-06-24 12:41:28,588] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '670', button 'NavigationMenu:LIST_BACK') has been accepted
+[2024-06-24 12:41:28,939] [WARNING] [source.extensions.telegram.windows] [windows.py:48] chat.sub_window_number is 4
+[2024-06-24 12:41:29,886] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '670', button 'NavigationMenu:LIST_BACK') has been processed
+[2024-06-24 12:41:29,887] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624655 is handled. Duration 1297 ms by bot id=7010190829
+[2024-06-24 12:41:29,887] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '671', button 'NavigationMenu:LIST_BACK') has been accepted
+[2024-06-24 12:41:30,245] [WARNING] [source.extensions.telegram.windows] [windows.py:48] chat.sub_window_number is 3
+[2024-06-24 12:41:31,168] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '671', button 'NavigationMenu:LIST_BACK') has been processed
+[2024-06-24 12:41:31,168] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624656 is handled. Duration 1405 ms by bot id=7010190829
+[2024-06-24 12:41:31,169] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '672', button 'NavigationMenu:LIST_BACK') has been accepted
+[2024-06-24 12:41:31,514] [WARNING] [source.extensions.telegram.windows] [windows.py:48] chat.sub_window_number is 2
+[2024-06-24 12:41:32,399] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '672', button 'NavigationMenu:LIST_BACK') has been processed
+[2024-06-24 12:41:32,401] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624657 is handled. Duration 1407 ms by bot id=7010190829
+[2024-06-24 12:41:32,488] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '673', button 'NavigationMenu:LIST_BACK') has been accepted
+[2024-06-24 12:41:32,830] [WARNING] [source.extensions.telegram.windows] [windows.py:48] chat.sub_window_number is 1
+[2024-06-24 12:41:33,738] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '673', button 'NavigationMenu:LIST_BACK') has been processed
+[2024-06-24 12:41:33,738] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624658 is handled. Duration 1265 ms by bot id=7010190829
+[2024-06-24 12:42:20,087] [INFO] [aiogram.dispatcher] [dispatcher.py:359] Polling stopped for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-24 12:42:20,087] [INFO] [aiogram.dispatcher] [dispatcher.py:554] Polling stopped
+[2024-06-24 12:42:20,087] [INFO] [source.handlers.dispather] [dispather.py:24] Dispatcher has been shut down
+[2024-06-24 12:42:20,341] [INFO] [source.persistance.database] [database.py:109] Database context has been closed
+[2024-06-24 12:42:26,894] [INFO] [source.persistance.database] [database.py:43] Database context has been initialized
+[2024-06-24 12:42:26,943] [INFO] [__main__] [main.py:40] Application has been started
+[2024-06-24 12:42:27,393] [INFO] [source.handlers.dispather] [dispather.py:16] Dispatcher has been started
+[2024-06-24 12:42:27,394] [INFO] [aiogram.dispatcher] [dispatcher.py:527] Start polling
+[2024-06-24 12:42:27,482] [INFO] [aiogram.dispatcher] [dispatcher.py:341] Run polling for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-24 12:42:35,876] [INFO] [source.handlers.command] [command.py:46] event (chat '5663974991', command '675', text '/start') has been accepted
+[2024-06-24 12:42:38,442] [INFO] [source.handlers.command] [command.py:63] event (chat '5663974991', command '675', text '/start') has been processed
+[2024-06-24 12:42:38,625] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624659 is handled. Duration 2750 ms by bot id=7010190829
+[2024-06-24 12:42:40,472] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '676', button 'MainMenu:SHOW_ROOMS_AND_PRICES_WINDOW') has been accepted
+[2024-06-24 12:42:40,811] [WARNING] [source.extensions.telegram.windows] [windows.py:48] chat.sub_window_number is 1
+[2024-06-24 12:42:41,706] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '676', button 'MainMenu:SHOW_ROOMS_AND_PRICES_WINDOW') has been processed
+[2024-06-24 12:42:41,706] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624660 is handled. Duration 1233 ms by bot id=7010190829
+[2024-06-24 12:42:42,394] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '677', button 'NavigationMenu:LIST_FORWARD') has been accepted
+[2024-06-24 12:42:42,842] [ERROR] [source.persistance.database] [database.py:94] An error occurred during database session
+[2024-06-24 12:42:43,063] [ERROR] [source.handlers.ibutton] [ibutton.py:61] event (chat '5663974991', message '677', button 'NavigationMenu:LIST_FORWARD') hasn't been processed correctly
+Traceback (most recent call last):
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1815, in _execute_context
+    context = constructor(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\engine\default.py", line 1401, in _init_compiled
+    self.cursor = self.create_cursor()
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\engine\default.py", line 1735, in create_cursor
+    return self.create_default_cursor()
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\engine\default.py", line 1741, in create_default_cursor
+    return self._dbapi_connection.cursor()
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\pool\base.py", line 1485, in cursor
+    return self.dbapi_connection.cursor(*args, **kwargs)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\dialects\mysql\aiomysql.py", line 198, in cursor
+    return AsyncAdapt_aiomysql_cursor(self)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\dialects\mysql\aiomysql.py", line 61, in __init__
+    self._cursor = self.await_(cursor.__aenter__())
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 123, in await_only
+    raise exc.MissingGreenlet(
+sqlalchemy.exc.MissingGreenlet: greenlet_spawn has not been called; can't call await_only() here. Was IO attempted in an unexpected place? (Background on this error at: https://sqlalche.me/e/20/xd2s)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\source\handlers\ibutton.py", line 54, in wrapper
+    await function(query, session, event)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\source\handlers\ibutton.py", line 202, in on_list_forward
+    await load_room_and_prices_window(chat=chat, event=event, session=session)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\source\extensions\telegram\windows.py", line 45, in load_room_and_prices_window
+    room = await get_room_by_id(id=chat.sub_window_number, session=session)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\orm\attributes.py", line 566, in __get__
+    return self.impl.get(state, dict_)  # type: ignore[no-any-return]
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\orm\attributes.py", line 1086, in get
+    value = self._fire_loader_callables(state, key, passive)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\orm\attributes.py", line 1116, in _fire_loader_callables
+    return state._load_expired(state, passive)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\orm\state.py", line 803, in _load_expired
+    self.manager.expired_attribute_loader(self, toload, passive)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\orm\loading.py", line 1670, in load_scalar_attributes
+    result = load_on_ident(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\orm\loading.py", line 509, in load_on_ident
+    return load_on_pk_identity(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\orm\loading.py", line 694, in load_on_pk_identity
+    session.execute(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\orm\session.py", line 2351, in execute
+    return self._execute_internal(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\orm\session.py", line 2236, in _execute_internal
+    result: Result[Any] = compile_state_cls.orm_execute_statement(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\orm\context.py", line 293, in orm_execute_statement
+    result = conn.execute(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1418, in execute
+    return meth(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\sql\elements.py", line 515, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1640, in _execute_clauseelement
+    ret = self._execute_context(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1821, in _execute_context
+    self._handle_dbapi_exception(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\engine\base.py", line 2353, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1815, in _execute_context
+    context = constructor(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\engine\default.py", line 1401, in _init_compiled
+    self.cursor = self.create_cursor()
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\engine\default.py", line 1735, in create_cursor
+    return self.create_default_cursor()
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\engine\default.py", line 1741, in create_default_cursor
+    return self._dbapi_connection.cursor()
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\pool\base.py", line 1485, in cursor
+    return self.dbapi_connection.cursor(*args, **kwargs)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\dialects\mysql\aiomysql.py", line 198, in cursor
+    return AsyncAdapt_aiomysql_cursor(self)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\dialects\mysql\aiomysql.py", line 61, in __init__
+    self._cursor = self.await_(cursor.__aenter__())
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 123, in await_only
+    raise exc.MissingGreenlet(
+sqlalchemy.exc.StatementError: (sqlalchemy.exc.MissingGreenlet) greenlet_spawn has not been called; can't call await_only() here. Was IO attempted in an unexpected place?
+[SQL: SELECT chat.id AS chat_id, chat.kind_id AS chat_kind_id, chat.content AS chat_content, chat.sub_window_number AS chat_sub_window_number, user_1.telegram_id AS user_1_telegram_id, user_1.chat_id AS user_1_chat_id, user_1.is_active_in_telegram AS user_1_is_active_in_telegram, user_1.first_name AS user_1_first_name, user_1.last_name AS user_1_last_name, user_1.username AS user_1_username, user_1.phone AS user_1_phone 
+FROM chat LEFT OUTER JOIN user AS user_1 ON chat.id = user_1.chat_id 
+WHERE chat.id = %s]
+[parameters: [{'pk_1': 5663974991}]]
+(Background on this error at: https://sqlalche.me/e/20/xd2s)
+[2024-06-24 12:42:43,106] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624661 is handled. Duration 702 ms by bot id=7010190829
+[2024-06-24 12:42:59,109] [INFO] [aiogram.dispatcher] [dispatcher.py:359] Polling stopped for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-24 12:42:59,110] [INFO] [aiogram.dispatcher] [dispatcher.py:554] Polling stopped
+[2024-06-24 12:42:59,110] [INFO] [source.handlers.dispather] [dispather.py:24] Dispatcher has been shut down
+[2024-06-24 12:42:59,372] [INFO] [source.persistance.database] [database.py:109] Database context has been closed
+[2024-06-24 12:43:10,487] [INFO] [source.persistance.database] [database.py:43] Database context has been initialized
+[2024-06-24 12:43:10,586] [INFO] [__main__] [main.py:40] Application has been started
+[2024-06-24 12:43:11,068] [INFO] [source.handlers.dispather] [dispather.py:16] Dispatcher has been started
+[2024-06-24 12:43:11,069] [INFO] [aiogram.dispatcher] [dispatcher.py:527] Start polling
+[2024-06-24 12:43:11,170] [INFO] [aiogram.dispatcher] [dispatcher.py:341] Run polling for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-24 12:43:12,190] [INFO] [source.handlers.command] [command.py:46] event (chat '5663974991', command '678', text '/start') has been accepted
+[2024-06-24 12:43:14,731] [INFO] [source.handlers.command] [command.py:63] event (chat '5663974991', command '678', text '/start') has been processed
+[2024-06-24 12:43:14,832] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624662 is handled. Duration 2656 ms by bot id=7010190829
+[2024-06-24 12:43:15,454] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '679', button 'MainMenu:SHOW_ROOMS_AND_PRICES_WINDOW') has been accepted
+[2024-06-24 12:43:15,797] [WARNING] [source.extensions.telegram.windows] [windows.py:48] chat.sub_window_number is 1
+[2024-06-24 12:43:16,795] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '679', button 'MainMenu:SHOW_ROOMS_AND_PRICES_WINDOW') has been processed
+[2024-06-24 12:43:16,795] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624663 is handled. Duration 1344 ms by bot id=7010190829
+[2024-06-24 12:43:17,321] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '680', button 'NavigationMenu:LIST_FORWARD') has been accepted
+[2024-06-24 12:43:17,659] [WARNING] [source.extensions.telegram.windows] [windows.py:48] chat.sub_window_number is 2
+[2024-06-24 12:43:18,568] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '680', button 'NavigationMenu:LIST_FORWARD') has been processed
+[2024-06-24 12:43:18,568] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624664 is handled. Duration 1250 ms by bot id=7010190829
+[2024-06-24 12:43:18,570] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '681', button 'NavigationMenu:LIST_FORWARD') has been accepted
+[2024-06-24 12:43:18,909] [WARNING] [source.extensions.telegram.windows] [windows.py:48] chat.sub_window_number is 3
+[2024-06-24 12:43:19,860] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '681', button 'NavigationMenu:LIST_FORWARD') has been processed
+[2024-06-24 12:43:19,861] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624665 is handled. Duration 1282 ms by bot id=7010190829
+[2024-06-24 12:43:20,118] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '682', button 'NavigationMenu:LOAD_PREV_MENU') has been accepted
+[2024-06-24 12:43:21,202] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '682', button 'NavigationMenu:LOAD_PREV_MENU') has been processed
+[2024-06-24 12:43:21,202] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624666 is handled. Duration 1077 ms by bot id=7010190829
+[2024-06-24 12:43:21,448] [INFO] [aiogram.dispatcher] [dispatcher.py:359] Polling stopped for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-24 12:43:21,448] [INFO] [aiogram.dispatcher] [dispatcher.py:554] Polling stopped
+[2024-06-24 12:43:21,449] [INFO] [source.handlers.dispather] [dispather.py:24] Dispatcher has been shut down
+[2024-06-24 12:43:21,699] [INFO] [source.persistance.database] [database.py:109] Database context has been closed
+[2024-06-24 12:43:47,967] [INFO] [source.persistance.database] [database.py:43] Database context has been initialized
+[2024-06-24 12:43:48,012] [INFO] [__main__] [main.py:40] Application has been started
+[2024-06-24 12:43:48,455] [INFO] [source.handlers.dispather] [dispather.py:16] Dispatcher has been started
+[2024-06-24 12:43:48,455] [INFO] [aiogram.dispatcher] [dispatcher.py:527] Start polling
+[2024-06-24 12:43:48,542] [INFO] [aiogram.dispatcher] [dispatcher.py:341] Run polling for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-24 12:43:58,638] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '683', button 'MainMenu:SHOW_ROOMS_AND_PRICES_WINDOW') has been accepted
+[2024-06-24 12:44:00,225] [WARNING] [source.extensions.telegram.windows] [windows.py:48] chat.sub_window_number is 1
+[2024-06-24 12:44:01,328] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '683', button 'MainMenu:SHOW_ROOMS_AND_PRICES_WINDOW') has been processed
+[2024-06-24 12:44:01,329] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624667 is handled. Duration 2686 ms by bot id=7010190829
+[2024-06-24 12:44:02,621] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '684', button 'NavigationMenu:LIST_FORWARD') has been accepted
+[2024-06-24 12:44:02,960] [WARNING] [source.extensions.telegram.windows] [windows.py:48] chat.sub_window_number is 2
+[2024-06-24 12:44:03,891] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '684', button 'NavigationMenu:LIST_FORWARD') has been processed
+[2024-06-24 12:44:03,892] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624668 is handled. Duration 1266 ms by bot id=7010190829
+[2024-06-24 12:44:04,139] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '685', button 'NavigationMenu:LIST_FORWARD') has been accepted
+[2024-06-24 12:44:04,474] [WARNING] [source.extensions.telegram.windows] [windows.py:48] chat.sub_window_number is 3
+[2024-06-24 12:44:05,437] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '685', button 'NavigationMenu:LIST_FORWARD') has been processed
+[2024-06-24 12:44:05,437] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624669 is handled. Duration 1296 ms by bot id=7010190829
+[2024-06-24 12:44:07,840] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '686', button 'NavigationMenu:LIST_FORWARD') has been accepted
+[2024-06-24 12:44:08,173] [WARNING] [source.extensions.telegram.windows] [windows.py:48] chat.sub_window_number is 4
+[2024-06-24 12:44:09,077] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '686', button 'NavigationMenu:LIST_FORWARD') has been processed
+[2024-06-24 12:44:09,078] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624670 is handled. Duration 1233 ms by bot id=7010190829
+[2024-06-24 12:44:09,079] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '687', button 'NavigationMenu:LIST_FORWARD') has been accepted
+[2024-06-24 12:44:09,411] [WARNING] [source.extensions.telegram.windows] [windows.py:48] chat.sub_window_number is 5
+[2024-06-24 12:44:10,302] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '687', button 'NavigationMenu:LIST_FORWARD') has been processed
+[2024-06-24 12:44:10,302] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624671 is handled. Duration 1327 ms by bot id=7010190829
+[2024-06-24 12:44:12,178] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '688', button 'NavigationMenu:LIST_FORWARD') has been accepted
+[2024-06-24 12:44:12,512] [WARNING] [source.extensions.telegram.windows] [windows.py:48] chat.sub_window_number is 6
+[2024-06-24 12:44:13,430] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '688', button 'NavigationMenu:LIST_FORWARD') has been processed
+[2024-06-24 12:44:13,430] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624672 is handled. Duration 1250 ms by bot id=7010190829
+[2024-06-24 12:44:13,431] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '689', button 'NavigationMenu:LIST_FORWARD') has been accepted
+[2024-06-24 12:44:13,774] [WARNING] [source.extensions.telegram.windows] [windows.py:48] chat.sub_window_number is 7
+[2024-06-24 12:44:14,716] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '689', button 'NavigationMenu:LIST_FORWARD') has been processed
+[2024-06-24 12:44:14,717] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624673 is handled. Duration 1344 ms by bot id=7010190829
+[2024-06-24 12:44:14,717] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '690', button 'NavigationMenu:LIST_FORWARD') has been accepted
+[2024-06-24 12:44:15,061] [WARNING] [source.extensions.telegram.windows] [windows.py:48] chat.sub_window_number is 8
+[2024-06-24 12:44:17,168] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '690', button 'NavigationMenu:LIST_FORWARD') has been processed
+[2024-06-24 12:44:17,168] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624674 is handled. Duration 2577 ms by bot id=7010190829
+[2024-06-24 12:44:17,181] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '691', button 'NavigationMenu:LIST_FORWARD') has been accepted
+[2024-06-24 12:44:17,520] [WARNING] [source.extensions.telegram.windows] [windows.py:48] chat.sub_window_number is 9
+[2024-06-24 12:44:19,098] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '691', button 'NavigationMenu:LIST_FORWARD') has been processed
+[2024-06-24 12:44:19,099] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624675 is handled. Duration 1922 ms by bot id=7010190829
+[2024-06-24 12:44:19,228] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '692', button 'NavigationMenu:LIST_BACK') has been accepted
+[2024-06-24 12:44:19,564] [WARNING] [source.extensions.telegram.windows] [windows.py:48] chat.sub_window_number is 8
+[2024-06-24 12:44:20,581] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '692', button 'NavigationMenu:LIST_BACK') has been processed
+[2024-06-24 12:44:20,582] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624676 is handled. Duration 1359 ms by bot id=7010190829
+[2024-06-24 12:44:20,731] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '693', button 'NavigationMenu:LIST_BACK') has been accepted
+[2024-06-24 12:44:21,079] [WARNING] [source.extensions.telegram.windows] [windows.py:48] chat.sub_window_number is 7
+[2024-06-24 12:44:21,958] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '693', button 'NavigationMenu:LIST_BACK') has been processed
+[2024-06-24 12:44:21,958] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624677 is handled. Duration 1234 ms by bot id=7010190829
+[2024-06-24 12:44:22,354] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '694', button 'NavigationMenu:LOAD_PREV_MENU') has been accepted
+[2024-06-24 12:44:23,378] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '694', button 'NavigationMenu:LOAD_PREV_MENU') has been processed
+[2024-06-24 12:44:23,378] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624678 is handled. Duration 1031 ms by bot id=7010190829
+[2024-06-24 12:44:31,945] [INFO] [aiogram.dispatcher] [dispatcher.py:554] Polling stopped
+[2024-06-24 12:44:31,946] [INFO] [source.handlers.dispather] [dispather.py:24] Dispatcher has been shut down
+[2024-06-24 12:44:31,946] [INFO] [aiogram.dispatcher] [dispatcher.py:359] Polling stopped for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-24 12:44:32,201] [INFO] [source.persistance.database] [database.py:109] Database context has been closed
+[2024-06-24 12:55:51,513] [INFO] [source.persistance.database] [database.py:43] Database context has been initialized
+[2024-06-24 12:58:05,687] [INFO] [source.persistance.database] [database.py:43] Database context has been initialized
+[2024-06-24 12:58:05,772] [INFO] [__main__] [main.py:40] Application has been started
+[2024-06-24 12:58:06,244] [INFO] [source.handlers.dispather] [dispather.py:16] Dispatcher has been started
+[2024-06-24 12:58:06,245] [INFO] [aiogram.dispatcher] [dispatcher.py:527] Start polling
+[2024-06-24 12:58:06,339] [INFO] [aiogram.dispatcher] [dispatcher.py:341] Run polling for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-24 12:58:20,323] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '695', button 'MainMenu:SHOW_ROOMS_AND_PRICES_WINDOW') has been accepted
+[2024-06-24 12:58:21,942] [WARNING] [source.extensions.telegram.windows] [windows.py:48] chat.sub_window_number is 1
+[2024-06-24 12:58:23,575] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '695', button 'MainMenu:SHOW_ROOMS_AND_PRICES_WINDOW') has been processed
+[2024-06-24 12:58:23,576] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624680 is handled. Duration 3250 ms by bot id=7010190829
+[2024-06-24 12:58:25,183] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '696', button 'NavigationMenu:LIST_FORWARD') has been accepted
+[2024-06-24 12:58:25,541] [WARNING] [source.extensions.telegram.windows] [windows.py:48] chat.sub_window_number is 2
+[2024-06-24 12:58:26,521] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '696', button 'NavigationMenu:LIST_FORWARD') has been processed
+[2024-06-24 12:58:26,522] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624681 is handled. Duration 1344 ms by bot id=7010190829
+[2024-06-24 12:58:26,898] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '697', button 'NavigationMenu:LIST_FORWARD') has been accepted
+[2024-06-24 12:58:27,242] [WARNING] [source.extensions.telegram.windows] [windows.py:48] chat.sub_window_number is 3
+[2024-06-24 12:58:28,171] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '697', button 'NavigationMenu:LIST_FORWARD') has been processed
+[2024-06-24 12:58:28,171] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624682 is handled. Duration 1265 ms by bot id=7010190829
+[2024-06-24 12:58:28,902] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '698', button 'NavigationMenu:LOAD_PREV_MENU') has been accepted
+[2024-06-24 12:58:30,171] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '698', button 'NavigationMenu:LOAD_PREV_MENU') has been processed
+[2024-06-24 12:58:30,172] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624683 is handled. Duration 1265 ms by bot id=7010190829
+[2024-06-24 13:01:01,168] [INFO] [aiogram.dispatcher] [dispatcher.py:554] Polling stopped
+[2024-06-24 13:01:01,169] [INFO] [source.handlers.dispather] [dispather.py:24] Dispatcher has been shut down
+[2024-06-24 13:01:01,169] [INFO] [aiogram.dispatcher] [dispatcher.py:359] Polling stopped for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-24 13:01:01,423] [INFO] [source.persistance.database] [database.py:109] Database context has been closed
+[2024-06-24 13:24:57,575] [INFO] [source.persistance.database] [database.py:43] Database context has been initialized
+[2024-06-24 13:24:57,622] [INFO] [__main__] [main.py:40] Application has been started
+[2024-06-24 13:24:58,143] [INFO] [source.handlers.dispather] [dispather.py:16] Dispatcher has been started
+[2024-06-24 13:24:58,145] [INFO] [aiogram.dispatcher] [dispatcher.py:527] Start polling
+[2024-06-24 13:24:58,246] [INFO] [aiogram.dispatcher] [dispatcher.py:341] Run polling for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-24 13:25:00,331] [INFO] [source.handlers.command] [command.py:46] event (chat '5663974991', command '700', text '/start') has been accepted
+[2024-06-24 13:25:02,756] [INFO] [source.handlers.command] [command.py:63] event (chat '5663974991', command '700', text '/start') has been processed
+[2024-06-24 13:25:02,932] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624684 is handled. Duration 2609 ms by bot id=7010190829
+[2024-06-24 13:25:03,909] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '701', button 'MainMenu:SHOW_ROOMS_AND_PRICES_WINDOW') has been accepted
+[2024-06-24 13:25:04,248] [WARNING] [source.extensions.telegram.windows] [windows.py:48] chat.sub_window_number is 1
+[2024-06-24 13:25:04,801] [ERROR] [source.persistance.database] [database.py:94] An error occurred during database session
+[2024-06-24 13:25:05,026] [ERROR] [source.handlers.ibutton] [ibutton.py:61] event (chat '5663974991', message '701', button 'MainMenu:SHOW_ROOMS_AND_PRICES_WINDOW') hasn't been processed correctly
+Traceback (most recent call last):
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\source\handlers\ibutton.py", line 54, in wrapper
+    await function(query, session, event)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\source\handlers\ibutton.py", line 84, in on_show_rooms_and_prices
+    await load_room_and_prices_window(chat=chat, event=event, session=session)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\source\extensions\telegram\windows.py", line 57, in load_room_and_prices_window
+    message_id = await try_send_photo(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\source\extensions\telegram\helpers.py", line 70, in try_send_photo
+    message = await bot.send_photo(chat_id=chat_id, photo=photo, caption=caption, reply_markup=reply_markup)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiogram\client\bot.py", line 2975, in send_photo
+    return await self(call, request_timeout=request_timeout)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiogram\client\bot.py", line 482, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiogram\client\session\base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiogram\client\session\aiohttp.py", line 189, in make_request
+    response = self.check_response(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiogram\client\session\base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: failed to get HTTP URL content
+[2024-06-24 13:25:05,043] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624685 is handled. Duration 1140 ms by bot id=7010190829
+[2024-06-24 13:25:38,385] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '701', button 'MainMenu:SHOW_ROOMS_AND_PRICES_WINDOW') has been accepted
+[2024-06-24 13:25:38,727] [WARNING] [source.extensions.telegram.windows] [windows.py:48] chat.sub_window_number is 1
+[2024-06-24 13:25:39,221] [ERROR] [source.persistance.database] [database.py:94] An error occurred during database session
+[2024-06-24 13:25:39,438] [ERROR] [source.handlers.ibutton] [ibutton.py:61] event (chat '5663974991', message '701', button 'MainMenu:SHOW_ROOMS_AND_PRICES_WINDOW') hasn't been processed correctly
+Traceback (most recent call last):
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\source\handlers\ibutton.py", line 54, in wrapper
+    await function(query, session, event)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\source\handlers\ibutton.py", line 84, in on_show_rooms_and_prices
+    await load_room_and_prices_window(chat=chat, event=event, session=session)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\source\extensions\telegram\windows.py", line 57, in load_room_and_prices_window
+    message_id = await try_send_photo(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\source\extensions\telegram\helpers.py", line 70, in try_send_photo
+    message = await bot.send_photo(chat_id=chat_id, photo=photo, caption=caption, reply_markup=reply_markup)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiogram\client\bot.py", line 2975, in send_photo
+    return await self(call, request_timeout=request_timeout)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiogram\client\bot.py", line 482, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiogram\client\session\base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiogram\client\session\aiohttp.py", line 189, in make_request
+    response = self.check_response(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiogram\client\session\base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: failed to get HTTP URL content
+[2024-06-24 13:25:39,439] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624686 is handled. Duration 1046 ms by bot id=7010190829
+[2024-06-24 13:26:54,586] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '701', button 'MainMenu:SHOW_ROOMS_AND_PRICES_WINDOW') has been accepted
+[2024-06-24 13:26:54,928] [WARNING] [source.extensions.telegram.windows] [windows.py:48] chat.sub_window_number is 1
+[2024-06-24 13:26:56,538] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '701', button 'MainMenu:SHOW_ROOMS_AND_PRICES_WINDOW') has been processed
+[2024-06-24 13:26:56,539] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624687 is handled. Duration 1952 ms by bot id=7010190829
+[2024-06-24 13:27:01,338] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '702', button 'NavigationMenu:LIST_FORWARD') has been accepted
+[2024-06-24 13:27:01,676] [WARNING] [source.extensions.telegram.windows] [windows.py:48] chat.sub_window_number is 2
+[2024-06-24 13:27:02,611] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '702', button 'NavigationMenu:LIST_FORWARD') has been processed
+[2024-06-24 13:27:02,612] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624688 is handled. Duration 1265 ms by bot id=7010190829
+[2024-06-24 13:27:03,172] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '703', button 'NavigationMenu:LIST_FORWARD') has been accepted
+[2024-06-24 13:27:03,507] [WARNING] [source.extensions.telegram.windows] [windows.py:48] chat.sub_window_number is 3
+[2024-06-24 13:27:04,409] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '703', button 'NavigationMenu:LIST_FORWARD') has been processed
+[2024-06-24 13:27:04,409] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624689 is handled. Duration 1250 ms by bot id=7010190829
+[2024-06-24 13:27:05,128] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '704', button 'NavigationMenu:LIST_FORWARD') has been accepted
+[2024-06-24 13:27:05,460] [WARNING] [source.extensions.telegram.windows] [windows.py:48] chat.sub_window_number is 4
+[2024-06-24 13:27:06,938] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '704', button 'NavigationMenu:LIST_FORWARD') has been processed
+[2024-06-24 13:27:06,938] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624690 is handled. Duration 1812 ms by bot id=7010190829
+[2024-06-24 13:27:07,886] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '705', button 'NavigationMenu:LIST_FORWARD') has been accepted
+[2024-06-24 13:27:08,226] [WARNING] [source.extensions.telegram.windows] [windows.py:48] chat.sub_window_number is 5
+[2024-06-24 13:27:09,138] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '705', button 'NavigationMenu:LIST_FORWARD') has been processed
+[2024-06-24 13:27:09,139] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624691 is handled. Duration 1250 ms by bot id=7010190829
+[2024-06-24 13:27:09,745] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '706', button 'NavigationMenu:LIST_FORWARD') has been accepted
+[2024-06-24 13:27:10,080] [WARNING] [source.extensions.telegram.windows] [windows.py:48] chat.sub_window_number is 6
+[2024-06-24 13:27:11,111] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '706', button 'NavigationMenu:LIST_FORWARD') has been processed
+[2024-06-24 13:27:11,111] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624692 is handled. Duration 1359 ms by bot id=7010190829
+[2024-06-24 13:27:11,997] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '707', button 'NavigationMenu:LIST_FORWARD') has been accepted
+[2024-06-24 13:27:12,332] [WARNING] [source.extensions.telegram.windows] [windows.py:48] chat.sub_window_number is 7
+[2024-06-24 13:27:13,297] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '707', button 'NavigationMenu:LIST_FORWARD') has been processed
+[2024-06-24 13:27:13,297] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624693 is handled. Duration 1297 ms by bot id=7010190829
+[2024-06-24 13:27:13,985] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '708', button 'NavigationMenu:LIST_FORWARD') has been accepted
+[2024-06-24 13:27:14,324] [WARNING] [source.extensions.telegram.windows] [windows.py:48] chat.sub_window_number is 8
+[2024-06-24 13:27:15,795] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '708', button 'NavigationMenu:LIST_FORWARD') has been processed
+[2024-06-24 13:27:15,795] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624694 is handled. Duration 1812 ms by bot id=7010190829
+[2024-06-24 13:27:16,452] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '709', button 'NavigationMenu:LIST_FORWARD') has been accepted
+[2024-06-24 13:27:16,786] [WARNING] [source.extensions.telegram.windows] [windows.py:48] chat.sub_window_number is 9
+[2024-06-24 13:27:18,397] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '709', button 'NavigationMenu:LIST_FORWARD') has been processed
+[2024-06-24 13:27:18,397] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624695 is handled. Duration 1954 ms by bot id=7010190829
+[2024-06-24 13:27:19,364] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '710', button 'NavigationMenu:LIST_BACK') has been accepted
+[2024-06-24 13:27:19,698] [WARNING] [source.extensions.telegram.windows] [windows.py:48] chat.sub_window_number is 8
+[2024-06-24 13:27:20,676] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '710', button 'NavigationMenu:LIST_BACK') has been processed
+[2024-06-24 13:27:20,676] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624696 is handled. Duration 1312 ms by bot id=7010190829
+[2024-06-24 13:27:22,790] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '711', button 'NavigationMenu:LIST_FORWARD') has been accepted
+[2024-06-24 13:27:23,118] [WARNING] [source.extensions.telegram.windows] [windows.py:48] chat.sub_window_number is 9
+[2024-06-24 13:27:24,069] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '711', button 'NavigationMenu:LIST_FORWARD') has been processed
+[2024-06-24 13:27:24,069] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624697 is handled. Duration 1280 ms by bot id=7010190829
+[2024-06-24 13:27:26,722] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '712', button 'NavigationMenu:LIST_BACK') has been accepted
+[2024-06-24 13:27:27,226] [WARNING] [source.extensions.telegram.windows] [windows.py:48] chat.sub_window_number is 8
+[2024-06-24 13:27:28,784] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '712', button 'NavigationMenu:LIST_BACK') has been processed
+[2024-06-24 13:27:28,784] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624698 is handled. Duration 2047 ms by bot id=7010190829
+[2024-06-24 13:27:28,786] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '713', button 'NavigationMenu:LIST_BACK') has been accepted
+[2024-06-24 13:27:29,198] [WARNING] [source.extensions.telegram.windows] [windows.py:48] chat.sub_window_number is 7
+[2024-06-24 13:27:30,526] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '713', button 'NavigationMenu:LIST_BACK') has been processed
+[2024-06-24 13:27:30,526] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624699 is handled. Duration 2219 ms by bot id=7010190829
+[2024-06-24 13:27:30,527] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '714', button 'NavigationMenu:LIST_BACK') has been accepted
+[2024-06-24 13:27:31,041] [WARNING] [source.extensions.telegram.windows] [windows.py:48] chat.sub_window_number is 6
+[2024-06-24 13:27:32,458] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '714', button 'NavigationMenu:LIST_BACK') has been processed
+[2024-06-24 13:27:32,458] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624700 is handled. Duration 2172 ms by bot id=7010190829
+[2024-06-24 13:27:32,459] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '715', button 'NavigationMenu:LIST_BACK') has been accepted
+[2024-06-24 13:27:32,932] [WARNING] [source.extensions.telegram.windows] [windows.py:48] chat.sub_window_number is 5
+[2024-06-24 13:27:34,202] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '715', button 'NavigationMenu:LIST_BACK') has been processed
+[2024-06-24 13:27:34,202] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624701 is handled. Duration 2077 ms by bot id=7010190829
+[2024-06-24 13:27:34,736] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '716', button 'NavigationMenu:LIST_BACK') has been accepted
+[2024-06-24 13:27:35,075] [WARNING] [source.extensions.telegram.windows] [windows.py:48] chat.sub_window_number is 4
+[2024-06-24 13:27:36,065] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '716', button 'NavigationMenu:LIST_BACK') has been processed
+[2024-06-24 13:27:36,065] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624702 is handled. Duration 1327 ms by bot id=7010190829
+[2024-06-24 13:27:36,101] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '717', button 'NavigationMenu:LIST_BACK') has been accepted
+[2024-06-24 13:27:36,436] [WARNING] [source.extensions.telegram.windows] [windows.py:48] chat.sub_window_number is 3
+[2024-06-24 13:27:37,375] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '717', button 'NavigationMenu:LIST_BACK') has been processed
+[2024-06-24 13:27:37,375] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624703 is handled. Duration 1265 ms by bot id=7010190829
+[2024-06-24 13:27:37,860] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '718', button 'NavigationMenu:LIST_BACK') has been accepted
+[2024-06-24 13:27:38,196] [WARNING] [source.extensions.telegram.windows] [windows.py:48] chat.sub_window_number is 2
+[2024-06-24 13:27:39,099] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '718', button 'NavigationMenu:LIST_BACK') has been processed
+[2024-06-24 13:27:39,099] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624704 is handled. Duration 1250 ms by bot id=7010190829
+[2024-06-24 13:27:40,503] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '719', button 'NavigationMenu:LIST_BACK') has been accepted
+[2024-06-24 13:27:40,834] [WARNING] [source.extensions.telegram.windows] [windows.py:48] chat.sub_window_number is 1
+[2024-06-24 13:27:41,790] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '719', button 'NavigationMenu:LIST_BACK') has been processed
+[2024-06-24 13:27:41,790] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624705 is handled. Duration 1280 ms by bot id=7010190829
+[2024-06-24 13:27:42,774] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '720', button 'NavigationMenu:LOAD_PREV_MENU') has been accepted
+[2024-06-24 13:27:43,904] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '720', button 'NavigationMenu:LOAD_PREV_MENU') has been processed
+[2024-06-24 13:27:43,904] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624706 is handled. Duration 1125 ms by bot id=7010190829
+[2024-06-24 13:27:53,214] [INFO] [aiogram.dispatcher] [dispatcher.py:359] Polling stopped for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-24 13:27:53,214] [INFO] [aiogram.dispatcher] [dispatcher.py:554] Polling stopped
+[2024-06-24 13:27:53,215] [INFO] [source.handlers.dispather] [dispather.py:24] Dispatcher has been shut down
+[2024-06-24 13:27:53,461] [INFO] [source.persistance.database] [database.py:109] Database context has been closed
+[2024-06-24 13:33:06,238] [INFO] [source.persistance.database] [database.py:43] Database context has been initialized
+[2024-06-24 13:33:06,284] [INFO] [__main__] [main.py:40] Application has been started
+[2024-06-24 13:33:06,868] [INFO] [source.handlers.dispather] [dispather.py:16] Dispatcher has been started
+[2024-06-24 13:33:06,869] [INFO] [aiogram.dispatcher] [dispatcher.py:527] Start polling
+[2024-06-24 13:33:06,968] [INFO] [aiogram.dispatcher] [dispatcher.py:341] Run polling for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-24 13:33:12,501] [INFO] [aiogram.dispatcher] [dispatcher.py:359] Polling stopped for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-24 13:33:12,501] [INFO] [aiogram.dispatcher] [dispatcher.py:554] Polling stopped
+[2024-06-24 13:33:12,501] [INFO] [source.handlers.dispather] [dispather.py:24] Dispatcher has been shut down
+[2024-06-24 13:33:12,759] [INFO] [source.persistance.database] [database.py:109] Database context has been closed
+[2024-06-24 13:33:18,944] [INFO] [source.persistance.database] [database.py:43] Database context has been initialized
+[2024-06-24 13:33:18,990] [INFO] [__main__] [main.py:40] Application has been started
+[2024-06-24 13:33:19,358] [INFO] [source.handlers.dispather] [dispather.py:16] Dispatcher has been started
+[2024-06-24 13:33:19,358] [INFO] [aiogram.dispatcher] [dispatcher.py:527] Start polling
+[2024-06-24 13:33:19,450] [INFO] [aiogram.dispatcher] [dispatcher.py:341] Run polling for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-24 13:33:20,153] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '721', button 'MainMenu:SHOW_ROOMS_AND_PRICES_WINDOW') has been accepted
+[2024-06-24 13:33:21,719] [WARNING] [source.extensions.telegram.windows] [windows.py:49] chat.sub_window_number is 1
+[2024-06-24 13:33:22,837] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '721', button 'MainMenu:SHOW_ROOMS_AND_PRICES_WINDOW') has been processed
+[2024-06-24 13:33:22,838] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624707 is handled. Duration 2687 ms by bot id=7010190829
+[2024-06-24 13:33:27,863] [INFO] [aiogram.dispatcher] [dispatcher.py:554] Polling stopped
+[2024-06-24 13:33:27,864] [INFO] [source.handlers.dispather] [dispather.py:24] Dispatcher has been shut down
+[2024-06-24 13:33:27,865] [INFO] [aiogram.dispatcher] [dispatcher.py:359] Polling stopped for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-24 13:33:28,133] [INFO] [source.persistance.database] [database.py:109] Database context has been closed
+[2024-06-24 13:33:35,837] [INFO] [source.persistance.database] [database.py:43] Database context has been initialized
+[2024-06-24 13:33:35,889] [INFO] [__main__] [main.py:40] Application has been started
+[2024-06-24 13:33:36,353] [INFO] [source.handlers.dispather] [dispather.py:16] Dispatcher has been started
+[2024-06-24 13:33:36,353] [INFO] [aiogram.dispatcher] [dispatcher.py:527] Start polling
+[2024-06-24 13:33:36,441] [INFO] [aiogram.dispatcher] [dispatcher.py:341] Run polling for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-24 13:33:38,517] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '722', button 'NavigationMenu:LIST_FORWARD') has been accepted
+[2024-06-24 13:33:40,086] [WARNING] [source.extensions.telegram.windows] [windows.py:49] chat.sub_window_number is 2
+[2024-06-24 13:33:40,088] [ERROR] [source.persistance.database] [database.py:94] An error occurred during database session
+[2024-06-24 13:33:40,306] [ERROR] [source.handlers.ibutton] [ibutton.py:61] event (chat '5663974991', message '722', button 'NavigationMenu:LIST_FORWARD') hasn't been processed correctly
+Traceback (most recent call last):
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\source\handlers\ibutton.py", line 54, in wrapper
+    await function(query, session, event)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\source\handlers\ibutton.py", line 200, in on_list_forward
+    await load_room_and_prices_window(chat=chat, event=event, session=session)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\source\extensions\telegram\windows.py", line 59, in load_room_and_prices_window
+    message_id  = await bot.edit_message_media(
+TypeError: Bot.edit_message_media() got an unexpected keyword argument 'markup'
+[2024-06-24 13:33:40,308] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624708 is handled. Duration 1796 ms by bot id=7010190829
+[2024-06-24 13:33:59,288] [INFO] [aiogram.dispatcher] [dispatcher.py:359] Polling stopped for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-24 13:33:59,288] [INFO] [aiogram.dispatcher] [dispatcher.py:554] Polling stopped
+[2024-06-24 13:33:59,289] [INFO] [source.handlers.dispather] [dispather.py:24] Dispatcher has been shut down
+[2024-06-24 13:33:59,551] [INFO] [source.persistance.database] [database.py:109] Database context has been closed
+[2024-06-24 13:34:08,656] [INFO] [source.persistance.database] [database.py:43] Database context has been initialized
+[2024-06-24 13:34:08,729] [INFO] [__main__] [main.py:40] Application has been started
+[2024-06-24 13:34:09,136] [INFO] [source.handlers.dispather] [dispather.py:16] Dispatcher has been started
+[2024-06-24 13:34:09,137] [INFO] [aiogram.dispatcher] [dispatcher.py:527] Start polling
+[2024-06-24 13:34:09,225] [INFO] [aiogram.dispatcher] [dispatcher.py:341] Run polling for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-24 13:34:14,497] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '722', button 'NavigationMenu:LIST_FORWARD') has been accepted
+[2024-06-24 13:34:16,069] [WARNING] [source.extensions.telegram.windows] [windows.py:49] chat.sub_window_number is 2
+[2024-06-24 13:34:16,364] [ERROR] [source.persistance.database] [database.py:94] An error occurred during database session
+[2024-06-24 13:34:16,581] [ERROR] [source.handlers.ibutton] [ibutton.py:61] event (chat '5663974991', message '722', button 'NavigationMenu:LIST_FORWARD') hasn't been processed correctly
+Traceback (most recent call last):
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\source\handlers\ibutton.py", line 54, in wrapper
+    await function(query, session, event)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\source\handlers\ibutton.py", line 200, in on_list_forward
+    await load_room_and_prices_window(chat=chat, event=event, session=session)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\source\extensions\telegram\windows.py", line 59, in load_room_and_prices_window
+    message_id  = await bot.edit_message_media(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiogram\client\bot.py", line 1480, in edit_message_media
+    return await self(call, request_timeout=request_timeout)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiogram\client\bot.py", line 482, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiogram\client\session\base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiogram\client\session\aiohttp.py", line 189, in make_request
+    response = self.check_response(
+  File "C:\Users\pc\Desktop\Projects\python\BrizBot\venv\lib\site-packages\aiogram\client\session\base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: message to edit not found
+[2024-06-24 13:34:16,585] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624709 is handled. Duration 2094 ms by bot id=7010190829
+[2024-06-24 13:35:00,147] [INFO] [aiogram.dispatcher] [dispatcher.py:359] Polling stopped for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-24 13:35:00,147] [INFO] [aiogram.dispatcher] [dispatcher.py:554] Polling stopped
+[2024-06-24 13:35:00,147] [INFO] [source.handlers.dispather] [dispather.py:24] Dispatcher has been shut down
+[2024-06-24 13:35:00,405] [INFO] [source.persistance.database] [database.py:109] Database context has been closed
+[2024-06-24 13:35:09,942] [INFO] [source.persistance.database] [database.py:43] Database context has been initialized
+[2024-06-24 13:35:10,010] [INFO] [__main__] [main.py:40] Application has been started
+[2024-06-24 13:35:10,418] [INFO] [source.handlers.dispather] [dispather.py:16] Dispatcher has been started
+[2024-06-24 13:35:10,418] [INFO] [aiogram.dispatcher] [dispatcher.py:527] Start polling
+[2024-06-24 13:35:10,516] [INFO] [aiogram.dispatcher] [dispatcher.py:341] Run polling for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-24 13:35:15,470] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '722', button 'NavigationMenu:LIST_FORWARD') has been accepted
+[2024-06-24 13:35:17,063] [WARNING] [source.extensions.telegram.windows] [windows.py:49] chat.sub_window_number is 2
+[2024-06-24 13:35:17,721] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '722', button 'NavigationMenu:LIST_FORWARD') has been processed
+[2024-06-24 13:35:17,722] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624710 is handled. Duration 2265 ms by bot id=7010190829
+[2024-06-24 13:35:18,546] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '722', button 'NavigationMenu:LIST_FORWARD') has been accepted
+[2024-06-24 13:35:18,876] [WARNING] [source.extensions.telegram.windows] [windows.py:49] chat.sub_window_number is 3
+[2024-06-24 13:35:19,473] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '722', button 'NavigationMenu:LIST_FORWARD') has been processed
+[2024-06-24 13:35:19,473] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624711 is handled. Duration 937 ms by bot id=7010190829
+[2024-06-24 13:35:19,957] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '722', button 'NavigationMenu:LIST_FORWARD') has been accepted
+[2024-06-24 13:35:20,295] [WARNING] [source.extensions.telegram.windows] [windows.py:49] chat.sub_window_number is 4
+[2024-06-24 13:35:20,744] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '722', button 'NavigationMenu:LIST_FORWARD') has been processed
+[2024-06-24 13:35:20,744] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624712 is handled. Duration 797 ms by bot id=7010190829
+[2024-06-24 13:35:22,799] [INFO] [aiogram.dispatcher] [dispatcher.py:359] Polling stopped for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-24 13:35:22,799] [INFO] [aiogram.dispatcher] [dispatcher.py:554] Polling stopped
+[2024-06-24 13:35:22,799] [INFO] [source.handlers.dispather] [dispather.py:24] Dispatcher has been shut down
+[2024-06-24 13:35:23,049] [INFO] [source.persistance.database] [database.py:109] Database context has been closed
+[2024-06-24 13:56:02,445] [INFO] [source.persistance.database] [database.py:43] Database context has been initialized
+[2024-06-24 13:56:02,492] [INFO] [__main__] [main.py:40] Application has been started
+[2024-06-24 13:56:03,022] [INFO] [source.handlers.dispather] [dispather.py:16] Dispatcher has been started
+[2024-06-24 13:56:03,023] [INFO] [aiogram.dispatcher] [dispatcher.py:527] Start polling
+[2024-06-24 13:56:03,117] [INFO] [aiogram.dispatcher] [dispatcher.py:341] Run polling for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-24 13:56:11,123] [INFO] [source.handlers.command] [command.py:46] event (chat '5663974991', command '723', text '/start') has been accepted
+[2024-06-24 13:56:13,572] [INFO] [source.handlers.command] [command.py:63] event (chat '5663974991', command '723', text '/start') has been processed
+[2024-06-24 13:56:13,670] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624713 is handled. Duration 2547 ms by bot id=7010190829
+[2024-06-24 13:56:13,957] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '724', button 'MainMenu:SHOW_ROOMS_AND_PRICES_WINDOW') has been accepted
+[2024-06-24 13:56:14,288] [WARNING] [source.extensions.telegram.windows] [windows.py:49] chat.sub_window_number is 1
+[2024-06-24 13:56:14,753] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '724', button 'MainMenu:SHOW_ROOMS_AND_PRICES_WINDOW') has been processed
+[2024-06-24 13:56:14,753] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624714 is handled. Duration 797 ms by bot id=7010190829
+[2024-06-24 13:56:15,949] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '724', button 'NavigationMenu:LIST_FORWARD') has been accepted
+[2024-06-24 13:56:16,287] [WARNING] [source.extensions.telegram.windows] [windows.py:49] chat.sub_window_number is 2
+[2024-06-24 13:56:16,731] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '724', button 'NavigationMenu:LIST_FORWARD') has been processed
+[2024-06-24 13:56:16,731] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624715 is handled. Duration 782 ms by bot id=7010190829
+[2024-06-24 13:56:17,209] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '724', button 'NavigationMenu:LIST_FORWARD') has been accepted
+[2024-06-24 13:56:17,529] [WARNING] [source.extensions.telegram.windows] [windows.py:49] chat.sub_window_number is 3
+[2024-06-24 13:56:18,008] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '724', button 'NavigationMenu:LIST_FORWARD') has been processed
+[2024-06-24 13:56:18,009] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624716 is handled. Duration 797 ms by bot id=7010190829
+[2024-06-24 13:56:18,315] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '724', button 'NavigationMenu:LIST_FORWARD') has been accepted
+[2024-06-24 13:56:18,642] [WARNING] [source.extensions.telegram.windows] [windows.py:49] chat.sub_window_number is 4
+[2024-06-24 13:56:19,110] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '724', button 'NavigationMenu:LIST_FORWARD') has been processed
+[2024-06-24 13:56:19,110] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624717 is handled. Duration 797 ms by bot id=7010190829
+[2024-06-24 13:56:19,637] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '724', button 'NavigationMenu:LIST_FORWARD') has been accepted
+[2024-06-24 13:56:19,963] [WARNING] [source.extensions.telegram.windows] [windows.py:49] chat.sub_window_number is 5
+[2024-06-24 13:56:20,503] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '724', button 'NavigationMenu:LIST_FORWARD') has been processed
+[2024-06-24 13:56:20,504] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624718 is handled. Duration 875 ms by bot id=7010190829
+[2024-06-24 13:56:20,726] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '724', button 'NavigationMenu:LIST_FORWARD') has been accepted
+[2024-06-24 13:56:21,050] [WARNING] [source.extensions.telegram.windows] [windows.py:49] chat.sub_window_number is 6
+[2024-06-24 13:56:21,587] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '724', button 'NavigationMenu:LIST_FORWARD') has been processed
+[2024-06-24 13:56:21,587] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624719 is handled. Duration 859 ms by bot id=7010190829
+[2024-06-24 13:56:21,839] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '724', button 'NavigationMenu:LIST_FORWARD') has been accepted
+[2024-06-24 13:56:22,165] [WARNING] [source.extensions.telegram.windows] [windows.py:49] chat.sub_window_number is 7
+[2024-06-24 13:56:22,610] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '724', button 'NavigationMenu:LIST_FORWARD') has been processed
+[2024-06-24 13:56:22,611] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624720 is handled. Duration 765 ms by bot id=7010190829
+[2024-06-24 13:56:22,922] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '724', button 'NavigationMenu:LIST_FORWARD') has been accepted
+[2024-06-24 13:56:23,246] [WARNING] [source.extensions.telegram.windows] [windows.py:49] chat.sub_window_number is 8
+[2024-06-24 13:56:23,769] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '724', button 'NavigationMenu:LIST_FORWARD') has been processed
+[2024-06-24 13:56:23,769] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624721 is handled. Duration 859 ms by bot id=7010190829
+[2024-06-24 13:56:23,958] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '724', button 'NavigationMenu:LIST_FORWARD') has been accepted
+[2024-06-24 13:56:24,296] [WARNING] [source.extensions.telegram.windows] [windows.py:49] chat.sub_window_number is 9
+[2024-06-24 13:56:24,860] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '724', button 'NavigationMenu:LIST_FORWARD') has been processed
+[2024-06-24 13:56:24,860] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624722 is handled. Duration 890 ms by bot id=7010190829
+[2024-06-24 13:56:25,045] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '724', button 'NavigationMenu:LIST_BACK') has been accepted
+[2024-06-24 13:56:25,376] [WARNING] [source.extensions.telegram.windows] [windows.py:49] chat.sub_window_number is 8
+[2024-06-24 13:56:25,851] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '724', button 'NavigationMenu:LIST_BACK') has been processed
+[2024-06-24 13:56:25,851] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624723 is handled. Duration 812 ms by bot id=7010190829
+[2024-06-24 13:56:26,649] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '724', button 'NavigationMenu:LIST_FORWARD') has been accepted
+[2024-06-24 13:56:26,970] [WARNING] [source.extensions.telegram.windows] [windows.py:49] chat.sub_window_number is 9
+[2024-06-24 13:56:27,503] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '724', button 'NavigationMenu:LIST_FORWARD') has been processed
+[2024-06-24 13:56:27,503] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624724 is handled. Duration 859 ms by bot id=7010190829
+[2024-06-24 13:56:27,842] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '724', button 'NavigationMenu:LIST_BACK') has been accepted
+[2024-06-24 13:56:28,171] [WARNING] [source.extensions.telegram.windows] [windows.py:49] chat.sub_window_number is 8
+[2024-06-24 13:56:28,749] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '724', button 'NavigationMenu:LIST_BACK') has been processed
+[2024-06-24 13:56:28,750] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624725 is handled. Duration 905 ms by bot id=7010190829
+[2024-06-24 13:56:29,055] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '724', button 'NavigationMenu:LIST_BACK') has been accepted
+[2024-06-24 13:56:29,380] [WARNING] [source.extensions.telegram.windows] [windows.py:49] chat.sub_window_number is 7
+[2024-06-24 13:56:29,875] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '724', button 'NavigationMenu:LIST_BACK') has been processed
+[2024-06-24 13:56:29,875] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624726 is handled. Duration 812 ms by bot id=7010190829
+[2024-06-24 13:56:30,014] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '724', button 'NavigationMenu:LIST_BACK') has been accepted
+[2024-06-24 13:56:30,342] [WARNING] [source.extensions.telegram.windows] [windows.py:49] chat.sub_window_number is 6
+[2024-06-24 13:56:30,883] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '724', button 'NavigationMenu:LIST_BACK') has been processed
+[2024-06-24 13:56:30,884] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624727 is handled. Duration 875 ms by bot id=7010190829
+[2024-06-24 13:56:31,013] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '724', button 'NavigationMenu:LIST_BACK') has been accepted
+[2024-06-24 13:56:31,337] [WARNING] [source.extensions.telegram.windows] [windows.py:49] chat.sub_window_number is 5
+[2024-06-24 13:56:31,857] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '724', button 'NavigationMenu:LIST_BACK') has been processed
+[2024-06-24 13:56:31,858] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624728 is handled. Duration 843 ms by bot id=7010190829
+[2024-06-24 13:56:32,092] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '724', button 'NavigationMenu:LIST_BACK') has been accepted
+[2024-06-24 13:56:32,420] [WARNING] [source.extensions.telegram.windows] [windows.py:49] chat.sub_window_number is 4
+[2024-06-24 13:56:32,903] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '724', button 'NavigationMenu:LIST_BACK') has been processed
+[2024-06-24 13:56:32,903] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624729 is handled. Duration 812 ms by bot id=7010190829
+[2024-06-24 13:56:33,067] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '724', button 'NavigationMenu:LIST_BACK') has been accepted
+[2024-06-24 13:56:33,395] [WARNING] [source.extensions.telegram.windows] [windows.py:49] chat.sub_window_number is 3
+[2024-06-24 13:56:33,847] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '724', button 'NavigationMenu:LIST_BACK') has been processed
+[2024-06-24 13:56:33,848] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624730 is handled. Duration 782 ms by bot id=7010190829
+[2024-06-24 13:56:34,090] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '724', button 'NavigationMenu:LIST_BACK') has been accepted
+[2024-06-24 13:56:34,415] [WARNING] [source.extensions.telegram.windows] [windows.py:49] chat.sub_window_number is 2
+[2024-06-24 13:56:34,853] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '724', button 'NavigationMenu:LIST_BACK') has been processed
+[2024-06-24 13:56:34,853] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624731 is handled. Duration 765 ms by bot id=7010190829
+[2024-06-24 13:56:35,325] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '724', button 'NavigationMenu:LOAD_PREV_MENU') has been accepted
+[2024-06-24 13:56:36,363] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '724', button 'NavigationMenu:LOAD_PREV_MENU') has been processed
+[2024-06-24 13:56:36,363] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624732 is handled. Duration 1047 ms by bot id=7010190829
+[2024-06-24 13:56:37,839] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '725', button 'MainMenu:SHOW_MAP_WINDOW') has been accepted
+[2024-06-24 13:56:39,402] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '725', button 'MainMenu:SHOW_MAP_WINDOW') has been processed
+[2024-06-24 13:56:39,402] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624733 is handled. Duration 1562 ms by bot id=7010190829
+[2024-06-24 13:56:39,630] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '727', button 'NavigationMenu:LOAD_PREV_MENU') has been accepted
+[2024-06-24 13:56:41,127] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '727', button 'NavigationMenu:LOAD_PREV_MENU') has been processed
+[2024-06-24 13:56:41,128] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624734 is handled. Duration 1500 ms by bot id=7010190829
+[2024-06-24 13:56:41,128] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '728', button 'MainMenu:SHOW_ADMINS_WINDOW') has been accepted
+[2024-06-24 13:56:45,001] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '728', button 'MainMenu:SHOW_ADMINS_WINDOW') has been processed
+[2024-06-24 13:56:45,001] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624735 is handled. Duration 4187 ms by bot id=7010190829
+[2024-06-24 13:56:45,002] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '731', button 'NavigationMenu:LOAD_PREV_MENU') has been accepted
+[2024-06-24 13:56:47,497] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '731', button 'NavigationMenu:LOAD_PREV_MENU') has been processed
+[2024-06-24 13:56:47,497] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624736 is handled. Duration 3250 ms by bot id=7010190829
+[2024-06-24 13:56:50,043] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '732', button 'MainMenu:SHOW_ROOMS_AND_PRICES_WINDOW') has been accepted
+[2024-06-24 13:56:50,553] [WARNING] [source.extensions.telegram.windows] [windows.py:49] chat.sub_window_number is 1
+[2024-06-24 13:56:51,158] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '732', button 'MainMenu:SHOW_ROOMS_AND_PRICES_WINDOW') has been processed
+[2024-06-24 13:56:51,158] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624737 is handled. Duration 1109 ms by bot id=7010190829
+[2024-06-24 13:58:04,924] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '732', button 'NavigationMenu:LIST_FORWARD') has been accepted
+[2024-06-24 13:58:05,251] [WARNING] [source.extensions.telegram.windows] [windows.py:49] chat.sub_window_number is 2
+[2024-06-24 13:58:05,906] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '732', button 'NavigationMenu:LIST_FORWARD') has been processed
+[2024-06-24 13:58:05,906] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624738 is handled. Duration 984 ms by bot id=7010190829
+[2024-06-24 13:58:06,157] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '732', button 'NavigationMenu:LIST_FORWARD') has been accepted
+[2024-06-24 13:58:06,481] [WARNING] [source.extensions.telegram.windows] [windows.py:49] chat.sub_window_number is 3
+[2024-06-24 13:58:06,937] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '732', button 'NavigationMenu:LIST_FORWARD') has been processed
+[2024-06-24 13:58:06,938] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624739 is handled. Duration 780 ms by bot id=7010190829
+[2024-06-24 13:58:07,066] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '732', button 'NavigationMenu:LIST_FORWARD') has been accepted
+[2024-06-24 13:58:07,394] [WARNING] [source.extensions.telegram.windows] [windows.py:49] chat.sub_window_number is 4
+[2024-06-24 13:58:07,850] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '732', button 'NavigationMenu:LIST_FORWARD') has been processed
+[2024-06-24 13:58:07,851] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624740 is handled. Duration 782 ms by bot id=7010190829
+[2024-06-24 13:58:07,956] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '732', button 'NavigationMenu:LIST_FORWARD') has been accepted
+[2024-06-24 13:58:08,286] [WARNING] [source.extensions.telegram.windows] [windows.py:49] chat.sub_window_number is 5
+[2024-06-24 13:58:08,741] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '732', button 'NavigationMenu:LIST_FORWARD') has been processed
+[2024-06-24 13:58:08,741] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624741 is handled. Duration 797 ms by bot id=7010190829
+[2024-06-24 13:58:10,102] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '732', button 'NavigationMenu:LOAD_PREV_MENU') has been accepted
+[2024-06-24 13:58:11,137] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '732', button 'NavigationMenu:LOAD_PREV_MENU') has been processed
+[2024-06-24 13:58:11,137] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624742 is handled. Duration 1031 ms by bot id=7010190829
+[2024-06-24 13:58:12,354] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '733', button 'MainMenu:SHOW_ROOMS_AND_PRICES_WINDOW') has been accepted
+[2024-06-24 13:58:12,687] [WARNING] [source.extensions.telegram.windows] [windows.py:49] chat.sub_window_number is 1
+[2024-06-24 13:58:13,132] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '733', button 'MainMenu:SHOW_ROOMS_AND_PRICES_WINDOW') has been processed
+[2024-06-24 13:58:13,132] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624743 is handled. Duration 781 ms by bot id=7010190829
+[2024-06-24 13:58:13,834] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '733', button 'NavigationMenu:LOAD_PREV_MENU') has been accepted
+[2024-06-24 13:58:14,827] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '733', button 'NavigationMenu:LOAD_PREV_MENU') has been processed
+[2024-06-24 13:58:14,827] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624744 is handled. Duration 983 ms by bot id=7010190829
+[2024-06-24 13:58:15,454] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '734', button 'MainMenu:SHOW_ROOMS_AND_PRICES_WINDOW') has been accepted
+[2024-06-24 13:58:15,786] [WARNING] [source.extensions.telegram.windows] [windows.py:49] chat.sub_window_number is 1
+[2024-06-24 13:58:16,301] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '734', button 'MainMenu:SHOW_ROOMS_AND_PRICES_WINDOW') has been processed
+[2024-06-24 13:58:16,301] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624745 is handled. Duration 859 ms by bot id=7010190829
+[2024-06-24 13:58:17,176] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '734', button 'NavigationMenu:LOAD_PREV_MENU') has been accepted
+[2024-06-24 13:58:18,364] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '734', button 'NavigationMenu:LOAD_PREV_MENU') has been processed
+[2024-06-24 13:58:18,364] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624746 is handled. Duration 1187 ms by bot id=7010190829
+[2024-06-24 13:58:19,665] [INFO] [aiogram.dispatcher] [dispatcher.py:554] Polling stopped
+[2024-06-24 13:58:19,665] [INFO] [source.handlers.dispather] [dispather.py:24] Dispatcher has been shut down
+[2024-06-24 13:58:19,666] [INFO] [aiogram.dispatcher] [dispatcher.py:359] Polling stopped for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-24 13:58:19,932] [INFO] [source.persistance.database] [database.py:109] Database context has been closed
+[2024-06-24 13:59:50,780] [INFO] [source.persistance.database] [database.py:43] Database context has been initialized
+[2024-06-24 13:59:50,855] [INFO] [__main__] [main.py:40] Application has been started
+[2024-06-24 13:59:51,375] [INFO] [source.handlers.dispather] [dispather.py:16] Dispatcher has been started
+[2024-06-24 13:59:51,376] [INFO] [aiogram.dispatcher] [dispatcher.py:527] Start polling
+[2024-06-24 13:59:51,472] [INFO] [aiogram.dispatcher] [dispatcher.py:341] Run polling for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-24 13:59:59,822] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '735', button 'MainMenu:SHOW_ROOMS_AND_PRICES_WINDOW') has been accepted
+[2024-06-24 14:00:01,381] [WARNING] [source.extensions.telegram.windows] [windows.py:51] chat.sub_window_number is 1
+[2024-06-24 14:00:02,088] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '735', button 'MainMenu:SHOW_ROOMS_AND_PRICES_WINDOW') has been processed
+[2024-06-24 14:00:02,088] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624747 is handled. Duration 2266 ms by bot id=7010190829
+[2024-06-24 14:01:33,278] [INFO] [aiogram.dispatcher] [dispatcher.py:554] Polling stopped
+[2024-06-24 14:01:33,279] [INFO] [source.handlers.dispather] [dispather.py:24] Dispatcher has been shut down
+[2024-06-24 14:01:33,279] [INFO] [aiogram.dispatcher] [dispatcher.py:359] Polling stopped for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-24 14:01:33,543] [INFO] [source.persistance.database] [database.py:109] Database context has been closed
+[2024-06-24 14:01:41,354] [INFO] [source.persistance.database] [database.py:43] Database context has been initialized
+[2024-06-24 14:01:41,408] [INFO] [__main__] [main.py:40] Application has been started
+[2024-06-24 14:01:41,829] [INFO] [source.handlers.dispather] [dispather.py:16] Dispatcher has been started
+[2024-06-24 14:01:41,829] [INFO] [aiogram.dispatcher] [dispatcher.py:527] Start polling
+[2024-06-24 14:01:41,928] [INFO] [aiogram.dispatcher] [dispatcher.py:341] Run polling for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-24 14:01:49,257] [INFO] [aiogram.dispatcher] [dispatcher.py:554] Polling stopped
+[2024-06-24 14:01:49,257] [INFO] [source.handlers.dispather] [dispather.py:24] Dispatcher has been shut down
+[2024-06-24 14:01:49,258] [INFO] [aiogram.dispatcher] [dispatcher.py:359] Polling stopped for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-24 14:01:49,517] [INFO] [source.persistance.database] [database.py:109] Database context has been closed
+[2024-06-24 14:01:55,107] [INFO] [source.persistance.database] [database.py:43] Database context has been initialized
+[2024-06-24 14:01:55,152] [INFO] [__main__] [main.py:40] Application has been started
+[2024-06-24 14:01:55,600] [INFO] [source.handlers.dispather] [dispather.py:16] Dispatcher has been started
+[2024-06-24 14:01:55,600] [INFO] [aiogram.dispatcher] [dispatcher.py:527] Start polling
+[2024-06-24 14:01:55,692] [INFO] [aiogram.dispatcher] [dispatcher.py:341] Run polling for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-24 14:02:03,019] [INFO] [source.handlers.command] [command.py:46] event (chat '5663974991', command '736', text '/start') has been accepted
+[2024-06-24 14:02:05,461] [INFO] [source.handlers.command] [command.py:63] event (chat '5663974991', command '736', text '/start') has been processed
+[2024-06-24 14:02:05,560] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624748 is handled. Duration 2546 ms by bot id=7010190829
+[2024-06-24 14:02:07,466] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '737', button 'MainMenu:SHOW_ROOMS_AND_PRICES_WINDOW') has been accepted
+[2024-06-24 14:02:07,795] [WARNING] [source.extensions.telegram.windows] [windows.py:64] chat.sub_window_number is 1
+[2024-06-24 14:02:08,278] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '737', button 'MainMenu:SHOW_ROOMS_AND_PRICES_WINDOW') has been processed
+[2024-06-24 14:02:08,278] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624749 is handled. Duration 812 ms by bot id=7010190829
+[2024-06-24 14:02:10,676] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '737', button 'NavigationMenu:LIST_FORWARD') has been accepted
+[2024-06-24 14:02:11,003] [WARNING] [source.extensions.telegram.windows] [windows.py:64] chat.sub_window_number is 2
+[2024-06-24 14:02:11,474] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '737', button 'NavigationMenu:LIST_FORWARD') has been processed
+[2024-06-24 14:02:11,474] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624750 is handled. Duration 797 ms by bot id=7010190829
+[2024-06-24 14:02:11,969] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '737', button 'NavigationMenu:LIST_FORWARD') has been accepted
+[2024-06-24 14:02:12,293] [WARNING] [source.extensions.telegram.windows] [windows.py:64] chat.sub_window_number is 3
+[2024-06-24 14:02:12,790] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '737', button 'NavigationMenu:LIST_FORWARD') has been processed
+[2024-06-24 14:02:12,790] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624751 is handled. Duration 827 ms by bot id=7010190829
+[2024-06-24 14:02:12,903] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '737', button 'NavigationMenu:LIST_FORWARD') has been accepted
+[2024-06-24 14:02:13,232] [WARNING] [source.extensions.telegram.windows] [windows.py:64] chat.sub_window_number is 4
+[2024-06-24 14:02:13,692] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '737', button 'NavigationMenu:LIST_FORWARD') has been processed
+[2024-06-24 14:02:13,692] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624752 is handled. Duration 795 ms by bot id=7010190829
+[2024-06-24 14:02:14,227] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '737', button 'NavigationMenu:LOAD_PREV_MENU') has been accepted
+[2024-06-24 14:02:15,265] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '737', button 'NavigationMenu:LOAD_PREV_MENU') has been processed
+[2024-06-24 14:02:15,265] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624753 is handled. Duration 1031 ms by bot id=7010190829
+[2024-06-24 14:02:51,657] [INFO] [aiogram.dispatcher] [dispatcher.py:554] Polling stopped
+[2024-06-24 14:02:51,657] [INFO] [source.handlers.dispather] [dispather.py:24] Dispatcher has been shut down
+[2024-06-24 14:02:51,658] [INFO] [aiogram.dispatcher] [dispatcher.py:359] Polling stopped for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-24 14:02:51,912] [INFO] [source.persistance.database] [database.py:109] Database context has been closed
+[2024-06-24 14:02:58,727] [INFO] [source.persistance.database] [database.py:43] Database context has been initialized
+[2024-06-24 14:02:58,774] [INFO] [__main__] [main.py:40] Application has been started
+[2024-06-24 14:02:59,144] [INFO] [source.handlers.dispather] [dispather.py:16] Dispatcher has been started
+[2024-06-24 14:02:59,144] [INFO] [aiogram.dispatcher] [dispatcher.py:527] Start polling
+[2024-06-24 14:02:59,246] [INFO] [aiogram.dispatcher] [dispatcher.py:341] Run polling for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-24 14:03:02,257] [INFO] [source.handlers.command] [command.py:46] event (chat '5663974991', command '739', text '/start') has been accepted
+[2024-06-24 14:03:04,782] [INFO] [source.handlers.command] [command.py:63] event (chat '5663974991', command '739', text '/start') has been processed
+[2024-06-24 14:03:05,033] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624754 is handled. Duration 2765 ms by bot id=7010190829
+[2024-06-24 14:03:05,460] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '740', button 'MainMenu:SHOW_ROOMS_AND_PRICES_WINDOW') has been accepted
+[2024-06-24 14:03:05,797] [WARNING] [source.extensions.telegram.windows] [windows.py:64] chat.sub_window_number is 1
+[2024-06-24 14:03:06,413] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '740', button 'MainMenu:SHOW_ROOMS_AND_PRICES_WINDOW') has been processed
+[2024-06-24 14:03:06,414] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624755 is handled. Duration 952 ms by bot id=7010190829
+[2024-06-24 14:03:07,013] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '740', button 'NavigationMenu:LOAD_PREV_MENU') has been accepted
+[2024-06-24 14:03:08,019] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '740', button 'NavigationMenu:LOAD_PREV_MENU') has been processed
+[2024-06-24 14:03:08,020] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624756 is handled. Duration 1015 ms by bot id=7010190829
+[2024-06-24 14:03:09,911] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '741', button 'MainMenu:SHOW_ROOMS_AND_PRICES_WINDOW') has been accepted
+[2024-06-24 14:03:10,245] [WARNING] [source.extensions.telegram.windows] [windows.py:64] chat.sub_window_number is 1
+[2024-06-24 14:03:10,723] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '741', button 'MainMenu:SHOW_ROOMS_AND_PRICES_WINDOW') has been processed
+[2024-06-24 14:03:10,724] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624757 is handled. Duration 812 ms by bot id=7010190829
+[2024-06-24 14:03:11,009] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '741', button 'NavigationMenu:LOAD_PREV_MENU') has been accepted
+[2024-06-24 14:03:12,000] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '741', button 'NavigationMenu:LOAD_PREV_MENU') has been processed
+[2024-06-24 14:03:12,000] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624758 is handled. Duration 983 ms by bot id=7010190829
+[2024-06-24 14:04:15,891] [INFO] [aiogram.dispatcher] [dispatcher.py:554] Polling stopped
+[2024-06-24 14:04:15,891] [INFO] [source.handlers.dispather] [dispather.py:24] Dispatcher has been shut down
+[2024-06-24 14:04:15,892] [INFO] [aiogram.dispatcher] [dispatcher.py:359] Polling stopped for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-24 14:04:16,146] [INFO] [source.persistance.database] [database.py:109] Database context has been closed
+[2024-06-24 14:04:28,823] [INFO] [source.persistance.database] [database.py:43] Database context has been initialized
+[2024-06-24 14:04:28,872] [INFO] [__main__] [main.py:40] Application has been started
+[2024-06-24 14:04:29,388] [INFO] [source.handlers.dispather] [dispather.py:16] Dispatcher has been started
+[2024-06-24 14:04:29,388] [INFO] [aiogram.dispatcher] [dispatcher.py:527] Start polling
+[2024-06-24 14:04:29,476] [INFO] [aiogram.dispatcher] [dispatcher.py:341] Run polling for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-24 14:04:40,761] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '742', button 'MainMenu:SHOW_ROOMS_AND_PRICES_WINDOW') has been accepted
+[2024-06-24 14:04:42,367] [WARNING] [source.extensions.telegram.windows] [windows.py:67] chat.sub_window_number is 1
+[2024-06-24 14:04:43,123] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '742', button 'MainMenu:SHOW_ROOMS_AND_PRICES_WINDOW') has been processed
+[2024-06-24 14:04:43,124] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624759 is handled. Duration 2358 ms by bot id=7010190829
+[2024-06-24 14:04:43,912] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '742', button 'NavigationMenu:LOAD_PREV_MENU') has been accepted
+[2024-06-24 14:04:45,146] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '742', button 'NavigationMenu:LOAD_PREV_MENU') has been processed
+[2024-06-24 14:04:45,146] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624760 is handled. Duration 1234 ms by bot id=7010190829
+[2024-06-24 14:04:53,588] [INFO] [aiogram.dispatcher] [dispatcher.py:554] Polling stopped
+[2024-06-24 14:04:53,588] [INFO] [source.handlers.dispather] [dispather.py:24] Dispatcher has been shut down
+[2024-06-24 14:04:53,589] [INFO] [aiogram.dispatcher] [dispatcher.py:359] Polling stopped for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-24 14:04:53,845] [INFO] [source.persistance.database] [database.py:109] Database context has been closed
+[2024-06-24 14:05:01,406] [INFO] [source.persistance.database] [database.py:43] Database context has been initialized
+[2024-06-24 14:05:01,487] [INFO] [__main__] [main.py:40] Application has been started
+[2024-06-24 14:05:01,932] [INFO] [source.handlers.dispather] [dispather.py:16] Dispatcher has been started
+[2024-06-24 14:05:01,932] [INFO] [aiogram.dispatcher] [dispatcher.py:527] Start polling
+[2024-06-24 14:05:02,024] [INFO] [aiogram.dispatcher] [dispatcher.py:341] Run polling for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-24 14:05:08,013] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '743', button 'MainMenu:SHOW_ROOMS_AND_PRICES_WINDOW') has been accepted
+[2024-06-24 14:05:09,605] [WARNING] [source.extensions.telegram.windows] [windows.py:67] chat.sub_window_number is 1
+[2024-06-24 14:05:10,398] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '743', button 'MainMenu:SHOW_ROOMS_AND_PRICES_WINDOW') has been processed
+[2024-06-24 14:05:10,398] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624761 is handled. Duration 2390 ms by bot id=7010190829
+[2024-06-24 14:05:11,436] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '743', button 'NavigationMenu:LOAD_PREV_MENU') has been accepted
+[2024-06-24 14:05:12,155] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '743', button 'NavigationMenu:LOAD_PREV_MENU') has been processed
+[2024-06-24 14:05:12,156] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624762 is handled. Duration 719 ms by bot id=7010190829
+[2024-06-24 14:05:12,974] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '743', button 'MainMenu:SHOW_ROOMS_AND_PRICES_WINDOW') has been accepted
+[2024-06-24 14:05:13,311] [WARNING] [source.extensions.telegram.windows] [windows.py:67] chat.sub_window_number is 1
+[2024-06-24 14:05:13,785] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '743', button 'MainMenu:SHOW_ROOMS_AND_PRICES_WINDOW') has been processed
+[2024-06-24 14:05:13,785] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624763 is handled. Duration 812 ms by bot id=7010190829
+[2024-06-24 14:05:14,125] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '743', button 'NavigationMenu:LOAD_PREV_MENU') has been accepted
+[2024-06-24 14:05:14,852] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '743', button 'NavigationMenu:LOAD_PREV_MENU') has been processed
+[2024-06-24 14:05:14,853] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624764 is handled. Duration 734 ms by bot id=7010190829
+[2024-06-24 14:05:17,326] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '743', button 'MainMenu:SHOW_ROOMS_AND_PRICES_WINDOW') has been accepted
+[2024-06-24 14:05:17,658] [WARNING] [source.extensions.telegram.windows] [windows.py:67] chat.sub_window_number is 1
+[2024-06-24 14:05:18,227] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '743', button 'MainMenu:SHOW_ROOMS_AND_PRICES_WINDOW') has been processed
+[2024-06-24 14:05:18,228] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624765 is handled. Duration 907 ms by bot id=7010190829
+[2024-06-24 14:05:18,476] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5663974991', message '743', button 'NavigationMenu:LOAD_PREV_MENU') has been accepted
+[2024-06-24 14:05:19,225] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5663974991', message '743', button 'NavigationMenu:LOAD_PREV_MENU') has been processed
+[2024-06-24 14:05:19,225] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624766 is handled. Duration 750 ms by bot id=7010190829
+[2024-06-24 14:06:39,037] [ERROR] [aiogram.dispatcher] [dispatcher.py:219] Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+[2024-06-24 14:06:39,037] [WARNING] [aiogram.dispatcher] [dispatcher.py:221] Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7010190829)
+[2024-06-24 14:06:40,304] [INFO] [aiogram.dispatcher] [dispatcher.py:233] Connection established (tryings = 1, bot id = 7010190829)
+[2024-06-24 14:06:40,306] [INFO] [source.handlers.command] [command.py:46] event (chat '5217786589', command '744', text '/start') has been accepted
+[2024-06-24 14:06:59,569] [ERROR] [source.persistance.database] [database.py:94] An error occurred during database session
+[2024-06-24 14:06:59,964] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624767 is handled. Duration 19656 ms by bot id=7010190829
+[2024-06-24 14:06:59,964] [INFO] [source.handlers.command] [command.py:46] event (chat '5217786589', command '745', text '/start') has been accepted
+[2024-06-24 14:07:00,716] [WARNING] [source.handlers.command] [command.py:88] event (chat '5217786589', command '745', text '/start') user 5217786589 doesn't exist and will be created
+[2024-06-24 14:07:00,717] [WARNING] [source.handlers.command] [command.py:99] event (chat '5217786589', command '745', text '/start') chat 5217786589 doesn't exist and will be created
+[2024-06-24 14:07:01,521] [INFO] [source.handlers.command] [command.py:63] event (chat '5217786589', command '745', text '/start') has been processed
+[2024-06-24 14:07:01,616] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624768 is handled. Duration 21312 ms by bot id=7010190829
+[2024-06-24 14:07:01,617] [INFO] [source.handlers.command] [command.py:46] event (chat '5217786589', command '746', text '/start') has been accepted
+[2024-06-24 14:07:02,578] [INFO] [source.handlers.command] [command.py:63] event (chat '5217786589', command '746', text '/start') has been processed
+[2024-06-24 14:07:02,677] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624769 is handled. Duration 22375 ms by bot id=7010190829
+[2024-06-24 14:07:02,677] [INFO] [source.handlers.command] [command.py:46] event (chat '5217786589', command '747', text '/start') has been accepted
+[2024-06-24 14:07:03,575] [INFO] [source.handlers.command] [command.py:63] event (chat '5217786589', command '747', text '/start') has been processed
+[2024-06-24 14:07:03,667] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624770 is handled. Duration 23359 ms by bot id=7010190829
+[2024-06-24 14:07:03,667] [INFO] [source.handlers.command] [command.py:46] event (chat '5217786589', command '748', text '/start') has been accepted
+[2024-06-24 14:07:04,579] [INFO] [source.handlers.command] [command.py:63] event (chat '5217786589', command '748', text '/start') has been processed
+[2024-06-24 14:07:04,713] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624771 is handled. Duration 24406 ms by bot id=7010190829
+[2024-06-24 14:07:04,714] [INFO] [source.handlers.command] [command.py:46] event (chat '5217786589', command '749', text '/start') has been accepted
+[2024-06-24 14:07:05,753] [INFO] [source.handlers.command] [command.py:63] event (chat '5217786589', command '749', text '/start') has been processed
+[2024-06-24 14:07:05,907] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624772 is handled. Duration 25594 ms by bot id=7010190829
+[2024-06-24 14:07:05,908] [INFO] [source.handlers.command] [command.py:46] event (chat '5217786589', command '750', text '/start') has been accepted
+[2024-06-24 14:07:06,892] [INFO] [source.handlers.command] [command.py:63] event (chat '5217786589', command '750', text '/start') has been processed
+[2024-06-24 14:07:07,048] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624773 is handled. Duration 26734 ms by bot id=7010190829
+[2024-06-24 14:07:07,049] [INFO] [source.handlers.command] [command.py:46] event (chat '5217786589', command '751', text '/start') has been accepted
+[2024-06-24 14:07:08,060] [INFO] [source.handlers.command] [command.py:63] event (chat '5217786589', command '751', text '/start') has been processed
+[2024-06-24 14:07:08,336] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624774 is handled. Duration 28031 ms by bot id=7010190829
+[2024-06-24 14:07:08,336] [INFO] [source.handlers.command] [command.py:46] event (chat '5217786589', command '752', text '/start') has been accepted
+[2024-06-24 14:07:09,109] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624781 is not handled. Duration 21484 ms by bot id=7010190829
+[2024-06-24 14:07:09,110] [INFO] [aiogram.dispatcher] [dispatcher.py:359] Polling stopped for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-24 14:07:09,110] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624780 is not handled. Duration 21577 ms by bot id=7010190829
+[2024-06-24 14:07:09,111] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624779 is not handled. Duration 21577 ms by bot id=7010190829
+[2024-06-24 14:07:09,111] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624782 is not handled. Duration 21407 ms by bot id=7010190829
+[2024-06-24 14:07:09,111] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624777 is not handled. Duration 21750 ms by bot id=7010190829
+[2024-06-24 14:07:09,112] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624776 is not handled. Duration 28797 ms by bot id=7010190829
+[2024-06-24 14:07:09,112] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624778 is not handled. Duration 21577 ms by bot id=7010190829
+[2024-06-24 14:07:09,113] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624783 is not handled. Duration 21233 ms by bot id=7010190829
+[2024-06-24 14:07:09,113] [INFO] [aiogram.dispatcher] [dispatcher.py:554] Polling stopped
+[2024-06-24 14:07:09,113] [INFO] [source.handlers.dispather] [dispather.py:24] Dispatcher has been shut down
+[2024-06-24 14:07:09,380] [INFO] [source.persistance.database] [database.py:109] Database context has been closed
+[2024-06-24 14:07:09,789] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624775 is not handled. Duration 29484 ms by bot id=7010190829
+[2024-06-24 14:07:16,276] [INFO] [source.persistance.database] [database.py:43] Database context has been initialized
+[2024-06-24 14:07:16,334] [INFO] [__main__] [main.py:40] Application has been started
+[2024-06-24 14:07:16,733] [INFO] [source.handlers.dispather] [dispather.py:16] Dispatcher has been started
+[2024-06-24 14:07:16,733] [INFO] [aiogram.dispatcher] [dispatcher.py:527] Start polling
+[2024-06-24 14:07:16,831] [INFO] [aiogram.dispatcher] [dispatcher.py:341] Run polling for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-24 14:07:27,248] [INFO] [source.handlers.command] [command.py:46] event (chat '5217786589', command '769', text '/start') has been accepted
+[2024-06-24 14:07:29,100] [ERROR] [source.extensions.telegram.helpers] [helpers.py:313] event (chat '5217786589', command '769', text '/start') message 767 message to delete not found
+[2024-06-24 14:07:29,539] [INFO] [source.handlers.command] [command.py:63] event (chat '5217786589', command '769', text '/start') has been processed
+[2024-06-24 14:07:29,635] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624784 is handled. Duration 2391 ms by bot id=7010190829
+[2024-06-24 14:07:33,928] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5217786589', message '770', button 'MainMenu:SHOW_ROOMS_AND_PRICES_WINDOW') has been accepted
+[2024-06-24 14:07:34,261] [WARNING] [source.extensions.telegram.windows] [windows.py:67] chat.sub_window_number is 1
+[2024-06-24 14:07:34,737] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5217786589', message '770', button 'MainMenu:SHOW_ROOMS_AND_PRICES_WINDOW') has been processed
+[2024-06-24 14:07:34,738] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624785 is handled. Duration 812 ms by bot id=7010190829
+[2024-06-24 14:07:46,636] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5217786589', message '770', button 'NavigationMenu:LIST_FORWARD') has been accepted
+[2024-06-24 14:07:46,974] [WARNING] [source.extensions.telegram.windows] [windows.py:67] chat.sub_window_number is 2
+[2024-06-24 14:07:47,519] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5217786589', message '770', button 'NavigationMenu:LIST_FORWARD') has been processed
+[2024-06-24 14:07:47,519] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624786 is handled. Duration 890 ms by bot id=7010190829
+[2024-06-24 14:07:49,811] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5217786589', message '770', button 'NavigationMenu:LIST_FORWARD') has been accepted
+[2024-06-24 14:07:50,144] [WARNING] [source.extensions.telegram.windows] [windows.py:67] chat.sub_window_number is 3
+[2024-06-24 14:07:50,771] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5217786589', message '770', button 'NavigationMenu:LIST_FORWARD') has been processed
+[2024-06-24 14:07:50,771] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624787 is handled. Duration 969 ms by bot id=7010190829
+[2024-06-24 14:07:51,309] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5217786589', message '770', button 'NavigationMenu:LIST_FORWARD') has been accepted
+[2024-06-24 14:07:51,644] [WARNING] [source.extensions.telegram.windows] [windows.py:67] chat.sub_window_number is 4
+[2024-06-24 14:07:52,115] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5217786589', message '770', button 'NavigationMenu:LIST_FORWARD') has been processed
+[2024-06-24 14:07:52,115] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624788 is handled. Duration 812 ms by bot id=7010190829
+[2024-06-24 14:07:54,706] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5217786589', message '770', button 'NavigationMenu:LIST_FORWARD') has been accepted
+[2024-06-24 14:07:55,036] [WARNING] [source.extensions.telegram.windows] [windows.py:67] chat.sub_window_number is 5
+[2024-06-24 14:07:55,483] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5217786589', message '770', button 'NavigationMenu:LIST_FORWARD') has been processed
+[2024-06-24 14:07:55,484] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624789 is handled. Duration 782 ms by bot id=7010190829
+[2024-06-24 14:07:57,086] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5217786589', message '770', button 'NavigationMenu:LIST_FORWARD') has been accepted
+[2024-06-24 14:07:57,421] [WARNING] [source.extensions.telegram.windows] [windows.py:67] chat.sub_window_number is 6
+[2024-06-24 14:07:57,893] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5217786589', message '770', button 'NavigationMenu:LIST_FORWARD') has been processed
+[2024-06-24 14:07:57,893] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624790 is handled. Duration 797 ms by bot id=7010190829
+[2024-06-24 14:07:58,191] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5217786589', message '770', button 'NavigationMenu:LIST_FORWARD') has been accepted
+[2024-06-24 14:07:58,523] [WARNING] [source.extensions.telegram.windows] [windows.py:67] chat.sub_window_number is 7
+[2024-06-24 14:07:58,974] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5217786589', message '770', button 'NavigationMenu:LIST_FORWARD') has been processed
+[2024-06-24 14:07:58,974] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624791 is handled. Duration 782 ms by bot id=7010190829
+[2024-06-24 14:08:00,158] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5217786589', message '770', button 'NavigationMenu:LIST_FORWARD') has been accepted
+[2024-06-24 14:08:00,491] [WARNING] [source.extensions.telegram.windows] [windows.py:67] chat.sub_window_number is 8
+[2024-06-24 14:08:00,985] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5217786589', message '770', button 'NavigationMenu:LIST_FORWARD') has been processed
+[2024-06-24 14:08:00,986] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624792 is handled. Duration 827 ms by bot id=7010190829
+[2024-06-24 14:08:00,986] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5217786589', message '770', button 'NavigationMenu:LIST_BACK') has been accepted
+[2024-06-24 14:08:01,320] [WARNING] [source.extensions.telegram.windows] [windows.py:67] chat.sub_window_number is 7
+[2024-06-24 14:08:01,769] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5217786589', message '770', button 'NavigationMenu:LIST_BACK') has been processed
+[2024-06-24 14:08:01,770] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624793 is handled. Duration 1407 ms by bot id=7010190829
+[2024-06-24 14:08:02,525] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5217786589', message '770', button 'NavigationMenu:LOAD_PREV_MENU') has been accepted
+[2024-06-24 14:08:03,261] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5217786589', message '770', button 'NavigationMenu:LOAD_PREV_MENU') has been processed
+[2024-06-24 14:08:03,261] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624794 is handled. Duration 734 ms by bot id=7010190829
+[2024-06-24 14:08:04,719] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624795 is not handled. Duration 0 ms by bot id=7010190829
+[2024-06-24 14:08:06,305] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624796 is not handled. Duration 0 ms by bot id=7010190829
+[2024-06-24 14:08:08,010] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5217786589', message '770', button 'MainMenu:SHOW_ROOMS_AND_PRICES_WINDOW') has been accepted
+[2024-06-24 14:08:08,343] [WARNING] [source.extensions.telegram.windows] [windows.py:67] chat.sub_window_number is 1
+[2024-06-24 14:08:08,789] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5217786589', message '770', button 'MainMenu:SHOW_ROOMS_AND_PRICES_WINDOW') has been processed
+[2024-06-24 14:08:08,789] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624797 is handled. Duration 780 ms by bot id=7010190829
+[2024-06-24 14:08:10,018] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5217786589', message '770', button 'NavigationMenu:LIST_FORWARD') has been accepted
+[2024-06-24 14:08:10,350] [WARNING] [source.extensions.telegram.windows] [windows.py:67] chat.sub_window_number is 2
+[2024-06-24 14:08:10,871] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5217786589', message '770', button 'NavigationMenu:LIST_FORWARD') has been processed
+[2024-06-24 14:08:10,871] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624798 is handled. Duration 858 ms by bot id=7010190829
+[2024-06-24 14:08:10,932] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5217786589', message '770', button 'NavigationMenu:LIST_FORWARD') has been accepted
+[2024-06-24 14:08:11,272] [WARNING] [source.extensions.telegram.windows] [windows.py:67] chat.sub_window_number is 3
+[2024-06-24 14:08:11,813] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5217786589', message '770', button 'NavigationMenu:LIST_FORWARD') has been processed
+[2024-06-24 14:08:11,813] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624799 is handled. Duration 875 ms by bot id=7010190829
+[2024-06-24 14:08:12,778] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5217786589', message '770', button 'NavigationMenu:LIST_FORWARD') has been accepted
+[2024-06-24 14:08:13,106] [WARNING] [source.extensions.telegram.windows] [windows.py:67] chat.sub_window_number is 4
+[2024-06-24 14:08:13,585] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5217786589', message '770', button 'NavigationMenu:LIST_FORWARD') has been processed
+[2024-06-24 14:08:13,585] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624800 is handled. Duration 812 ms by bot id=7010190829
+[2024-06-24 14:08:13,588] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5217786589', message '770', button 'NavigationMenu:LIST_FORWARD') has been accepted
+[2024-06-24 14:08:13,917] [WARNING] [source.extensions.telegram.windows] [windows.py:67] chat.sub_window_number is 5
+[2024-06-24 14:08:14,401] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5217786589', message '770', button 'NavigationMenu:LIST_FORWARD') has been processed
+[2024-06-24 14:08:14,401] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624801 is handled. Duration 812 ms by bot id=7010190829
+[2024-06-24 14:08:15,576] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5217786589', message '770', button 'NavigationMenu:LIST_FORWARD') has been accepted
+[2024-06-24 14:08:15,907] [WARNING] [source.extensions.telegram.windows] [windows.py:67] chat.sub_window_number is 6
+[2024-06-24 14:08:16,476] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5217786589', message '770', button 'NavigationMenu:LIST_FORWARD') has been processed
+[2024-06-24 14:08:16,476] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624802 is handled. Duration 907 ms by bot id=7010190829
+[2024-06-24 14:08:24,676] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5217786589', message '770', button 'NavigationMenu:LIST_FORWARD') has been accepted
+[2024-06-24 14:08:25,005] [WARNING] [source.extensions.telegram.windows] [windows.py:67] chat.sub_window_number is 7
+[2024-06-24 14:08:25,525] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5217786589', message '770', button 'NavigationMenu:LIST_FORWARD') has been processed
+[2024-06-24 14:08:25,525] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624803 is handled. Duration 859 ms by bot id=7010190829
+[2024-06-24 14:08:26,019] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5217786589', message '770', button 'NavigationMenu:LIST_FORWARD') has been accepted
+[2024-06-24 14:08:26,358] [WARNING] [source.extensions.telegram.windows] [windows.py:67] chat.sub_window_number is 8
+[2024-06-24 14:08:26,814] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5217786589', message '770', button 'NavigationMenu:LIST_FORWARD') has been processed
+[2024-06-24 14:08:26,815] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624804 is handled. Duration 796 ms by bot id=7010190829
+[2024-06-24 14:08:27,141] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5217786589', message '770', button 'NavigationMenu:LIST_FORWARD') has been accepted
+[2024-06-24 14:08:27,521] [WARNING] [source.extensions.telegram.windows] [windows.py:67] chat.sub_window_number is 9
+[2024-06-24 14:08:28,343] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5217786589', message '770', button 'NavigationMenu:LIST_FORWARD') has been processed
+[2024-06-24 14:08:28,343] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624805 is handled. Duration 1202 ms by bot id=7010190829
+[2024-06-24 14:08:36,631] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5217786589', message '770', button 'NavigationMenu:LIST_BACK') has been accepted
+[2024-06-24 14:08:36,969] [WARNING] [source.extensions.telegram.windows] [windows.py:67] chat.sub_window_number is 8
+[2024-06-24 14:08:37,591] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5217786589', message '770', button 'NavigationMenu:LIST_BACK') has been processed
+[2024-06-24 14:08:37,591] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624806 is handled. Duration 952 ms by bot id=7010190829
+[2024-06-24 14:08:37,937] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5217786589', message '770', button 'NavigationMenu:LIST_BACK') has been accepted
+[2024-06-24 14:08:38,281] [WARNING] [source.extensions.telegram.windows] [windows.py:67] chat.sub_window_number is 7
+[2024-06-24 14:08:38,809] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5217786589', message '770', button 'NavigationMenu:LIST_BACK') has been processed
+[2024-06-24 14:08:38,809] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624807 is handled. Duration 875 ms by bot id=7010190829
+[2024-06-24 14:08:39,177] [INFO] [source.handlers.ibutton] [ibutton.py:50] event (chat '5217786589', message '770', button 'NavigationMenu:LIST_BACK') has been accepted
+[2024-06-24 14:08:39,515] [WARNING] [source.extensions.telegram.windows] [windows.py:67] chat.sub_window_number is 6
+[2024-06-24 14:08:40,039] [INFO] [source.handlers.ibutton] [ibutton.py:64] event (chat '5217786589', message '770', button 'NavigationMenu:LIST_BACK') has been processed
+[2024-06-24 14:08:40,039] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212624808 is handled. Duration 859 ms by bot id=7010190829
+[2024-06-24 14:28:58,691] [INFO] [aiogram.dispatcher] [dispatcher.py:554] Polling stopped
+[2024-06-24 14:28:58,692] [INFO] [source.handlers.dispather] [dispather.py:24] Dispatcher has been shut down
+[2024-06-24 14:28:58,692] [INFO] [aiogram.dispatcher] [dispatcher.py:359] Polling stopped for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-06-24 14:28:58,951] [INFO] [source.persistance.database] [database.py:109] Database context has been closed

@@ -101,6 +101,12 @@ class RoomsAndPricesMenu(BaseModel):
     rooms_count: int
 
 
+class RoomReservation(BaseModel):
+    model_config = ConfigDict(alias_generator=to_camel, populate_by_name=True)
+
+    text: str
+
+
 class Contact(BaseModel):
     model_config = ConfigDict(alias_generator=to_camel, populate_by_name=True)
 
@@ -136,6 +142,7 @@ class Screen(BaseModel):
 
     main_menu: MainMenu
     rooms_and_prices_menu: RoomsAndPricesMenu
+    room_reservation: RoomReservation
     admin_menu: AdminMenu
     map_menu: MapMenu
     navigation: Navigation
