@@ -24,7 +24,8 @@ from source.extensions.telegram.helpers import chat_isnt_private, delete_all_bot
     try_send_message, get_all_bot_messages, try_delete_message, try_edit_or_send_message, try_send_photo
 from source.extensions.telegram.markup import TelegramMarkup
 from source.extensions.telegram.objects import bot
-from source.extensions.telegram.windows import load_main_window, load_room_and_prices_window
+from source.extensions.telegram.windows import load_main_window, load_room_and_prices_window, load_photo_gallery_window, \
+    load_video_gallery_window
 from source.persistance.models import ViewKindVariant, CompanyText, TextKindVariant
 
 router = Router(name=__name__)
@@ -84,6 +85,34 @@ async def on_show_rooms_and_prices(query: CallbackQuery, session: AsyncSession, 
     await load_room_and_prices_window(chat=chat, event=event, session=session)
 
 
+@router.callback_query(MainMenuButtonData.filter(F.action == MainMenuButtonAction.SHOW_PHOTO_GALLERY_WINDOW))
+@on_button
+async def on_show_photo_gallery(query: CallbackQuery, session: AsyncSession, event: Event):
+    # Gets the chat.
+    chat = await get_chat(event.chat_id, session, include_user=True, include_view=True, lock=True)
+
+    # Update states.
+    chat.kind_id = ViewKindVariant.SHOW_PHOTO_GALLERY_WINDOW.value
+    chat.content = settings.view.screen.map_menu.text
+    chat.sub_window_number = 1
+
+    await load_photo_gallery_window(chat=chat, event=event, session=session)
+
+
+#@router.callback_query(MainMenuButtonData.filter(F.action == MainMenuButtonAction.SHOW_VIDEO_GALLERY_WINDOW))
+@on_button
+async def on_show_video_gallery(query: CallbackQuery, session: AsyncSession, event: Event):
+    # Gets the chat.
+    chat = await get_chat(event.chat_id, session, include_user=True, include_view=True, lock=True)
+
+    # Update states.
+    chat.kind_id = ViewKindVariant.SHOW_VIDEO_GALLERY_WINDOW.value
+    chat.content = settings.view.screen.map_menu.text
+    chat.sub_window_number = 1
+
+    await load_video_gallery_window(chat=chat, event=event, session=session)
+
+
 @router.callback_query(MainMenuButtonData.filter(F.action == MainMenuButtonAction.SHOW_ROOM_RESERVATION_WINDOW))
 @on_button
 async def on_show_room_reservation(query: CallbackQuery, session: AsyncSession, event: Event):
@@ -124,10 +153,6 @@ async def on_show_room_reservation(query: CallbackQuery, session: AsyncSession, 
     await store_bot_msg(chat_id=event.chat_id, message_id=contact_1_message_id, session=session)
     await store_bot_msg(chat_id=event.chat_id, message_id=contact_2_message_id, session=session)
     await store_bot_msg(chat_id=event.chat_id, message_id=message_id, session=session)
-
-
-
-
 
 
 @router.callback_query(MainMenuButtonData.filter(F.action == MainMenuButtonAction.SHOW_MAP_WINDOW))
@@ -208,6 +233,52 @@ async def on_show_admins_window(query: CallbackQuery, session: AsyncSession, eve
     await store_bot_msg(chat_id=event.chat_id, message_id=message_id, session=session)
 
 
+@router.callback_query(MainMenuButtonData.filter(F.action == MainMenuButtonAction.SHOW_FOOD_WINDOW))
+@on_button
+async def on_show_food_menu(query: CallbackQuery, session: AsyncSession, event: Event):
+    # Gets the chat.
+    chat = await get_chat(event.chat_id, session, include_user=True, include_view=True, lock=True)
+
+    # Update states.
+    chat.kind_id = ViewKindVariant.SHOW_FOOD_WINDOW.value
+    chat.content = None
+    chat.sub_window_number = 1
+
+    media = []
+    for i, img_url in enumerate(settings.view.screen.food_menu.imgs):
+        media.append(InputMediaPhoto(
+            media=img_url,
+            caption=settings.view.screen.food_menu.text_2 if i == 0 else None
+        ))
+
+    try:
+        media_data = await bot.send_media_group(
+            chat_id=event.chat_id,
+            media=media
+        )
+
+        message = await bot.send_message(
+            chat_id=event.chat_id,
+            text=settings.view.screen.food_menu.text_1,
+            reply_markup=TelegramMarkup.load_prev_window()
+        )
+    except Exception as e:
+        _logger.error(e)
+        return
+
+    # Delete all previously bot messages and store new message.
+    await delete_all_bot_messages(
+        bot=bot,
+        chat_id=event.chat_id,
+        event=event,
+        session=session
+    )
+    for img_data in media_data:
+        await store_bot_msg(chat_id=event.chat_id, message_id=img_data.message_id, session=session)
+    await store_bot_msg(chat_id=event.chat_id, message_id=message.message_id, session=session)
+
+
+
 @router.callback_query(NavigationMenuButtonData.filter(F.action == NavigationMenuButtonAction.LIST_BACK))
 @on_button
 async def on_list_back(query: CallbackQuery, session: AsyncSession, event: Event):
@@ -215,12 +286,15 @@ async def on_list_back(query: CallbackQuery, session: AsyncSession, event: Event
     chat = await get_chat(event.chat_id, session, include_user=True, include_view=True, lock=True)
 
     # Update states.
-    text = settings.view.screen.map_menu.text
-    chat.kind_id = ViewKindVariant.SHOW_ROOMS_AND_PRICES_WINDOW.value
-    chat.content = text
     chat.sub_window_number -= 1
 
-    await load_room_and_prices_window(chat=chat, event=event, session=session)
+    match chat.kind_id:
+        case ViewKindVariant.SHOW_ROOMS_AND_PRICES_WINDOW.value:
+            chat.kind_id = ViewKindVariant.SHOW_ROOMS_AND_PRICES_WINDOW.value
+            await load_room_and_prices_window(chat=chat, event=event, session=session)
+        case ViewKindVariant.SHOW_PHOTO_GALLERY_WINDOW.value:
+            chat.kind_id = ViewKindVariant.SHOW_PHOTO_GALLERY_WINDOW.value
+            await load_photo_gallery_window(chat=chat, event=event, session=session)
 
 
 @router.callback_query(NavigationMenuButtonData.filter(F.action == NavigationMenuButtonAction.LIST_FORWARD))
@@ -228,14 +302,16 @@ async def on_list_back(query: CallbackQuery, session: AsyncSession, event: Event
 async def on_list_forward(query: CallbackQuery, session: AsyncSession, event: Event):
     # Gets the chat.
     chat = await get_chat(event.chat_id, session, include_user=True, include_view=True, lock=True)
-
     # Update states.
-    text = settings.view.screen.map_menu.text
-    chat.kind_id = ViewKindVariant.SHOW_ROOMS_AND_PRICES_WINDOW.value
-    chat.content = text
     chat.sub_window_number += 1
 
-    await load_room_and_prices_window(chat=chat, event=event, session=session)
+    match chat.kind_id:
+        case ViewKindVariant.SHOW_ROOMS_AND_PRICES_WINDOW.value:
+            chat.kind_id = ViewKindVariant.SHOW_ROOMS_AND_PRICES_WINDOW.value
+            await load_room_and_prices_window(chat=chat, event=event, session=session)
+        case ViewKindVariant.SHOW_PHOTO_GALLERY_WINDOW.value:
+            chat.kind_id = ViewKindVariant.SHOW_PHOTO_GALLERY_WINDOW.value
+            await load_photo_gallery_window(chat=chat, event=event, session=session)
 
 
 @router.callback_query(NavigationMenuButtonData.filter(F.action == NavigationMenuButtonAction.LOAD_PREV_MENU))

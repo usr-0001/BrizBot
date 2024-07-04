@@ -18,6 +18,7 @@ class MainMenuButtonAction(Enum):
     SHOW_VIDEO_GALLERY_WINDOW = 'SHOW_VIDEO_GALLERY_WINDOW'
     SHOW_ADMINS_WINDOW = 'SHOW_ADMINS_WINDOW'
     SHOW_MAP_WINDOW = 'SHOW_MAP_WINDOW'
+    SHOW_FOOD_WINDOW = 'SHOW_FOOD_WINDOW'
 
 
 class MainMenuButtonData(CallbackData, prefix="MainMenu"):

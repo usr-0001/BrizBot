@@ -20,6 +20,7 @@ class ViewKindVariant(Enum):
     SHOW_VIDEO_GALLERY_WINDOW = 14
     SHOW_ADMINS_WINDOW = 15
     SHOW_MAP_WINDOW = 16
+    SHOW_FOOD_WINDOW = 17
 
 
 class TextKindVariant(Enum):

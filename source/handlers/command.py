@@ -16,7 +16,7 @@ from source.extensions.telegram.helpers import chat_isnt_private, try_delete_mes
     delete_all_bot_messages, try_delete_message_using_bot
 from source.extensions.telegram.markup import TelegramMarkup
 from source.extensions.telegram.objects import bot
-from source.extensions.telegram.windows import load_main_window
+from source.extensions.telegram.windows import load_main_window, send_debug_photos
 from source.persistance.models import User, Chat, ViewKindVariant, CompanyText, TextKindVariant
 
 

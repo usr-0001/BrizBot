@@ -34,11 +34,22 @@ class LoggingSettings(BaseModel):
 
 
 # region Backend
+class Ftp(BaseModel):
+    model_config = ConfigDict(alias_generator=to_camel, populate_by_name=True)
+
+    host: str
+    user: str
+    passwd: str
+
+
 class Backend(BaseModel):
     model_config = ConfigDict(alias_generator=to_camel, populate_by_name=True)
 
     url: str
     img_path: str
+    img_gallery_path: str
+    video_gallery_path: str
+    ftp: Ftp
 
 
 # endregion
@@ -93,6 +104,7 @@ class MainMenu(BaseModel):
     video_gallery_button: str
     admins_button: str
     map_button: str
+    food_button: str
 
 
 class RoomsAndPricesMenu(BaseModel):
@@ -129,6 +141,14 @@ class MapMenu(BaseModel):
     longitude: float
 
 
+class FoodMenu(BaseModel):
+    model_config = ConfigDict(alias_generator=to_camel, populate_by_name=True)
+
+    imgs: list[str]
+    text_1: str
+    text_2: str
+
+
 class Navigation(BaseModel):
     model_config = ConfigDict(alias_generator=to_camel, populate_by_name=True)
 
@@ -146,6 +166,7 @@ class Screen(BaseModel):
     admin_menu: AdminMenu
     map_menu: MapMenu
     navigation: Navigation
+    food_menu: FoodMenu
 
 
 class View(BaseModel):
@@ -154,7 +175,7 @@ class View(BaseModel):
     screen: Screen
 
 
-# enregion
+# endregion
 
 
 # Root
@@ -162,6 +183,7 @@ class Settings(BaseModel):
     model_config = ConfigDict(alias_generator=to_camel, populate_by_name=True)
 
     logging: LoggingSettings
+    backend: Backend
     persistence: PersistenceSettings
     bot: BotSettings
     view: View

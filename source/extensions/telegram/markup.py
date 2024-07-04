@@ -60,8 +60,12 @@ class TelegramMarkup:
             text=texts.map_button,
             callback_data=MainMenuButtonData(action=MainMenuButtonAction.SHOW_MAP_WINDOW)
         )
+        builder.button(
+            text=texts.food_button,
+            callback_data=MainMenuButtonData(action=MainMenuButtonAction.SHOW_FOOD_WINDOW)
+        )
 
-        builder.adjust(2, 2, 1, 1)
+        builder.adjust(2, 2, 1, 1, 1)
         markup = builder.as_markup()
 
         cls.__main_menu = markup
@@ -92,7 +96,6 @@ class TelegramMarkup:
         builder.adjust(*sizes, repeat=False)
         markup = builder.as_markup()
 
-        #cls.__navigate_between_items = markup
         return markup
 
 
