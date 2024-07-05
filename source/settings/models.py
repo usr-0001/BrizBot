@@ -1,3 +1,7 @@
+from os import path
+import sys
+sys.path.append(path.dirname(path.dirname(path.abspath(__file__))))
+
 from typing import List
 from pydantic import BaseModel, ConfigDict
 from pydantic.alias_generators import to_camel

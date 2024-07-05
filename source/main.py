@@ -1,7 +1,10 @@
+from os import path
+import sys
+sys.path.append(path.dirname(path.dirname(path.abspath(__file__))))
+
 import asyncio
 
 from aiogram.types import BotCommand
-
 from source import settings, context
 from source.handlers import router as handlers_router
 from source.extensions.telegram.objects import bot, dispatcher

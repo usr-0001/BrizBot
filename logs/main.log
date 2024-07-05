@@ -582,3 +582,45 @@ sqlalchemy.exc.OperationalError: (pymysql.err.OperationalError) (2003, "Can't co
 [2024-07-04 13:48:23,219] [INFO] [aiogram.dispatcher] [dispatcher.py:554] Polling stopped
 [2024-07-04 13:48:23,219] [INFO] [source.handlers.dispather] [dispather.py:40] Dispatcher has been shut down
 [2024-07-04 13:48:23,483] [INFO] [source.persistance.database] [database.py:109] Database context has been closed
+[2024-07-05 21:16:49,344] [INFO] [source.persistance.database] [database.py:43] Database context has been initialized
+[2024-07-05 21:16:49,685] [INFO] [source.handlers] [__init__.py:25] 220 FTP Server ready.
+[2024-07-05 21:16:50,055] [INFO] [source.handlers] [__init__.py:27] 230 User u165660_tg_bot logged in
+[2024-07-05 21:16:50,059] [INFO] [__main__] [main.py:40] Application has been started
+[2024-07-05 21:16:51,871] [INFO] [aiogram.dispatcher] [dispatcher.py:527] Start polling
+[2024-07-05 21:16:51,964] [INFO] [aiogram.dispatcher] [dispatcher.py:341] Run polling for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-07-05 21:16:52,229] [INFO] [source.handlers.ibutton] [ibutton.py:51] event (chat '5663974991', message '2392', button 'MainMenu:SHOW_ROOMS_AND_PRICES_WINDOW') has been accepted
+[2024-07-05 21:16:53,828] [WARNING] [source.extensions.telegram.windows] [windows.py:61] chat.sub_window_number is 1
+[2024-07-05 21:16:54,581] [INFO] [source.handlers.ibutton] [ibutton.py:65] event (chat '5663974991', message '2392', button 'MainMenu:SHOW_ROOMS_AND_PRICES_WINDOW') has been processed
+[2024-07-05 21:16:54,582] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212625446 is handled. Duration 2344 ms by bot id=7010190829
+[2024-07-05 21:16:55,368] [INFO] [source.handlers.ibutton] [ibutton.py:51] event (chat '5663974991', message '2392', button 'NavigationMenu:LOAD_PREV_MENU') has been accepted
+[2024-07-05 21:16:56,681] [INFO] [source.handlers.ibutton] [ibutton.py:65] event (chat '5663974991', message '2392', button 'NavigationMenu:LOAD_PREV_MENU') has been processed
+[2024-07-05 21:16:56,682] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212625447 is handled. Duration 1327 ms by bot id=7010190829
+[2024-07-05 21:16:58,365] [INFO] [aiogram.dispatcher] [dispatcher.py:359] Polling stopped for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-07-05 21:16:58,365] [INFO] [aiogram.dispatcher] [dispatcher.py:554] Polling stopped
+[2024-07-05 21:16:58,366] [INFO] [source.handlers.dispather] [dispather.py:40] Dispatcher has been shut down
+[2024-07-05 21:16:58,625] [INFO] [source.persistance.database] [database.py:109] Database context has been closed
+[2024-07-05 21:17:44,425] [INFO] [source.persistance.database] [database.py:43] Database context has been initialized
+[2024-07-05 21:17:44,696] [INFO] [source.handlers] [__init__.py:25] 220 FTP Server ready.
+[2024-07-05 21:17:44,912] [INFO] [source.handlers] [__init__.py:27] 230 User u165660_tg_bot logged in
+[2024-07-05 21:17:44,914] [INFO] [__main__] [main.py:40] Application has been started
+[2024-07-05 21:17:46,605] [INFO] [aiogram.dispatcher] [dispatcher.py:527] Start polling
+[2024-07-05 21:17:46,691] [INFO] [aiogram.dispatcher] [dispatcher.py:341] Run polling for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-07-05 21:17:48,493] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212625448 is not handled. Duration 0 ms by bot id=7010190829
+[2024-07-05 21:17:54,887] [INFO] [source.handlers.ibutton] [ibutton.py:51] event (chat '5663974991', message '2393', button 'MainMenu:SHOW_PHOTO_GALLERY_WINDOW') has been accepted
+[2024-07-05 21:17:56,302] [WARNING] [source.extensions.telegram.windows] [windows.py:84] chat.sub_window_number is 1
+[2024-07-05 21:17:56,302] [WARNING] [source.extensions.telegram.windows] [windows.py:91] Photo gallery length is 139
+[2024-07-05 21:17:58,216] [INFO] [source.handlers.ibutton] [ibutton.py:65] event (chat '5663974991', message '2393', button 'MainMenu:SHOW_PHOTO_GALLERY_WINDOW') has been processed
+[2024-07-05 21:17:58,216] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212625449 is handled. Duration 3329 ms by bot id=7010190829
+[2024-07-05 21:17:58,217] [INFO] [source.handlers.ibutton] [ibutton.py:51] event (chat '5663974991', message '2399', button 'NavigationMenu:LOAD_PREV_MENU') has been accepted
+[2024-07-05 21:18:00,250] [INFO] [source.handlers.ibutton] [ibutton.py:65] event (chat '5663974991', message '2399', button 'NavigationMenu:LOAD_PREV_MENU') has been processed
+[2024-07-05 21:18:00,250] [INFO] [aiogram.event] [dispatcher.py:172] Update id=212625450 is handled. Duration 2280 ms by bot id=7010190829
+[2024-07-05 21:18:03,769] [INFO] [aiogram.dispatcher] [dispatcher.py:359] Polling stopped for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-07-05 21:18:03,769] [INFO] [aiogram.dispatcher] [dispatcher.py:554] Polling stopped
+[2024-07-05 21:18:03,769] [INFO] [source.handlers.dispather] [dispather.py:40] Dispatcher has been shut down
+[2024-07-05 21:18:04,036] [INFO] [source.persistance.database] [database.py:109] Database context has been closed
+[2024-07-05 21:27:17,242] [INFO] [source.persistance.database] [database.py:47] Database context has been initialized
+[2024-07-05 21:27:17,628] [INFO] [source.handlers] [__init__.py:29] 220 FTP Server ready.
+[2024-07-05 21:27:17,867] [INFO] [source.handlers] [__init__.py:31] 230 User u165660_tg_bot logged in
+[2024-07-05 21:27:17,867] [INFO] [__main__] [main.py:43] Application has been started
+[2024-07-05 21:27:19,667] [INFO] [aiogram.dispatcher] [dispatcher.py:527] Start polling
+[2024-07-05 21:27:19,757] [INFO] [aiogram.dispatcher] [dispatcher.py:341] Run polling for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'

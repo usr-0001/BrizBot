@@ -1,3 +1,7 @@
+from os import path
+import sys
+sys.path.append(path.dirname(path.dirname(path.abspath(__file__))))
+
 from source.persistance.models import ViewKindVariant
 
 __all__ = ["resolve_view_kind"]

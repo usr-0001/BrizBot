@@ -1,3 +1,7 @@
+from os import path
+import sys
+sys.path.append(path.dirname(path.dirname(path.abspath(__file__))))
+
 from enum import Enum
 
 from sqlalchemy import Column, Integer, BigInteger, String, Boolean, ForeignKey, DateTime
