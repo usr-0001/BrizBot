@@ -42,6 +42,8 @@ def on_button(function):
     @wraps(function)
     async def wrapper(query: CallbackQuery) -> None:
         """Handles button."""
+        
+        await query.answer()
 
         event = Event(
             bot=query.bot,
