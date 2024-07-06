@@ -54,7 +54,7 @@ class TelegramMarkup:
         )
         builder.button(
             text=texts.video_gallery_button,
-            callback_data=MainMenuButtonData(action=MainMenuButtonAction.SHOW_VIDEO_GALLERY_WINDOW)
+            url='https://www.youtube.com/'
         )
         builder.button(
             text=texts.admins_button,
