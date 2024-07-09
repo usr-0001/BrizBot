@@ -108,3 +108,11 @@ class Room(BaseModel):
     sleeping_places  = Column(String(65535))
     description = Column(String(65535))
     preview_img_url = Column(String(65535))
+
+
+class RoomImgs(BaseModel):
+    __tablename__ = 'rooms_imgs'
+
+    rec_id = Column(Integer, primary_key=True)
+    room_id = Column(Integer)
+    img_url = Column(String(65535))

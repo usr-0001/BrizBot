@@ -1,5 +1,8 @@
 from os import path
 import sys
+
+from sqlalchemy import select
+
 sys.path.append(path.dirname(path.dirname(path.abspath(__file__))))
 
 import asyncio
@@ -18,8 +21,7 @@ from source.extensions.telegram.markup import TelegramMarkup
 from source.extensions.telegram.objects import bot
 from source.handlers.PhotoGalery import photo_gallery
 from source.handlers.VideoGalery import video_gallery
-from source.persistance.models import ViewKindVariant, Chat
-
+from source.persistance.models import ViewKindVariant, Chat, RoomImgs
 
 _logger = logging.getLogger(__name__)
 
@@ -60,6 +62,8 @@ async def load_main_window(chat: Chat, event: Event, session: AsyncSession):
 async def load_room_and_prices_window(chat: Chat, event: Event, session: AsyncSession):
     # Gets the Room.
     room = await get_room_by_id(id=chat.sub_window_number, session=session)
+    urls = await session.execute(select(RoomImgs.img_url).where(RoomImgs.room_id == room.id))
+    urls = urls.scalars().all()
 
     # Create markup.
     _logger.warning(f'chat.sub_window_number is {chat.sub_window_number}')
@@ -68,18 +72,33 @@ async def load_room_and_prices_window(chat: Chat, event: Event, session: AsyncSe
     markup = TelegramMarkup.navigate_between_items(list_forward=list_forward, list_back=list_back)
 
     # Send start message to user.
+    media = []
+    for url in urls:
+        media.append(InputMediaPhoto(media=url))
+    media_data = await bot.send_media_group(
+        chat_id=event.chat_id,
+        media=media
+    )
+
     text = f'{room.name}\n\n{room.description}\n\n{room.price_text}'
     chat.content = text
 
-    await bot.edit_message_media(
+    message_id = (await bot.send_message(
         chat_id=event.chat_id,
-        message_id=event.message_id,
-        media=InputMediaPhoto(
-            media=room.preview_img_url,
-            caption=text
-        ),
+        text=chat.content,
         reply_markup=markup
+    )).message_id
+
+    # Delete all previously bot messages and store new message.
+    await delete_all_bot_messages(
+        bot=bot,
+        chat_id=event.chat_id,
+        event=event,
+        session=session
     )
+    for media_id in media_data:
+        await store_bot_msg(chat_id=event.chat_id, message_id=media_id.message_id, session=session)
+    await store_bot_msg(chat_id=event.chat_id, message_id=message_id, session=session)
 
 
 async def load_photo_gallery_window(chat: Chat, event: Event, session: AsyncSession):

@@ -1,0 +1,30 @@
+[2024-07-08 19:52:57,692] [INFO] [source.persistance.database] [database.py:47] Database context has been initialized
+[2024-07-08 19:52:58,146] [INFO] [source.handlers] [__init__.py:29] 220 FTP Server ready.
+[2024-07-08 19:52:58,358] [INFO] [source.handlers] [__init__.py:31] 230 User u165660_tg_bot logged in
+[2024-07-08 19:52:58,364] [INFO] [__main__] [main.py:43] Application has been started
+[2024-07-08 19:53:00,260] [INFO] [aiogram.dispatcher] [dispatcher.py:527] Start polling
+[2024-07-08 19:53:00,363] [INFO] [aiogram.dispatcher] [dispatcher.py:341] Run polling for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-07-08 19:53:02,296] [INFO] [aiogram.dispatcher] [dispatcher.py:359] Polling stopped for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-07-08 19:53:02,299] [INFO] [aiogram.dispatcher] [dispatcher.py:554] Polling stopped
+[2024-07-08 19:53:02,299] [INFO] [source.handlers.dispather] [dispather.py:44] Dispatcher has been shut down
+[2024-07-08 19:53:02,781] [INFO] [source.persistance.database] [database.py:113] Database context has been closed
+[2024-07-08 19:53:11,026] [INFO] [source.persistance.database] [database.py:47] Database context has been initialized
+[2024-07-08 19:53:11,362] [INFO] [source.handlers] [__init__.py:29] 220 FTP Server ready.
+[2024-07-08 19:53:11,579] [INFO] [source.handlers] [__init__.py:31] 230 User u165660_tg_bot logged in
+[2024-07-08 19:53:11,580] [INFO] [__main__] [main.py:43] Application has been started
+[2024-07-08 19:53:13,319] [INFO] [aiogram.dispatcher] [dispatcher.py:527] Start polling
+[2024-07-08 19:53:13,412] [INFO] [aiogram.dispatcher] [dispatcher.py:341] Run polling for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-07-08 19:53:17,629] [ERROR] [aiogram.dispatcher] [dispatcher.py:219] Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+[2024-07-08 19:53:17,629] [WARNING] [aiogram.dispatcher] [dispatcher.py:221] Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7010190829)
+[2024-07-08 19:53:22,745] [ERROR] [aiogram.dispatcher] [dispatcher.py:219] Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+[2024-07-08 19:53:22,746] [WARNING] [aiogram.dispatcher] [dispatcher.py:221] Sleep for 1.293222 seconds and try again... (tryings = 1, bot id = 7010190829)
+[2024-07-08 19:53:28,438] [ERROR] [aiogram.dispatcher] [dispatcher.py:219] Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+[2024-07-08 19:53:28,438] [WARNING] [aiogram.dispatcher] [dispatcher.py:221] Sleep for 1.796257 seconds and try again... (tryings = 2, bot id = 7010190829)
+[2024-07-08 19:53:34,992] [ERROR] [aiogram.dispatcher] [dispatcher.py:219] Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+[2024-07-08 19:53:34,993] [WARNING] [aiogram.dispatcher] [dispatcher.py:221] Sleep for 2.254919 seconds and try again... (tryings = 3, bot id = 7010190829)
+[2024-07-08 19:53:42,403] [ERROR] [aiogram.dispatcher] [dispatcher.py:219] Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+[2024-07-08 19:53:42,404] [WARNING] [aiogram.dispatcher] [dispatcher.py:221] Sleep for 2.981772 seconds and try again... (tryings = 4, bot id = 7010190829)
+[2024-07-08 19:53:42,658] [INFO] [aiogram.dispatcher] [dispatcher.py:359] Polling stopped for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-07-08 19:53:42,658] [INFO] [aiogram.dispatcher] [dispatcher.py:554] Polling stopped
+[2024-07-08 19:53:42,659] [INFO] [source.handlers.dispather] [dispather.py:44] Dispatcher has been shut down
+[2024-07-08 19:53:44,074] [INFO] [source.persistance.database] [database.py:113] Database context has been closed
