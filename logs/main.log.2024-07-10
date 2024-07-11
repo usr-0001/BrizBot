@@ -1,0 +1,16 @@
+[2024-07-10 18:12:58,293] [INFO] [source.persistance.database] [database.py:47] Database context has been initialized
+[2024-07-10 18:12:58,640] [INFO] [source.handlers] [__init__.py:29] 220 FTP Server ready.
+[2024-07-10 18:12:58,862] [INFO] [source.handlers] [__init__.py:31] 230 User u165660_tg_bot logged in
+[2024-07-10 18:12:58,868] [INFO] [__main__] [main.py:43] Application has been started
+[2024-07-10 18:13:00,647] [INFO] [aiogram.dispatcher] [dispatcher.py:527] Start polling
+[2024-07-10 18:13:00,735] [INFO] [aiogram.dispatcher] [dispatcher.py:341] Run polling for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-07-10 18:13:04,936] [ERROR] [aiogram.dispatcher] [dispatcher.py:219] Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+[2024-07-10 18:13:04,940] [WARNING] [aiogram.dispatcher] [dispatcher.py:221] Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7010190829)
+[2024-07-10 18:13:10,387] [ERROR] [aiogram.dispatcher] [dispatcher.py:219] Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+[2024-07-10 18:13:10,388] [WARNING] [aiogram.dispatcher] [dispatcher.py:221] Sleep for 1.460574 seconds and try again... (tryings = 1, bot id = 7010190829)
+[2024-07-10 18:13:16,714] [ERROR] [aiogram.dispatcher] [dispatcher.py:219] Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+[2024-07-10 18:13:16,714] [WARNING] [aiogram.dispatcher] [dispatcher.py:221] Sleep for 2.092832 seconds and try again... (tryings = 2, bot id = 7010190829)
+[2024-07-10 18:13:22,372] [INFO] [aiogram.dispatcher] [dispatcher.py:554] Polling stopped
+[2024-07-10 18:13:22,372] [INFO] [source.handlers.dispather] [dispather.py:44] Dispatcher has been shut down
+[2024-07-10 18:13:22,373] [INFO] [aiogram.dispatcher] [dispatcher.py:359] Polling stopped for bot @pirat_themed_guest_house_bot id=7010190829 - 'Briz'
+[2024-07-10 18:13:22,630] [INFO] [source.persistance.database] [database.py:113] Database context has been closed
