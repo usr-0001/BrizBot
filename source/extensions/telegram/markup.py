@@ -54,7 +54,7 @@ class TelegramMarkup:
         )
         builder.button(
             text=texts.video_gallery_button,
-            url='https://www.youtube.com/'
+            url='https://www.youtube.com/@briz_pirat_themed_guest_house'
         )
         builder.button(
             text=texts.admins_button,
