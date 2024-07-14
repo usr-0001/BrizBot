@@ -1,5 +1,10 @@
 from os import path
 import sys
+
+from source.handlers.PhotoGalery import photo_gallery
+from source.handlers.VideoGalery import video_gallery
+from source.persistance.models import ViewKindVariant
+
 sys.path.append(path.dirname(path.dirname(path.abspath(__file__))))
 
 import logging
@@ -76,10 +81,30 @@ class TelegramMarkup:
         return markup
 
     @classmethod
-    def navigate_between_items(cls, list_back: bool, list_forward: bool) -> InlineKeyboardMarkup:
+    def navigate_between_items(cls, list_back: bool, list_forward: bool, chat = None) -> InlineKeyboardMarkup:
         #if cls.__navigate_between_items: return cls.__navigate_between_items
 
         builder = InlineKeyboardBuilder()
+
+        forward_text = settings.view.screen.navigation.list_forward
+        if chat is not None:
+            if chat.kind_id is ViewKindVariant.SHOW_PHOTO_GALLERY_WINDOW.value:
+                forward_text = f"Ещё {int(photo_gallery.length()-chat.sub_window_number*5)} фото "+settings.view.screen.navigation.list_forward
+            if chat.kind_id is ViewKindVariant.SHOW_ROOMS_AND_PRICES_WINDOW.value:
+                rooms_available = settings.view.screen.rooms_and_prices_menu.rooms_count-chat.sub_window_number
+                postfix = ''
+                match rooms_available:
+                    case 1: postfix = 'комната'
+                    case 2: postfix = 'комнаты'
+                    case 3: postfix = 'комнаты'
+                    case 4: postfix = 'комнаты'
+                    case 5: postfix = 'комнат'
+                    case 6: postfix = 'комнат'
+                    case 7: postfix = 'комнат'
+                    case 8: postfix = 'комнат'
+                    case 9: postfix = 'комнат'
+
+                forward_text = f"Ещё {settings.view.screen.rooms_and_prices_menu.rooms_count-chat.sub_window_number} {postfix} "+settings.view.screen.navigation.list_forward
 
         if list_back:
             builder.button(
@@ -88,7 +113,7 @@ class TelegramMarkup:
             )
         if list_forward:
             builder.button(
-                text=settings.view.screen.navigation.list_forward,
+                text=forward_text,
                 callback_data=NavigationMenuButtonData(action=NavigationMenuButtonAction.LIST_FORWARD)
             )
         builder.button(

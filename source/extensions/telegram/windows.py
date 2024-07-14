@@ -69,7 +69,7 @@ async def load_room_and_prices_window(chat: Chat, event: Event, session: AsyncSe
     _logger.warning(f'chat.sub_window_number is {chat.sub_window_number}')
     list_back = True if chat.sub_window_number > 1 else False
     list_forward = True if chat.sub_window_number < settings.view.screen.rooms_and_prices_menu.rooms_count else False
-    markup = TelegramMarkup.navigate_between_items(list_forward=list_forward, list_back=list_back)
+    markup = TelegramMarkup.navigate_between_items(list_forward=list_forward, list_back=list_back, chat=chat)
 
     # Send start message to user.
     media = []
@@ -115,7 +115,7 @@ async def load_photo_gallery_window(chat: Chat, event: Event, session: AsyncSess
     list_back = True if (chat.sub_window_number > 1) else False
     max_windows = int(photo_gallery.length() / 5)
     list_forward = True if (max_windows > chat.sub_window_number) else False
-    markup = TelegramMarkup.navigate_between_items(list_back=list_back, list_forward=list_forward)
+    markup = TelegramMarkup.navigate_between_items(list_back=list_back, list_forward=list_forward, chat=chat)
 
     media = []
     for i in range(start_index, end_index):
@@ -142,8 +142,6 @@ async def load_photo_gallery_window(chat: Chat, event: Event, session: AsyncSess
     for media_id in media_data:
         await store_bot_msg(chat_id=event.chat_id, message_id=media_id.message_id, session=session)
     await store_bot_msg(chat_id=event.chat_id, message_id=message_id, session=session)
-
-
 
 
 

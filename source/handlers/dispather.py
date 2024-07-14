@@ -23,9 +23,14 @@ async def on_startup(dispatcher: Dispatcher):
     ftp.cwd(settings.backend.img_gallery_path)
     files = ftp.nlst()
     for file in files:
-        if not any(ext in str(file) for ext in ('.png', '.jpg')):
+        if not any(ext in str(file) for ext in ('.PNG', '.png', '.jpg')):
             continue
         photo_gallery.photos.append('briz-berdyansk.com/images/photogallery/' + file)
+
+    imgs = photo_gallery.photos
+    imgs.sort()
+    for name in imgs:
+        print(name)
 
     # # Get video pathes
     ftp.cwd(settings.backend.video_gallery_path)

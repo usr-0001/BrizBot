@@ -136,11 +136,6 @@ async def on_show_room_reservation(query: CallbackQuery, session: AsyncSession, 
         phone_number=settings.view.screen.admin_menu.contacts[0].phone,
         first_name=settings.view.screen.admin_menu.contacts[0].name
     )).message_id
-    contact_2_message_id = (await bot.send_contact(
-        chat_id=event.chat_id,
-        phone_number=settings.view.screen.admin_menu.contacts[1].phone,
-        first_name=settings.view.screen.admin_menu.contacts[1].name
-    )).message_id
     message_id = await try_send_message(
         bot,
         event.chat_id,
@@ -157,7 +152,6 @@ async def on_show_room_reservation(query: CallbackQuery, session: AsyncSession, 
         session=session
     )
     await store_bot_msg(chat_id=event.chat_id, message_id=contact_1_message_id, session=session)
-    await store_bot_msg(chat_id=event.chat_id, message_id=contact_2_message_id, session=session)
     await store_bot_msg(chat_id=event.chat_id, message_id=message_id, session=session)
 
 
@@ -214,11 +208,6 @@ async def on_show_admins_window(query: CallbackQuery, session: AsyncSession, eve
         phone_number=settings.view.screen.admin_menu.contacts[0].phone,
         first_name=settings.view.screen.admin_menu.contacts[0].name
     )).message_id
-    contact_2_message_id = (await bot.send_contact(
-        chat_id=event.chat_id,
-        phone_number=settings.view.screen.admin_menu.contacts[1].phone,
-        first_name=settings.view.screen.admin_menu.contacts[1].name
-    )).message_id
     message_id = await try_send_message(
         bot,
         event.chat_id,
@@ -235,7 +224,6 @@ async def on_show_admins_window(query: CallbackQuery, session: AsyncSession, eve
         session=session
     )
     await store_bot_msg(chat_id=event.chat_id, message_id=contact_1_message_id, session=session)
-    await store_bot_msg(chat_id=event.chat_id, message_id=contact_2_message_id, session=session)
     await store_bot_msg(chat_id=event.chat_id, message_id=message_id, session=session)
 
 
@@ -282,7 +270,6 @@ async def on_show_food_menu(query: CallbackQuery, session: AsyncSession, event: 
     for img_data in media_data:
         await store_bot_msg(chat_id=event.chat_id, message_id=img_data.message_id, session=session)
     await store_bot_msg(chat_id=event.chat_id, message_id=message.message_id, session=session)
-
 
 
 @router.callback_query(NavigationMenuButtonData.filter(F.action == NavigationMenuButtonAction.LIST_BACK))
